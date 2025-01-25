@@ -12,5 +12,17 @@ public class DiverController : MonoBehaviour
     void Update()
     {
         
+        var h = Input.GetAxis("Horizontal");
+        var v = Input.GetAxis("Vertical");
+
+        var move = new Vector3(h, v, 0);
+        transform.position += move * Time.deltaTime * 5;
+
+        // Make player face the direction of movement
+        if (move != Vector3.zero)
+        {
+            transform.rotation = Quaternion.LookRotation(Vector3.forward, move);
+        }
+
     }
 }
