@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1837c26c1b847471aba79b41c2d6e1a2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206159
+  packageName: 2D Camera
+  packageVersion: 1.0.0
+  assetPath: Assets/Cyber Boss Games/2D Camera/Scripts/RailUtils.cs
+  uploadId: 462647

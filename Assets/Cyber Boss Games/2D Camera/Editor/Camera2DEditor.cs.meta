@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: abc50d9ae9ece4edb8ad7525733773eb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206159
+  packageName: 2D Camera
+  packageVersion: 1.0.0
+  assetPath: Assets/Cyber Boss Games/2D Camera/Editor/Camera2DEditor.cs
+  uploadId: 462647

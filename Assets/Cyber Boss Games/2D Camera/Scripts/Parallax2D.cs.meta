@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ca82a67bfd6cd4ccab3627c1256474f4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206159
+  packageName: 2D Camera
+  packageVersion: 1.0.0
+  assetPath: Assets/Cyber Boss Games/2D Camera/Scripts/Parallax2D.cs
+  uploadId: 462647
