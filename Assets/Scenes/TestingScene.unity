@@ -1114,6 +1114,35 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a11245d0126089042ad308389a6fc260, type: 3}
+--- !u!1 &852934420 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6277785146553360669, guid: 10c8ed8fdd22aaf458eedda1168bd311, type: 3}
+  m_PrefabInstance: {fileID: 1740484459}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &852934421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852934420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2866dfa5c37fb42b4b77031a1f60cd02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7f422d6f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 689bed302443d7f409411f9db67175d7, type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
 --- !u!4 &896955162 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4504372942382920343, guid: a11245d0126089042ad308389a6fc260, type: 3}
@@ -1387,6 +1416,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3323696992207382942, guid: 10c8ed8fdd22aaf458eedda1168bd311, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6277785146553360669, guid: 10c8ed8fdd22aaf458eedda1168bd311, type: 3}
       propertyPath: m_Name
       value: DialogTrigger
@@ -1434,7 +1467,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6277785146553360669, guid: 10c8ed8fdd22aaf458eedda1168bd311, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 852934421}
   m_SourcePrefab: {fileID: 100100000, guid: 10c8ed8fdd22aaf458eedda1168bd311, type: 3}
 --- !u!1001 &1836785369
 PrefabInstance:
