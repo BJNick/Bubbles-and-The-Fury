@@ -1,0 +1,38 @@
+{
+ "PlatformInfo": {
+  "Platform": {
+   "Name": "Windows",
+   "BasePlatform": "Windows",
+   "Generator": "2024.1.1.8691"
+  },
+  "RootPaths": {
+   "ProjectRoot": "../../../../../Diving Deep - Bubble Game Jam",
+   "SourceFilesRoot": "../../../../../Diving Deep - Bubble Game Jam/.cache",
+   "SoundBanksRoot": ".",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "../../../../../Diving Deep - Bubble Game Jam/GeneratedSoundBanks/Windows"
+  },
+  "DefaultAlign": "16",
+  "Settings": {
+   "AutoSoundBankDefinition": "false",
+   "CopyLooseStreamedMediaFiles": "true",
+   "SubFoldersForGeneratedFiles": "false",
+   "RemoveUnusedGeneratedFiles": "true",
+   "SourceControlGeneratedFiles": "false",
+   "GenerateHeaderFile": "true",
+   "GenerateContentTxtFile": "true",
+   "GenerateMetadataXML": "false",
+   "GenerateMetadataJSON": "true",
+   "GenerateAllBanksMetadata": "false",
+   "GeneratePerBankMetadata": "true",
+   "UseSoundBankNames": "true",
+   "AllowExceedingMaxSize": "false",
+   "MaxAttenuationInfo": "true",
+   "EstimatedDurationInfo": "true",
+   "PrintObjectGuid": "true",
+   "PrintObjectPath": "true",
+   "PrintObjectColor": "true"
+  },
+  "FileHash": "{2C3A3C5C-7240-8066-A68C-F54FFC5DDB1E}"
+ }
+}

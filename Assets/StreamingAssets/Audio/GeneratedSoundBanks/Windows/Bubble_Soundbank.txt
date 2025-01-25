@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1172924437	mus_tension			\Default Work Unit\Music\mus_tension	
+	1219230789	mus_intro			\Default Work Unit\Music\mus_intro	
+	1220128597	mus_climax			\Default Work Unit\Music\mus_climax	
+	2215620476	mus_escape			\Default Work Unit\Music\mus_escape	
+	3149643052	mus_menu			\Default Work Unit\Music\mus_menu	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2638858007	Gameplay_Area			\Default Work Unit\Gameplay_Area	
+
+Switch	ID	Name	Switch Group			Notes
+	1125500713	Intro	Gameplay_Area			
+	1377027961	Climax	Gameplay_Area			
+	1571361561	Tension	Gameplay_Area			
+	3169107872	Escape	Gameplay_Area			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	28799991	mus_climax	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\AE\{AEBC820F-B5D3-7C6C-A52D-F8F3A3C2EE87}.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music Switch Container\Gameplay Music\Climax Music Playlist\Climax Music\mus_climax		3899236
+	361976837	mus_escape1	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\8B\{8BE8BCFB-D7CE-D172-7258-87B733977030}.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music Switch Container\Gameplay Music\Escape Music Playlist\Escape Music\mus_escape1		3510096
+	510961015	mus_intro	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\83\{83F6D6F1-9D6C-B416-BEBD-59FEFEEC97D8}.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music Switch Container\Gameplay Music\Intro Music Playlist\Intro Music\mus_intro		5560712
+	963635366	mus_tension	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\73\{73DA2C9F-0BC1-54BB-CF7E-DEE7EF5B7805}.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music Switch Container\Gameplay Music\Tension Music Playlist\Tension Music\mus_tension		4165020
+
