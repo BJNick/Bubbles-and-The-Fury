@@ -1,0 +1,115 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2113579301",
+    "Type": "User",
+    "GUID": "{388691ED-56EC-4966-9B29-BBB7031BD638}",
+    "Language": "SFX",
+    "Hash": "{A2255A7A-3821-55D0-BA9C-E85CBC5158E7}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Bubble_Soundbank",
+    "ShortName": "Bubble_Soundbank",
+    "Path": "Bubble_Soundbank.bnk",
+    "Media": [
+     {
+      "Id": "28799991",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "mus_climax.wav",
+      "CachePath": "15/{15ED9D57-B933-B2C3-1575-047D303F7A05}.wem"
+     },
+     {
+      "Id": "361976837",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "mus_escape1.wav",
+      "CachePath": "8B/{8BE8BCFB-D7CE-D172-7258-87B733977030}.wem"
+     },
+     {
+      "Id": "510961015",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "mus_intro.wav",
+      "CachePath": "83/{83F6D6F1-9D6C-B416-BEBD-59FEFEEC97D8}.wem"
+     },
+     {
+      "Id": "963635366",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "mus_tension.wav",
+      "CachePath": "73/{73DA2C9F-0BC1-54BB-CF7E-DEE7EF5B7805}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1220128597",
+      "Name": "mus_climax",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\mus_climax",
+      "GUID": "{11C0C43C-B8EE-4101-955C-AE6C31BC9D11}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "28799991"
+       }
+      ]
+     },
+     {
+      "Id": "2215620476",
+      "Name": "mus_escape",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\mus_escape",
+      "GUID": "{3F140504-5B53-4C7F-88ED-E187EE42AC8F}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "361976837"
+       }
+      ]
+     },
+     {
+      "Id": "1219230789",
+      "Name": "mus_intro",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\mus_intro",
+      "GUID": "{DB6CE670-93F5-45A3-8B6F-B89DDEB20355}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "510961015"
+       }
+      ]
+     },
+     {
+      "Id": "3149643052",
+      "Name": "mus_menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\mus_menu",
+      "GUID": "{4D49BEAF-D239-4002-BBC6-D5E11E45EA3F}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1172924437",
+      "Name": "mus_tension",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\mus_tension",
+      "GUID": "{10576CE9-437D-4072-AF45-07260FFB0428}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "963635366"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{10408288-E564-13DF-94B9-265D541E6C63}"
+ }
+}
