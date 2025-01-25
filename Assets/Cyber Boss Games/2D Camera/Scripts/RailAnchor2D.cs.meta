@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: debfb1e56e66a42288c69860b4e0a277
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206159
+  packageName: 2D Camera
+  packageVersion: 1.0.0
+  assetPath: Assets/Cyber Boss Games/2D Camera/Scripts/RailAnchor2D.cs
+  uploadId: 462647
