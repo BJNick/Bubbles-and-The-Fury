@@ -27,6 +27,9 @@ public class OxygenOverlay : MonoBehaviour
     {
         // Reduce oxygen level
         oxygenLevel -= Time.deltaTime * oxygenDropRate;
+        if (oxygenLevel < 0) {
+            oxygenLevel = 0;
+        }
         // Need to make height of oxygen bar proportional to oxygen level
         transform.Find("OxygenPanel").Find("Image").GetComponent<RectTransform>().sizeDelta = new Vector2(barWidth, maxBarSize * oxygenLevel / maxOxygenLevel);
     }
