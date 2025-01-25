@@ -20,7 +20,9 @@ public class TriggerScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.CompareTag("Player")) {
-            // TODO: Display dialog
+            if (dialog != null) {
+                dialog.Play();
+            }
             Destroy(gameObject);
         }
     }

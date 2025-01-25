@@ -699,7 +699,7 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Switches
         ObjectType: 5
-        guidW: 00000000000000000000000000000000
+        guid: 
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 1ddb20a4b5de504ba50fed46532642b0

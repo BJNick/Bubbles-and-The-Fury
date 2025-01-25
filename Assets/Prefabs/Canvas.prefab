@@ -113,6 +113,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4550751708984599957}
   - component: {fileID: 6606936663516817249}
+  - component: {fileID: 5142259470118036997}
   - component: {fileID: 8209137095495605972}
   m_Layer: 5
   m_Name: GlobalDialogPanel
@@ -149,6 +150,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6924037043606799408}
   m_CullTransparentMesh: 1
+--- !u!114 &5142259470118036997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6924037043606799408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f472c1d9769e96a4db537ec3176440d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!95 &8209137095495605972
 Animator:
   serializedVersion: 7
