@@ -2,6 +2,10 @@ using UnityEngine;
 
 public class DiverController : MonoBehaviour
 {
+
+    public float swimSpeed = 1.0f;
+    public float turnSpeed = 1.0f;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,14 +19,17 @@ public class DiverController : MonoBehaviour
         var h = Input.GetAxis("Horizontal");
         var v = Input.GetAxis("Vertical");
 
-        var move = new Vector3(h, v, 0);
-        transform.position += move * Time.deltaTime * 5;
+        var controlsDir = new Vector3(h, v, 0);
 
-        // Make player face the direction of movement
-        if (move != Vector3.zero)
-        {
-            transform.rotation = Quaternion.LookRotation(Vector3.forward, move);
+        // Smoothly adjust direction to match controls using Mathf.LerpAngle
+        var controlsAngle = Mathf.Atan2(controlsDir.y, controlsDir.x) * Mathf.Rad2Deg;
+        if (controlsDir.magnitude > 0.1f) {
+            var angle = Mathf.LerpAngle(transform.eulerAngles.z, controlsAngle, Time.deltaTime * turnSpeed); 
+            transform.rotation = Quaternion.Euler(0, 0, angle);
         }
+
+        // Move the diver
+        transform.position += swimSpeed * controlsDir.magnitude * transform.right * Time.deltaTime;
 
     }
 }
