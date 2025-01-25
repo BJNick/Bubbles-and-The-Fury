@@ -345,8 +345,42 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 821f11a561081549b359c60d75920656
     GuidInternal: 
-    m_lastTime: -8584637809847982551
-    List: []
+    m_lastTime: -8584637790104052112
+    List:
+    - name: mus_intro
+      guid: 70e66cdbf593a3458b6fb89ddeb20355
+      id: 1219230789
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: mus_intro
+        ObjectType: 3
+        guid: 70e66cdbf593a3458b6fb89ddeb20355
+      Path: Events/Default Work Unit/mus_intro
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: mus_menu
+      guid: afbe494d39d20240bbc6d5e11e45ea3f
+      id: 3149643052
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: mus_menu
+        ObjectType: 3
+        guid: afbe494d39d20240bbc6d5e11e45ea3f
+      Path: Events/Default Work Unit/mus_menu
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:

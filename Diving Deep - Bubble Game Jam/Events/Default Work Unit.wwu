@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A5111F82-0861-4915-B359-C60D75920656}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{A5111F82-0861-4915-B359-C60D75920656}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="mus_menu" ID="{4D49BEAF-D239-4002-BBC6-D5E11E45EA3F}"/>
+				<Event Name="mus_intro" ID="{DB6CE670-93F5-45A3-8B6F-B89DDEB20355}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
