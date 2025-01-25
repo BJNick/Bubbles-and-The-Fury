@@ -25,7 +25,7 @@ public class DialogScriptableObjectScript : ScriptableObject
             duration = audio.length;
         }
         if (image != null) {
-            panel.GetComponentAtIndex(0).GetComponentInChildren<Image>().sprite = image;
+            panel.transform.Find("DialogPanel").Find("Image").GetComponent<Image>().sprite = image;
         }
         // Trigger stop when duration is over
         panel.GetComponent<GlobalDialogScript>().Invoke("Stop", duration);
