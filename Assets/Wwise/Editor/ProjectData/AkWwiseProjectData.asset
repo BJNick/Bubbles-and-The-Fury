@@ -359,7 +359,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 821f11a561081549b359c60d75920656
     GuidInternal: 
-    m_lastTime: -8584637687514483033
+    m_lastTime: -8584637655619387384
     List:
     - name: mus_climax
       guid: 3cc4c011eeb80141955cae6c31bc9d11
@@ -398,6 +398,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0405143f535b7f4c88ede187ee42ac8f
       Path: Events/Default Work Unit/Music/mus_escape
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: mus_gameplay
+      guid: 8e35c95efd5c3140b6ba50c6d6ecf815
+      id: 895625293
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Music
+        ObjectType: 4
+        guid: 4e6f875f561b614e98f7c603ba4d047a
+      - ElementName: mus_gameplay
+        ObjectType: 3
+        guid: 8e35c95efd5c3140b6ba50c6d6ecf815
+      Path: Events/Default Work Unit/Music/mus_gameplay
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -770,7 +790,7 @@ MonoBehaviour:
     m_lastTime: -8584637809847773058
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000080000000a0000000b0000000c000000
+  ExpandedWaapiItemIds: 050000000600000007000000080000000a0000000b0000000c0000000e0000000f00000010000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

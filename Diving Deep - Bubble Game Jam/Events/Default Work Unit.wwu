@@ -50,6 +50,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="mus_gameplay" ID="{5EC9358E-5CFD-4031-B6BA-50C6D6ECF815}">
+							<ChildrenList>
+								<Action Name="" ID="{34EBAA5F-A779-47E1-B7D7-1B8D1F78C3BF}" ShortID="30170176">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gameplay Music" ID="{8B44FAEB-8DA4-48BD-B649-029FE55869D1}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

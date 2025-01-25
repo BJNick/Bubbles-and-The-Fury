@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{388691ED-56EC-4966-9B29-BBB7031BD638}",
     "Language": "SFX",
-    "Hash": "{729CA8D2-70EE-B34F-BD06-D472BF815401}",
+    "Hash": "{46F3AE31-4215-57E5-1976-D7E2B3A7383A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Bubble_Soundbank",
     "ShortName": "Bubble_Soundbank",
     "Path": "Bubble_Soundbank.bnk",
@@ -74,6 +74,67 @@
       ]
      },
      {
+      "Id": "895625293",
+      "Name": "mus_gameplay",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\mus_gameplay",
+      "GUID": "{5EC9358E-5CFD-4031-B6BA-50C6D6ECF815}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2638858007",
+         "Id": "1377027961",
+         "GUID": "{8E558F03-60E4-43AB-8C82-4671904D59F5}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "28799991"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2638858007",
+         "Id": "3169107872",
+         "GUID": "{6026294E-613C-41A8-AFFC-CD5995C20F25}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "361976837"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2638858007",
+         "Id": "1125500713",
+         "GUID": "{2E9BEE7A-EAFE-40F9-97D5-C0966BC7105C}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "510961015"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2638858007",
+         "Id": "1571361561",
+         "GUID": "{31079DFC-682A-484E-AFA4-C8DA88D36379}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "963635366"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "1219230789",
       "Name": "mus_intro",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\mus_intro",
@@ -107,9 +168,43 @@
        }
       ]
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2638858007",
+      "Name": "Gameplay_Area",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Gameplay_Area",
+      "GUID": "{971F7864-2713-4530-9BC8-71B155DC7247}",
+      "Switches": [
+       {
+        "Id": "1125500713",
+        "Name": "Intro",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Gameplay_Area\\Intro",
+        "GUID": "{2E9BEE7A-EAFE-40F9-97D5-C0966BC7105C}"
+       },
+       {
+        "Id": "1377027961",
+        "Name": "Climax",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Gameplay_Area\\Climax",
+        "GUID": "{8E558F03-60E4-43AB-8C82-4671904D59F5}"
+       },
+       {
+        "Id": "1571361561",
+        "Name": "Tension",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Gameplay_Area\\Tension",
+        "GUID": "{31079DFC-682A-484E-AFA4-C8DA88D36379}"
+       },
+       {
+        "Id": "3169107872",
+        "Name": "Escape",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Gameplay_Area\\Escape",
+        "GUID": "{6026294E-613C-41A8-AFFC-CD5995C20F25}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{F82D4B33-9CA0-9992-EB27-A1E08B20EE9B}"
+  "FileHash": "{47E7225F-7CC6-1CF1-965F-AC32E6B4AE7E}"
  }
 }

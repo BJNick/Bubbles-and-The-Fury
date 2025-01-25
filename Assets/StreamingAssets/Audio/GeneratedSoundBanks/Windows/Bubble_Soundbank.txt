@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	895625293	mus_gameplay			\Default Work Unit\Music\mus_gameplay	
 	1172924437	mus_tension			\Default Work Unit\Music\mus_tension	
 	1219230789	mus_intro			\Default Work Unit\Music\mus_intro	
 	1220128597	mus_climax			\Default Work Unit\Music\mus_climax	

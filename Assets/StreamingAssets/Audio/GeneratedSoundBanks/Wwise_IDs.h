@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID MUS_CLIMAX = 1220128597U;
         static const AkUniqueID MUS_ESCAPE = 2215620476U;
+        static const AkUniqueID MUS_GAMEPLAY = 895625293U;
         static const AkUniqueID MUS_INTRO = 1219230789U;
         static const AkUniqueID MUS_MENU = 3149643052U;
         static const AkUniqueID MUS_TENSION = 1172924437U;
