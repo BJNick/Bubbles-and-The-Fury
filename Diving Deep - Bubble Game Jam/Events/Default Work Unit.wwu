@@ -3,8 +3,66 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{A5111F82-0861-4915-B359-C60D75920656}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="mus_menu" ID="{4D49BEAF-D239-4002-BBC6-D5E11E45EA3F}"/>
-				<Event Name="mus_intro" ID="{DB6CE670-93F5-45A3-8B6F-B89DDEB20355}"/>
+				<Folder Name="Music" ID="{5F876F4E-1B56-4E61-98F7-C603BA4D047A}" ShortID="202185327">
+					<ChildrenList>
+						<Event Name="mus_intro" ID="{DB6CE670-93F5-45A3-8B6F-B89DDEB20355}">
+							<ChildrenList>
+								<Action Name="" ID="{9D386AD5-E340-47A6-A2AF-261E170A837E}" ShortID="576857921">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Intro Music Playlist" ID="{3C7D2775-7189-4BAA-A8C3-EC37A319C2B7}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="mus_menu" ID="{4D49BEAF-D239-4002-BBC6-D5E11E45EA3F}"/>
+						<Event Name="mus_tension" ID="{10576CE9-437D-4072-AF45-07260FFB0428}">
+							<ChildrenList>
+								<Action Name="" ID="{65490D5F-3240-4A7D-9410-C099B942D320}" ShortID="101180943">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Tension Music Playlist" ID="{02F9F516-4900-4F7B-ACB1-69940EF8BB69}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="mus_climax" ID="{11C0C43C-B8EE-4101-955C-AE6C31BC9D11}">
+							<ChildrenList>
+								<Action Name="" ID="{EB97B876-82DB-425D-B6CC-01006494997D}" ShortID="823721126">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Climax Music Playlist" ID="{FBEA8E3F-84F4-4A89-9B36-29297CEDC1AF}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="mus_escape" ID="{3F140504-5B53-4C7F-88ED-E187EE42AC8F}">
+							<ChildrenList>
+								<Action Name="" ID="{D173D125-CC83-4E95-989E-5A551B8675FB}" ShortID="750602391">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Escape Music Playlist" ID="{74DEEF09-D84C-4A14-9B45-428E3724D2DD}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="mus_gameplay" ID="{5EC9358E-5CFD-4031-B6BA-50C6D6ECF815}">
+							<ChildrenList>
+								<Action Name="" ID="{34EBAA5F-A779-47E1-B7D7-1B8D1F78C3BF}" ShortID="30170176">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gameplay Music" ID="{8B44FAEB-8DA4-48BD-B649-029FE55869D1}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

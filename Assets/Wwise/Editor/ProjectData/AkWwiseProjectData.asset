@@ -331,8 +331,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 81a1ec63e5e5244ab761a346e94a6f92
     GuidInternal: 
-    m_lastTime: -8584637710443943864
-    List: []
+    m_lastTime: -8584637669318862355
+    List:
+    - name: Bubble_Soundbank
+      guid: ed918638ec5666499b29bbb7031bd638
+      id: 2113579301
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 81a1ec63e5e5244ab761a346e94a6f92
+      - ElementName: Bubble_Soundbank
+        ObjectType: 7
+        guid: ed918638ec5666499b29bbb7031bd638
+      Path: SoundBanks\Default Work Unit\Bubble_Soundbank
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -345,8 +359,68 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 821f11a561081549b359c60d75920656
     GuidInternal: 
-    m_lastTime: -8584637710444033701
+    m_lastTime: -8584637653990076064
     List:
+    - name: mus_climax
+      guid: 3cc4c011eeb80141955cae6c31bc9d11
+      id: 1220128597
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Music
+        ObjectType: 4
+        guid: 4e6f875f561b614e98f7c603ba4d047a
+      - ElementName: mus_climax
+        ObjectType: 3
+        guid: 3cc4c011eeb80141955cae6c31bc9d11
+      Path: Events\Default Work Unit\Music\mus_climax
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: mus_escape
+      guid: 0405143f535b7f4c88ede187ee42ac8f
+      id: 2215620476
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Music
+        ObjectType: 4
+        guid: 4e6f875f561b614e98f7c603ba4d047a
+      - ElementName: mus_escape
+        ObjectType: 3
+        guid: 0405143f535b7f4c88ede187ee42ac8f
+      Path: Events\Default Work Unit\Music\mus_escape
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: mus_gameplay
+      guid: 8e35c95efd5c3140b6ba50c6d6ecf815
+      id: 895625293
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Music
+        ObjectType: 4
+        guid: 4e6f875f561b614e98f7c603ba4d047a
+      - ElementName: mus_gameplay
+        ObjectType: 3
+        guid: 8e35c95efd5c3140b6ba50c6d6ecf815
+      Path: Events\Default Work Unit\Music\mus_gameplay
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: mus_intro
       guid: 70e66cdbf593a3458b6fb89ddeb20355
       id: 1219230789
@@ -357,13 +431,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 821f11a561081549b359c60d75920656
+      - ElementName: Music
+        ObjectType: 4
+        guid: 4e6f875f561b614e98f7c603ba4d047a
       - ElementName: mus_intro
         ObjectType: 3
         guid: 70e66cdbf593a3458b6fb89ddeb20355
-      Path: Events\Default Work Unit\mus_intro
+      Path: Events\Default Work Unit\Music\mus_intro
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: mus_menu
       guid: afbe494d39d20240bbc6d5e11e45ea3f
       id: 3149643052
@@ -374,10 +451,50 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 821f11a561081549b359c60d75920656
+      - ElementName: Music
+        ObjectType: 4
+        guid: 4e6f875f561b614e98f7c603ba4d047a
       - ElementName: mus_menu
         ObjectType: 3
         guid: afbe494d39d20240bbc6d5e11e45ea3f
-      Path: Events\Default Work Unit\mus_menu
+      Path: Events\Default Work Unit\Music\mus_menu
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: mus_tension
+      guid: e96c57107d437240af4507260ffb0428
+      id: 1172924437
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Music
+        ObjectType: 4
+        guid: 4e6f875f561b614e98f7c603ba4d047a
+      - ElementName: mus_tension
+        ObjectType: 3
+        guid: e96c57107d437240af4507260ffb0428
+      Path: Events\Default Work Unit\Music\mus_tension
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Music
+      guid: 4e6f875f561b614e98f7c603ba4d047a
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Music
+        ObjectType: 4
+        guid: 4e6f875f561b614e98f7c603ba4d047a
+      Path: Events\Default Work Unit\Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -574,8 +691,90 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 1ddb20a4b5de504ba50fed46532642b0
     GuidInternal: 
-    m_lastTime: -8584637710443923913
-    List: []
+    m_lastTime: -8584637669318849939
+    List:
+    - name: Gameplay_Area
+      guid: 64781f97132730459bc871b155dc7247
+      id: 2638858007
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1ddb20a4b5de504ba50fed46532642b0
+      - ElementName: Gameplay_Area
+        ObjectType: 11
+        guid: 64781f97132730459bc871b155dc7247
+      Path: Switches\Default Work Unit\Gameplay_Area
+      values:
+      - name: Climax
+        guid: 038f558ee460ab438c824671904d59f5
+        id: 1377027961
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1ddb20a4b5de504ba50fed46532642b0
+        - ElementName: Gameplay_Area
+          ObjectType: 11
+          guid: 64781f97132730459bc871b155dc7247
+        - ElementName: Climax
+          ObjectType: 10
+          guid: 038f558ee460ab438c824671904d59f5
+      - name: Escape
+        guid: 4e2926603c61a841affccd5995c20f25
+        id: 3169107872
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1ddb20a4b5de504ba50fed46532642b0
+        - ElementName: Gameplay_Area
+          ObjectType: 11
+          guid: 64781f97132730459bc871b155dc7247
+        - ElementName: Escape
+          ObjectType: 10
+          guid: 4e2926603c61a841affccd5995c20f25
+      - name: Intro
+        guid: 7aee9b2efeeaf94097d5c0966bc7105c
+        id: 1125500713
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1ddb20a4b5de504ba50fed46532642b0
+        - ElementName: Gameplay_Area
+          ObjectType: 11
+          guid: 64781f97132730459bc871b155dc7247
+        - ElementName: Intro
+          ObjectType: 10
+          guid: 7aee9b2efeeaf94097d5c0966bc7105c
+      - name: Tension
+        guid: fc9d07312a684e48afa4c8da88d36379
+        id: 1571361561
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1ddb20a4b5de504ba50fed46532642b0
+        - ElementName: Gameplay_Area
+          ObjectType: 11
+          guid: 64781f97132730459bc871b155dc7247
+        - ElementName: Tension
+          ObjectType: 10
+          guid: fc9d07312a684e48afa4c8da88d36379
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -590,9 +789,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584637710443922778
     List: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedFileSystemItemIds: 0b0000000c0000000d000000
+  ExpandedWaapiItemIds: 050000000600000007000000080000000a0000000b0000000c0000000e0000000f00000010000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 

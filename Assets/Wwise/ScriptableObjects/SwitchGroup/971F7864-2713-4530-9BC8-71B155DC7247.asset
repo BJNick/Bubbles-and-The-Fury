@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70c5ee3760604bec90b524eada60bc8, type: 3}
+  m_Name: 971F7864-2713-4530-9BC8-71B155DC7247
+  m_EditorClassIdentifier: 
+  objectName: Gameplay_Area
+  id: 2638858007
+  guid: 971F7864-2713-4530-9BC8-71B155DC7247

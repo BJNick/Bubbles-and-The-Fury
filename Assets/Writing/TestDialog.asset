@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcdcd3351ade6264aae153020450f7dc, type: 3}
   m_Name: TestDialog
   m_EditorClassIdentifier: 
-  dialogText: Hello! This is a test dialogue!
-  dialogAudio: {fileID: 0}
+  text: Hello there! I am in the boat!!! BUT you are not!!!
+  audio: {fileID: 8300000, guid: 715af616a9cec104488d75492113fe6b, type: 3}
+  duration: 10
+  image: {fileID: -1945587933430313127, guid: fbe583ea80ba007478b92116aa21529a, type: 3}
