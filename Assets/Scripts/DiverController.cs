@@ -6,10 +6,12 @@ public class DiverController : MonoBehaviour
     public float swimSpeed = 1.0f;
     public float turnSpeed = 1.0f;
 
+    private Rigidbody2D rb;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -25,11 +27,15 @@ public class DiverController : MonoBehaviour
         var controlsAngle = Mathf.Atan2(controlsDir.y, controlsDir.x) * Mathf.Rad2Deg;
         if (controlsDir.magnitude > 0.1f) {
             var angle = Mathf.LerpAngle(transform.eulerAngles.z, controlsAngle, Time.deltaTime * turnSpeed); 
-            transform.rotation = Quaternion.Euler(0, 0, angle);
+            rb.MoveRotation(angle);
         }
 
         // Move the diver
-        transform.position += swimSpeed * controlsDir.magnitude * transform.right * Time.deltaTime;
+        //rb.MovePosition(rb.position +fromVector3(swimSpeed * controlsDir.magnitude * transform.right * Time.deltaTime));
+        rb.AddForce(swimSpeed * controlsDir.magnitude * transform.right);
+    }
 
+    private Vector2 fromVector3(Vector3 v) {
+        return new Vector2(v.x, v.y);
     }
 }
