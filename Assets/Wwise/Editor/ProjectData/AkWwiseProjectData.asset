@@ -37,7 +37,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Factory Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8584637530827928958
+    m_lastTime: -8584637485458099262
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -359,7 +359,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 821f11a561081549b359c60d75920656
     GuidInternal: 
-    m_lastTime: -8584637488195404496
+    m_lastTime: -8584637485458849652
     List:
     - name: Dialogue
       guid: f786fd2979348f4e8715cf1960c7883d
@@ -644,7 +644,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 30594e7427f7bf42b0b5f218242675ff
     GuidInternal: 
-    m_lastTime: -8584637530828386267
+    m_lastTime: -8584637485458849652
     List:
     - name: New_Game_Parameter
       guid: ddbbce5a4f4dcb43ae8e7c38e10e7630
@@ -671,7 +671,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Factory Soundseed Air Game Syncs
     guid: 5577163b42fb8b4598bf96f557afb3b9
     GuidInternal: 
-    m_lastTime: -8584637530828371200
+    m_lastTime: -8584637485458839636
     List:
     - name: SS_Air_Fear
       guid: 59062ef746431c4ea1b1dab46a05101e
@@ -825,7 +825,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 4c64eb9d9fc51d4e9fb7859a44898f59
     GuidInternal: 
-    m_lastTime: -8584637530827939346
+    m_lastTime: -8584637485458140530
     List:
     - name: Gameplay_Area
       guid: ac3b7fdab548cd488fb32892ade41bb1
@@ -937,7 +937,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 1ddb20a4b5de504ba50fed46532642b0
     GuidInternal: 
-    m_lastTime: -8584637530827934243
+    m_lastTime: -8584637485458099262
     List:
     - name: Gameplay_Area
       guid: 64781f97132730459bc871b155dc7247
