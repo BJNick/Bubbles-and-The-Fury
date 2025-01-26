@@ -75,7 +75,30 @@
 				</Folder>
 				<Folder Name="SFX" ID="{8A5CA9C0-F743-4083-AA32-425E2CA9792B}" ShortID="299489339">
 					<ChildrenList>
-						<Event Name="sfx_playerswim" ID="{6416A5DC-C154-4FB6-97B8-6139D5C2E4C4}"/>
+						<Event Name="sfx_playerswim" ID="{6416A5DC-C154-4FB6-97B8-6139D5C2E4C4}">
+							<ChildrenList>
+								<Action Name="" ID="{FCEFBF36-1203-42C6-9BB8-A5292BC99619}" ShortID="583110851">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Swim Container" ID="{D928726D-E820-41AF-86E0-507B06D6AFEA}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_treasure" ID="{CEA4B5CC-F184-440F-8BD1-57AC6F3079D9}"/>
+						<Event Name="sfx_death" ID="{42B77471-0BEF-46BB-9187-5EE0B8495EA5}"/>
+						<Event Name="sfx_bubble" ID="{5DC7A277-1CC1-4C19-8192-4B4781A90452}">
+							<ChildrenList>
+								<Action Name="" ID="{DABC58B5-B827-490F-9DA8-0B41BE30453F}" ShortID="181739319">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bubble Container" ID="{70A433CB-74B0-42C2-9519-4367B31077FD}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

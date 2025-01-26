@@ -19,7 +19,10 @@ namespace AK
         static const AkUniqueID MUS_INTRO = 1219230789U;
         static const AkUniqueID MUS_MENU = 3149643052U;
         static const AkUniqueID MUS_TENSION = 1172924437U;
+        static const AkUniqueID SFX_BUBBLE = 2983997255U;
+        static const AkUniqueID SFX_DEATH = 777164721U;
         static const AkUniqueID SFX_PLAYERSWIM = 3380990982U;
+        static const AkUniqueID SFX_TREASURE = 2487155894U;
     } // namespace EVENTS
 
     namespace STATES

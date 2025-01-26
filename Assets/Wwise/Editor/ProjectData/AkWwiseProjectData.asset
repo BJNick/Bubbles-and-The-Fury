@@ -359,7 +359,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 821f11a561081549b359c60d75920656
     GuidInternal: 
-    m_lastTime: -8584637593854958572
+    m_lastTime: -8584637535483480852
     List:
     - name: mus_climax
       guid: 3cc4c011eeb80141955cae6c31bc9d11
@@ -515,6 +515,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: sfx_bubble
+      guid: 77a2c75dc11c194c81924b4781a90452
+      id: 2983997255
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: SFX
+        ObjectType: 4
+        guid: c0a95c8a43f78340aa32425e2ca9792b
+      - ElementName: sfx_bubble
+        ObjectType: 3
+        guid: 77a2c75dc11c194c81924b4781a90452
+      Path: Events/Default Work Unit/SFX/sfx_bubble
+      maxAttenuation: 0
+      maxDuration: 0.53425
+      minDuration: 0.47558334
+    - name: sfx_death
+      guid: 7174b742ef0bbb4691875ee0b8495ea5
+      id: 777164721
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: SFX
+        ObjectType: 4
+        guid: c0a95c8a43f78340aa32425e2ca9792b
+      - ElementName: sfx_death
+        ObjectType: 3
+        guid: 7174b742ef0bbb4691875ee0b8495ea5
+      Path: Events/Default Work Unit/SFX/sfx_death
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: sfx_playerswim
       guid: dca5166454c1b64f97b86139d5c2e4c4
       id: 3380990982
@@ -532,6 +572,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: dca5166454c1b64f97b86139d5c2e4c4
       Path: Events/Default Work Unit/SFX/sfx_playerswim
+      maxAttenuation: 0
+      maxDuration: 0.9906667
+      minDuration: 0.74666667
+    - name: sfx_treasure
+      guid: ccb5a4ce84f10f448bd157ac6f3079d9
+      id: 2487155894
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: SFX
+        ObjectType: 4
+        guid: c0a95c8a43f78340aa32425e2ca9792b
+      - ElementName: sfx_treasure
+        ObjectType: 3
+        guid: ccb5a4ce84f10f448bd157ac6f3079d9
+      Path: Events/Default Work Unit/SFX/sfx_treasure
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
