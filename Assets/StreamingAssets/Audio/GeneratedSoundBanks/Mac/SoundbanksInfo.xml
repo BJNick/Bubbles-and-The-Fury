@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="154">
+	<RootPaths>
+		<ProjectRoot>../../../../../Diving Deep - Bubble Game Jam</ProjectRoot>
+		<SourceFilesRoot>../../../../../Diving Deep - Bubble Game Jam/.cache</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../../../Diving Deep - Bubble Game Jam/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{7E7151A9-03D0-3242-4E8F-B6B408E06C3D}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{0AFD1855-8C37-447D-8E49-AFF2B2F8BF99}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{C2B19931-F274-4C21-9948-148308544E5D}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="1502772432" Name="SFX Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX Bus" GUID="{504AC3FE-908D-4743-8B63-B78D676E6CE9}"/>
+				<Bus Id="3127962312" Name="Music Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music Bus" GUID="{0E2943B7-DDFB-49DB-B75C-2CAD1729985F}"/>
+				<Bus Id="3714968413" Name="Dialogue Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dialogue Bus" GUID="{4C44DE03-3401-4ED1-82A4-4EC309F04C46}"/>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="822163944" Name="SS_Air_RPM" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_RPM" GUID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
+				<GameParameter Id="1029930033" Name="SS_Air_Fury" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Fury" GUID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
+				<GameParameter Id="1351367891" Name="SS_Air_Fear" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Fear" GUID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
+				<GameParameter Id="2648548617" Name="SS_Air_Month" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Month" GUID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
+				<GameParameter Id="3002758120" Name="SS_Air_Freefall" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Freefall" GUID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
+				<GameParameter Id="3074696722" Name="SS_Air_Size" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Size" GUID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
+				<GameParameter Id="3203397129" Name="SS_Air_TimeOfDay" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_TimeOfDay" GUID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
+				<GameParameter Id="3671138082" Name="New_Game_Parameter" ObjectPath="\Game Parameters\Default Work Unit\New_Game_Parameter" GUID="{5ACEBBDD-4D4F-43CB-AE8E-7C38E10E7630}"/>
+				<GameParameter Id="3715662592" Name="SS_Air_Storm" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Storm" GUID="{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"/>
+				<GameParameter Id="3847924954" Name="SS_Air_Presence" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Presence" GUID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
+				<GameParameter Id="4160247818" Name="SS_Air_Turbulence" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Turbulence" GUID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="2638858007" Name="Gameplay_Area" ObjectPath="\States\Default Work Unit\Gameplay_Area" GUID="{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Gameplay_Area\None" GUID="{72EBE420-1E8E-4D0A-A797-EDAA30EB33F9}"/>
+						<State Id="1125500713" Name="Intro" ObjectPath="\States\Default Work Unit\Gameplay_Area\Intro" GUID="{2DB1122A-AFA5-4224-BCBE-A9B8B32A5D07}"/>
+						<State Id="1377027961" Name="Climax" ObjectPath="\States\Default Work Unit\Gameplay_Area\Climax" GUID="{C90B0E46-963F-4184-9A11-C8515EA8CE8D}"/>
+						<State Id="1571361561" Name="Tension" ObjectPath="\States\Default Work Unit\Gameplay_Area\Tension" GUID="{FA577FCD-34A5-4614-8DF4-9F28E0028D1B}"/>
+						<State Id="3169107872" Name="Escape" ObjectPath="\States\Default Work Unit\Gameplay_Area\Escape" GUID="{05418E28-5620-4A65-831F-76D5F89D84C0}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="2638858007" Name="Gameplay_Area" ObjectPath="\Switches\Default Work Unit\Gameplay_Area" GUID="{971F7864-2713-4530-9BC8-71B155DC7247}">
+					<Switches>
+						<Switch Id="1125500713" Name="Intro" ObjectPath="\Switches\Default Work Unit\Gameplay_Area\Intro" GUID="{2E9BEE7A-EAFE-40F9-97D5-C0966BC7105C}"/>
+						<Switch Id="1377027961" Name="Climax" ObjectPath="\Switches\Default Work Unit\Gameplay_Area\Climax" GUID="{8E558F03-60E4-43AB-8C82-4671904D59F5}"/>
+						<Switch Id="1571361561" Name="Tension" ObjectPath="\Switches\Default Work Unit\Gameplay_Area\Tension" GUID="{31079DFC-682A-484E-AFA4-C8DA88D36379}"/>
+						<Switch Id="2607556080" Name="Menu" ObjectPath="\Switches\Default Work Unit\Gameplay_Area\Menu" GUID="{4D930E51-06FC-468A-83B8-66235B5EBD88}"/>
+						<Switch Id="3169107872" Name="Escape" ObjectPath="\Switches\Default Work Unit\Gameplay_Area\Escape" GUID="{6026294E-613C-41A8-AFFC-CD5995C20F25}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+			<AcousticTextures>
+				<AcousticTexture Id="504532776" Name="Brick" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Brick" GUID="{B086A5A9-F204-4C53-A838-BDB18B18F6D6}" Color="8">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="18"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="23"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="513139656" Name="Mountain" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Mountain" GUID="{C5933731-001A-4AB4-98DD-9B033A8C8EAB}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="841620460" Name="Concrete" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Concrete" GUID="{5CF81C00-2896-4AE0-AF7C-3080BDABA682}" Color="27">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="14"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1755085759" Name="Wood_Deep" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Deep" GUID="{5246478E-C5DA-4E0C-A0DE-C98D1479529A}" Color="9">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="1"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="8"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1873957695" Name="Anechoic" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Anechoic" GUID="{8B0AC232-02E2-4EDE-BEAC-FDD1A900E3ED}" Color="13">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1970351858" Name="Fabric" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Fabric" GUID="{8381D532-DB6E-4EED-A7A3-BC7B0A0B8BA8}" Color="4">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="3"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="13"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="48"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="72"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2058049674" Name="Wood" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Wood" GUID="{1FFFBC96-6FE7-489E-BA6C-7C14A71391AE}" Color="7">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2412606308" Name="Carpet" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Carpet" GUID="{34227589-DC56-4260-96C4-B9F4B669092B}" Color="17">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="46"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="45"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="76"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2637588553" Name="Tile" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Tile" GUID="{A882DAC4-132A-47B7-BA9D-B9907BA29CC0}" Color="16">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="67"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="41"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2928161104" Name="Curtains" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Curtains" GUID="{F8E69E33-5C97-4968-B508-A1535F2D66E8}" Color="3">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="7"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="60"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="84"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3195498748" Name="Cork_Tiles" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Cork_Tiles" GUID="{30D2C919-925F-4143-8906-3DBB3C4AE5E2}" Color="19">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="14"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="30"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="73"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3670307564" Name="Drywall" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Drywall" GUID="{68A4E3F4-4C0B-4687-A8B8-A84DB93DBC8F}" Color="15">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="2"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4168643977" Name="Acoustic_Banner" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Acoustic_Banner" GUID="{2F2D53F2-DACC-408E-8B88-98B1B52A26D6}" Color="10">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="37"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4262522749" Name="Wood_Bright" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Bright" GUID="{7B85D1E5-C1A2-4E63-9A13-CEC54B641ADC}" Color="20">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="10"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="9"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+			</AcousticTextures>
+		</SoundBank>
+		<SoundBank Id="2113579301" Type="User" GUID="{388691ED-56EC-4966-9B29-BBB7031BD638}" Language="SFX" Hash="{23F350F3-FB46-5136-10D4-7924A4EDBCDA}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Bubble_Soundbank</ObjectPath>
+			<ShortName>Bubble_Soundbank</ShortName>
+			<Path>Bubble_Soundbank.bnk</Path>
+			<Media>
+				<File Id="23619031" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>bubble5.wav</ShortName>
+					<CachePath>62/{62ACB619-A01B-B1A3-893F-FD39AA1D40E0}.wem</CachePath>
+				</File>
+				<File Id="28799991" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_climax.wav</ShortName>
+					<CachePath>AE/{AEBC820F-B5D3-7C6C-A52D-F8F3A3C2EE87}.wem</CachePath>
+				</File>
+				<File Id="38019460" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DIA_TreasureBone.wav</ShortName>
+					<CachePath>B5/{B572FED8-BF43-5BCE-4EFB-DD0F5F8EB144}.wem</CachePath>
+				</File>
+				<File Id="52780276" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>treasurecollect.wav</ShortName>
+					<CachePath>FB/{FBAB5D5A-8C05-4E21-1463-4EFC4CEF5186}.wem</CachePath>
+				</File>
+				<File Id="84053918" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DIA_EscapeStory3.wav</ShortName>
+					<CachePath>F6/{F667E574-4E16-B26F-11C7-A521A6521583}.wem</CachePath>
+				</File>
+				<File Id="113809804" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DIA_TensionStory4.wav</ShortName>
+					<CachePath>B3/{B35EAC33-DDB3-9004-F135-62983E78FB20}.wem</CachePath>
+				</File>
+				<File Id="117564831" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>bubble1.wav</ShortName>
+					<CachePath>92/{92E8AAB7-C30A-A1C4-5F84-E7890C82C314}.wem</CachePath>
+				</File>
+				<File Id="137290248" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DIA_IntroStory1.wav</ShortName>
+					<CachePath>0D/{0DD0B1CF-8485-7538-02EF-AC14D11D84CF}.wem</CachePath>
+				</File>
+				<File Id="141846178" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>death4.wav</ShortName>
+					<CachePath>A6/{A6DDCF60-6F03-5898-A418-F72EA52F0AA2}.wem</CachePath>
+				</File>
+				<File Id="188100363" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_escape2.wav</ShortName>
+					<CachePath>B7/{B7D14F46-0F18-71BC-42AA-57B3CB43C5D1}.wem</CachePath>
+				</File>
+				<File Id="189918433" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DIA_TreasureGemstone.wav</ShortName>
+					<CachePath>BE/{BE8676E2-FA9B-DCA5-2C4D-A6C958A488B2}.wem</CachePath>
+				</File>
+				<File Id="209579184" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit1.wav</ShortName>
+					<CachePath>21/{21D9980D-E324-DF90-9080-99AFF02940C8}.wem</CachePath>
+				</File>
+				<File Id="228370953" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>swim3.wav</ShortName>
+					<CachePath>47/{4748A4AE-D4A8-BFF1-91AC-944FFA9E42B5}.wem</CachePath>
+				</File>
+				<File Id="267533370" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DIA_TensionStory3.wav</ShortName>
+					<CachePath>2D/{2D05BEA2-861B-7E9A-49D1-93ABF7A0522C}.wem</CachePath>
+				</File>
+				<File Id="284181332" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DIA_Victory.wav</ShortName>
+					<CachePath>33/{3302B1C0-9DA7-2F66-A2D6-F4F72808362B}.wem</CachePath>
+				</File>
+				<File Id="333374655" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit3.wav</ShortName>
+					<CachePath>EF/{EF5E5818-C933-ECED-7BA4-DA8FD3D79E6E}.wem</CachePath>
+				</File>
+				<File Id="361976837" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_escape1.wav</ShortName>
+					<CachePath>8B/{8BE8BCFB-D7CE-D172-7258-87B733977030}.wem</CachePath>
+				</File>
+				<File Id="428611991" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>swim5.wav</ShortName>
+					<CachePath>22/{22F46C68-80C9-ECA9-3F19-178B0F9CCD29}.wem</CachePath>
+				</File>
+				<File Id="438753714" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DIA_IntroStory2.wav</ShortName>
+					<CachePath>FF/{FF3186E7-0AA3-7D03-9DD9-D144B209C101}.wem</CachePath>
+				</File>
+				<File Id="447684868" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>death1.wav</ShortName>
+					<CachePath>85/{85A3DF91-329E-B4D7-3860-5F757321E5B8}.wem</CachePath>
+				</File>
+				<File Id="479424745" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit4.wav</ShortName>
+					<CachePath>64/{6445D6E1-FB50-BD62-9187-139DD075D45B}.wem</CachePath>
+				</File>
+				<File Id="497263798" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>bubble4.wav</ShortName>
+					<CachePath>B9/{B90EFDFA-47C0-58C9-9C8C-4B92A6A7AD81}.wem</CachePath>
+				</File>
+				<File Id="499008946" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>bubble6.wav</ShortName>
+					<CachePath>83/{83AACCDD-2198-3459-2B34-4662A9A56B54}.wem</CachePath>
+				</File>
+				<File Id="503446267" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>swim2.wav</ShortName>
+					<CachePath>6C/{6C86BD6D-00BC-3A54-D2D5-21CA1221666F}.wem</CachePath>
+				</File>
+				<File Id="510167254" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DIA_TreasureDoubloon.wav</ShortName>
+					<CachePath>BF/{BF112155-3E05-CC19-992E-CDF2CC048AB9}.wem</CachePath>
+				</File>
+				<File Id="510961015" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_intro.wav</ShortName>
+					<CachePath>83/{83F6D6F1-9D6C-B416-BEBD-59FEFEEC97D8}.wem</CachePath>
+				</File>
+				<File Id="523269430" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>swim1.wav</ShortName>
+					<CachePath>3D/{3D886BFC-C51C-ACBB-7DB0-4E944B0883D4}.wem</CachePath>
+				</File>
+				<File Id="551334125" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_menu2.wav</ShortName>
+					<CachePath>3E/{3E0E222A-8B0F-6D55-FF77-C4D8A184BA38}.wem</CachePath>
+				</File>
+				<File Id="553233666" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DIA_TensionStory2.wav</ShortName>
+					<CachePath>1A/{1AB7A0A8-4115-2B8B-E6AC-FE8A32814723}.wem</CachePath>
+				</File>
+				<File Id="559567009" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DIA_SharkWarning.wav</ShortName>
+					<CachePath>1E/{1EE81B41-C9C3-323B-68EE-61D26BB4767C}.wem</CachePath>
+				</File>
+				<File Id="569997377" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DIA_TreasureHat.wav</ShortName>
+					<CachePath>00/{0016EDDD-558F-A1B4-0B28-3E2706200BEA}.wem</CachePath>
+				</File>
+				<File Id="601516594" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DIA_TreasureCutlass.wav</ShortName>
+					<CachePath>FF/{FF05E742-7CAC-C0B0-4D18-B1C5CF100ADF}.wem</CachePath>
+				</File>
+				<File Id="606636696" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DIA_TreasureFlintlock.wav</ShortName>
+					<CachePath>1D/{1D9C7635-D367-9EB1-7199-A7D62CED9071}.wem</CachePath>
+				</File>
+				<File Id="693662072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>bubble2.wav</ShortName>
+					<CachePath>58/{58E4C907-246B-92A5-22D7-39953C1E93ED}.wem</CachePath>
+				</File>
+				<File Id="703808786" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DIA_EscapeStory1.wav</ShortName>
+					<CachePath>CB/{CBB7D1B7-4651-57F5-B249-CE2B26035E2E}.wem</CachePath>
+				</File>
+				<File Id="713805700" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>death3.wav</ShortName>
+					<CachePath>39/{39FDB36F-3151-5AC9-4A2F-3AEEB6D969B4}.wem</CachePath>
+				</File>
+				<File Id="769289019" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VOICE of God - Game Phrase - Are You Ready, DRY.wav</ShortName>
+					<CachePath>80/{809AC2DC-811F-059B-E95B-C5240EDB70A3}.wem</CachePath>
+				</File>
+				<File Id="793076629" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>swim4.wav</ShortName>
+					<CachePath>8B/{8B59AA7D-5744-8FA1-33BB-C6E20F8D90BE}.wem</CachePath>
+				</File>
+				<File Id="803625038" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>death2.wav</ShortName>
+					<CachePath>37/{37D50EDF-8793-C473-AF75-454E0B28E68B}.wem</CachePath>
+				</File>
+				<File Id="812156402" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DIA_EscapeStory2.wav</ShortName>
+					<CachePath>D5/{D5E13DC7-5458-CB36-D8F1-41526354D9AC}.wem</CachePath>
+				</File>
+				<File Id="816680975" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DIA_IntroStory4.wav</ShortName>
+					<CachePath>B7/{B76795B6-8750-4930-2D76-5E763EA9328F}.wem</CachePath>
+				</File>
+				<File Id="844575640" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>bubble3.wav</ShortName>
+					<CachePath>63/{6317E8E0-0EFA-D1A1-1F7E-64737DDE8E85}.wem</CachePath>
+				</File>
+				<File Id="847452943" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit2.wav</ShortName>
+					<CachePath>89/{89A57E9E-0A85-5193-C4DF-4FBF51ED90C1}.wem</CachePath>
+				</File>
+				<File Id="901797702" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DIA_TreasureShipwreck.wav</ShortName>
+					<CachePath>A1/{A1338E39-2E16-DE1D-D287-5F753690E241}.wem</CachePath>
+				</File>
+				<File Id="905374160" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DIA_TensionStory1.wav</ShortName>
+					<CachePath>94/{9439638F-317E-C15F-8C61-CFE8B0BC6B15}.wem</CachePath>
+				</File>
+				<File Id="963635366" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mus_tension.wav</ShortName>
+					<CachePath>73/{73DA2C9F-0BC1-54BB-CF7E-DEE7EF5B7805}.wem</CachePath>
+				</File>
+				<File Id="985948138" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DIA_JellyWarning.wav</ShortName>
+					<CachePath>1C/{1C84E84F-B755-015D-606E-75745A8C230B}.wem</CachePath>
+				</File>
+				<File Id="1033213824" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DIA_IntroStory3.wav</ShortName>
+					<CachePath>A8/{A8CD6F43-D631-17F8-40BB-88AC875BB13C}.wem</CachePath>
+				</File>
+				<File Id="1046193709" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DIA_ClimaxStory1.wav</ShortName>
+					<CachePath>8C/{8CEEBF10-37E4-78E6-4C27-B2AEF98F5808}.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="701863527" Name="Inside_My_Head" ObjectPath="\Effects\Factory Effects\RoomVerb\Claustrophobia\Inside_My_Head" GUID="{94B53301-9AA1-468F-8419-92AEDAAE39DF}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="3033011476" Name="DIA_ClimaxStory1" ObjectPath="\Events\Default Work Unit\Dialogue\DiaStory\DIA_ClimaxStory1" GUID="{677161F4-BED3-4E82-9B46-4BB1B48636A0}" DurationType="OneShot" DurationMin="5.113333" DurationMax="5.113333">
+					<MediaRefs>
+						<MediaRef Id="1046193709"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="3260869773" Name="DIA_EscapeStory1" ObjectPath="\Events\Default Work Unit\Dialogue\DiaStory\DIA_EscapeStory1" GUID="{52319B6A-80A9-4AAF-8DF6-680A9B381C23}" DurationType="OneShot" DurationMin="4.636" DurationMax="4.636">
+					<MediaRefs>
+						<MediaRef Id="703808786"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="3260869774" Name="DIA_EscapeStory2" ObjectPath="\Events\Default Work Unit\Dialogue\DiaStory\DIA_EscapeStory2" GUID="{E158227A-BAEF-4EA7-9A75-4981D648E5BB}" DurationType="OneShot" DurationMin="6.284" DurationMax="6.284">
+					<MediaRefs>
+						<MediaRef Id="812156402"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="3260869775" Name="DIA_EscapeStory3" ObjectPath="\Events\Default Work Unit\Dialogue\DiaStory\DIA_EscapeStory3" GUID="{DC851789-49EF-410C-93FA-68BE0029BA41}" DurationType="OneShot" DurationMin="8.542666" DurationMax="8.542666">
+					<MediaRefs>
+						<MediaRef Id="84053918"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2922889338" Name="DIA_IntroStory1" ObjectPath="\Events\Default Work Unit\Dialogue\DiaStory\DIA_IntroStory1" GUID="{60F17DC2-C972-48E7-AE64-94D2CB9EEF2B}" DurationType="OneShot" DurationMin="12.356" DurationMax="12.356">
+					<MediaRefs>
+						<MediaRef Id="137290248"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2922889337" Name="DIA_IntroStory2" ObjectPath="\Events\Default Work Unit\Dialogue\DiaStory\DIA_IntroStory2" GUID="{4C53C907-B14F-4A96-83E6-9075AEEC7DCA}" DurationType="OneShot" DurationMin="10.097333" DurationMax="10.097333">
+					<MediaRefs>
+						<MediaRef Id="438753714"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2922889336" Name="DIA_IntroStory3" ObjectPath="\Events\Default Work Unit\Dialogue\DiaStory\DIA_IntroStory3" GUID="{3DAF5DA2-8911-450D-AEEA-4C86E4850ED6}" DurationType="OneShot" DurationMin="9.414667" DurationMax="9.414667">
+					<MediaRefs>
+						<MediaRef Id="1033213824"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2922889343" Name="DIA_IntroStory4" ObjectPath="\Events\Default Work Unit\Dialogue\DiaStory\DIA_IntroStory4" GUID="{66E9AB20-FD40-495E-9594-E3FFFB5C1B8F}" DurationType="OneShot" DurationMin="7.641333" DurationMax="7.641333">
+					<MediaRefs>
+						<MediaRef Id="816680975"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="1029159304" Name="DIA_JellyWarning" ObjectPath="\Events\Default Work Unit\Dialogue\DiaWarning\DIA_JellyWarning" GUID="{832874D7-0FA5-4DF4-9B6F-03CB7C137144}" DurationType="OneShot" DurationMin="2.7853334" DurationMax="2.7853334">
+					<MediaRefs>
+						<MediaRef Id="985948138"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2181865273" Name="DIA_SharkWarning" ObjectPath="\Events\Default Work Unit\Dialogue\DiaWarning\DIA_SharkWarning" GUID="{907EDD99-409B-4683-9200-48E0B8D7A3AB}" DurationType="OneShot" DurationMin="3.5573332" DurationMax="3.5573332">
+					<MediaRefs>
+						<MediaRef Id="559567009"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="3417468250" Name="DIA_TensionStory1" ObjectPath="\Events\Default Work Unit\Dialogue\DiaStory\DIA_TensionStory1" GUID="{C2918111-8C4F-461A-8772-005267602DD9}" DurationType="OneShot" DurationMin="7.2013335" DurationMax="7.2013335">
+					<MediaRefs>
+						<MediaRef Id="905374160"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="3417468249" Name="DIA_TensionStory2" ObjectPath="\Events\Default Work Unit\Dialogue\DiaStory\DIA_TensionStory2" GUID="{48BCB02B-6E35-4561-9315-A373CC15252A}" DurationType="OneShot" DurationMin="5.294667" DurationMax="5.294667">
+					<MediaRefs>
+						<MediaRef Id="553233666"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="3417468248" Name="DIA_TensionStory3" ObjectPath="\Events\Default Work Unit\Dialogue\DiaStory\DIA_TensionStory3" GUID="{2954197E-7576-42C0-9E83-6790889251E7}" DurationType="OneShot" DurationMin="5.449333" DurationMax="5.449333">
+					<MediaRefs>
+						<MediaRef Id="267533370"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="3417468255" Name="DIA_TensionStory4" ObjectPath="\Events\Default Work Unit\Dialogue\DiaStory\DIA_TensionStory4" GUID="{9614F933-C0D1-4FB3-A07E-FC2991A9775E}" DurationType="OneShot" DurationMin="4.636" DurationMax="4.636">
+					<MediaRefs>
+						<MediaRef Id="113809804"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="3581270229" Name="DIA_TreasureBone" ObjectPath="\Events\Default Work Unit\Dialogue\DiaTreasure\DIA_TreasureBone" GUID="{CF2A4A98-2A0C-4C02-86E5-D1C342401F3D}" DurationType="OneShot" DurationMin="3.524" DurationMax="3.524">
+					<MediaRefs>
+						<MediaRef Id="38019460"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2993629078" Name="DIA_TreasureCutlass" ObjectPath="\Events\Default Work Unit\Dialogue\DiaTreasure\DIA_TreasureCutlass" GUID="{80305032-1E3D-4E87-82F0-192D439401A2}" DurationType="OneShot" DurationMin="3.8413334" DurationMax="3.8413334">
+					<MediaRefs>
+						<MediaRef Id="601516594"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="3494670805" Name="DIA_TreasureDoubloon" ObjectPath="\Events\Default Work Unit\Dialogue\DiaTreasure\DIA_TreasureDoubloon" GUID="{98BDA879-FB43-459C-98C5-702D638E5454}" DurationType="OneShot" DurationMin="8.604" DurationMax="8.604">
+					<MediaRefs>
+						<MediaRef Id="510167254"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="1517707933" Name="DIA_TreasureFlintlock" ObjectPath="\Events\Default Work Unit\Dialogue\DiaTreasure\DIA_TreasureFlintlock" GUID="{FDCC5DB5-DB74-4E72-9E18-0897A9ABF12B}" DurationType="OneShot" DurationMin="4.18" DurationMax="4.18">
+					<MediaRefs>
+						<MediaRef Id="606636696"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="1661916387" Name="DIA_TreasureGemstone" ObjectPath="\Events\Default Work Unit\Dialogue\DiaTreasure\DIA_TreasureGemstone" GUID="{3F57016E-6A03-4943-9FC5-7F380FDD4E4D}" DurationType="OneShot" DurationMin="6.364" DurationMax="6.364">
+					<MediaRefs>
+						<MediaRef Id="189918433"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="624438454" Name="DIA_TreasureHat" ObjectPath="\Events\Default Work Unit\Dialogue\DiaTreasure\DIA_TreasureHat" GUID="{AEC9611F-CC0C-4BA6-B3F0-ADA127EB1DC8}" DurationType="OneShot" DurationMin="4.6573334" DurationMax="4.6573334">
+					<MediaRefs>
+						<MediaRef Id="569997377"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="511787789" Name="DIA_TreasureShipwreck" ObjectPath="\Events\Default Work Unit\Dialogue\DiaTreasure\DIA_TreasureShipwreck" GUID="{8757C746-A685-489B-84F0-6D5A55D060F7}" DurationType="OneShot" DurationMin="3.3" DurationMax="3.3">
+					<MediaRefs>
+						<MediaRef Id="901797702"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="779849494" Name="DIA_Victory" ObjectPath="\Events\Default Work Unit\Dialogue\DiaTreasure\DIA_Victory" GUID="{E666F5D7-5DF0-4571-AAA6-D95DE6FEB9A1}" DurationType="OneShot" DurationMin="3.3826666" DurationMax="3.3826666">
+					<MediaRefs>
+						<MediaRef Id="284181332"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="1220128597" Name="mus_climax" ObjectPath="\Events\Default Work Unit\Music\mus_climax" GUID="{11C0C43C-B8EE-4101-955C-AE6C31BC9D11}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="28799991"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2215620476" Name="mus_escape" ObjectPath="\Events\Default Work Unit\Music\mus_escape" GUID="{3F140504-5B53-4C7F-88ED-E187EE42AC8F}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="188100363"/>
+						<MediaRef Id="361976837"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="895625293" Name="mus_gameplay" ObjectPath="\Events\Default Work Unit\Music\mus_gameplay" GUID="{5EC9358E-5CFD-4031-B6BA-50C6D6ECF815}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2638858007" Id="3169107872" GUID="{6026294E-613C-41A8-AFFC-CD5995C20F25}"/>
+							<MediaRefs>
+								<MediaRef Id="188100363"/>
+								<MediaRef Id="361976837"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2638858007" Id="1125500713" GUID="{2E9BEE7A-EAFE-40F9-97D5-C0966BC7105C}"/>
+							<MediaRefs>
+								<MediaRef Id="510961015"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2638858007" Id="2607556080" GUID="{4D930E51-06FC-468A-83B8-66235B5EBD88}"/>
+							<MediaRefs>
+								<MediaRef Id="551334125"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2638858007" Id="1571361561" GUID="{31079DFC-682A-484E-AFA4-C8DA88D36379}"/>
+							<MediaRefs>
+								<MediaRef Id="963635366"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2638858007" Id="1377027961" GUID="{8E558F03-60E4-43AB-8C82-4671904D59F5}"/>
+							<MediaRefs>
+								<MediaRef Id="28799991"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1219230789" Name="mus_intro" ObjectPath="\Events\Default Work Unit\Music\mus_intro" GUID="{DB6CE670-93F5-45A3-8B6F-B89DDEB20355}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="510961015"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3149643052" Name="mus_menu" ObjectPath="\Events\Default Work Unit\Music\mus_menu" GUID="{4D49BEAF-D239-4002-BBC6-D5E11E45EA3F}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="551334125"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1172924437" Name="mus_tension" ObjectPath="\Events\Default Work Unit\Music\mus_tension" GUID="{10576CE9-437D-4072-AF45-07260FFB0428}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="963635366"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2983997255" Name="sfx_bubble" ObjectPath="\Events\Default Work Unit\SFX\sfx_bubble" GUID="{5DC7A277-1CC1-4C19-8192-4B4781A90452}" DurationType="OneShot" DurationMin="0.47558334" DurationMax="0.53425">
+					<MediaRefs>
+						<MediaRef Id="23619031"/>
+						<MediaRef Id="117564831"/>
+						<MediaRef Id="497263798"/>
+						<MediaRef Id="499008946"/>
+						<MediaRef Id="693662072"/>
+						<MediaRef Id="844575640"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="777164721" Name="sfx_death" ObjectPath="\Events\Default Work Unit\SFX\sfx_death" GUID="{42B77471-0BEF-46BB-9187-5EE0B8495EA5}" DurationType="OneShot" DurationMin="4.7896667" DurationMax="4.9816666">
+					<MediaRefs>
+						<MediaRef Id="141846178"/>
+						<MediaRef Id="447684868"/>
+						<MediaRef Id="713805700"/>
+						<MediaRef Id="803625038"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="176119683" Name="sfx_playerinjury" ObjectPath="\Events\Default Work Unit\SFX\sfx_playerinjury" GUID="{FF638F23-9A9C-4802-A9DC-8F170417D6C2}" DurationType="OneShot" DurationMin="1.1573334" DurationMax="1.5066667">
+					<MediaRefs>
+						<MediaRef Id="209579184"/>
+						<MediaRef Id="333374655"/>
+						<MediaRef Id="479424745"/>
+						<MediaRef Id="847452943"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3380990982" Name="sfx_playerswim" ObjectPath="\Events\Default Work Unit\SFX\sfx_playerswim" GUID="{6416A5DC-C154-4FB6-97B8-6139D5C2E4C4}" DurationType="OneShot" DurationMin="0.74666667" DurationMax="0.9906667">
+					<MediaRefs>
+						<MediaRef Id="228370953"/>
+						<MediaRef Id="428611991"/>
+						<MediaRef Id="503446267"/>
+						<MediaRef Id="523269430"/>
+						<MediaRef Id="793076629"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2487155894" Name="sfx_treasure" ObjectPath="\Events\Default Work Unit\SFX\sfx_treasure" GUID="{CEA4B5CC-F184-440F-8BD1-57AC6F3079D9}" DurationType="OneShot" DurationMin="4.6053333" DurationMax="4.6053333">
+					<MediaRefs>
+						<MediaRef Id="52780276"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3670868403" Name="Treasure1" ObjectPath="\Events\Default Work Unit\Dialogue\Treasure1" GUID="{130F84C6-E22A-4072-BDF8-F102E2A8B92A}" DurationType="OneShot" DurationMin="1.52275" DurationMax="1.52275">
+					<MediaRefs>
+						<MediaRef Id="769289019"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="2638858007" Name="Gameplay_Area" ObjectPath="\Switches\Default Work Unit\Gameplay_Area" GUID="{971F7864-2713-4530-9BC8-71B155DC7247}">
+					<Switches>
+						<Switch Id="1125500713" Name="Intro" ObjectPath="\Switches\Default Work Unit\Gameplay_Area\Intro" GUID="{2E9BEE7A-EAFE-40F9-97D5-C0966BC7105C}"/>
+						<Switch Id="1377027961" Name="Climax" ObjectPath="\Switches\Default Work Unit\Gameplay_Area\Climax" GUID="{8E558F03-60E4-43AB-8C82-4671904D59F5}"/>
+						<Switch Id="1571361561" Name="Tension" ObjectPath="\Switches\Default Work Unit\Gameplay_Area\Tension" GUID="{31079DFC-682A-484E-AFA4-C8DA88D36379}"/>
+						<Switch Id="2607556080" Name="Menu" ObjectPath="\Switches\Default Work Unit\Gameplay_Area\Menu" GUID="{4D930E51-06FC-468A-83B8-66235B5EBD88}"/>
+						<Switch Id="3169107872" Name="Escape" ObjectPath="\Switches\Default Work Unit\Gameplay_Area\Escape" GUID="{6026294E-613C-41A8-AFFC-CD5995C20F25}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{8927DA6E-346B-1973-B900-98F3E5DD3B34}</FileHash>
+</SoundBanksInfo>

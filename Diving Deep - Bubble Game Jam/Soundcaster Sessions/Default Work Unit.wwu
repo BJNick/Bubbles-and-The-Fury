@@ -45,7 +45,7 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Intro" ID="{2E9BEE7A-EAFE-40F9-97D5-C0966BC7105C}"/>
+						<CurrentSwitchRef Name="Escape" ID="{6026294E-613C-41A8-AFFC-CD5995C20F25}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
