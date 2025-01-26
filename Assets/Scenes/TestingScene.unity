@@ -1807,10 +1807,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5673828042461778864, guid: 8f010aae9c2b660438f3f4fa408eba7f, type: 3}
-      propertyPath: swimEvent.WwiseObjectReference
-      value: 
-      objectReference: {fileID: 11400000, guid: 09c03e35ef8e83e4ba21ef8c27a21052, type: 2}
     - target: {fileID: 8968003962018083815, guid: 8f010aae9c2b660438f3f4fa408eba7f, type: 3}
       propertyPath: m_Name
       value: Diver

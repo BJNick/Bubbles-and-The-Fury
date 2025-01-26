@@ -14,10 +14,13 @@ public class DiverController : MonoBehaviour
 
     private float lastSwimEventTime = 0.0f;
 
+    private Animator animator;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -39,11 +42,33 @@ public class DiverController : MonoBehaviour
                 swimEvent.Post(gameObject);
                 lastSwimEventTime = Time.time;
             }
+
+
+            // Dir 0 if horizontal angle between -30 and 30
+            // Dir 1 if diagonal angle between 30 and 60 or -30 and -60
+            // Dir 2 if vertical angle between 60 and 120 or -60 and -120
+            // Flip sprite if facing left
+            /* if (transform.right.x > 0) {
+                transform.localScale = new Vector3(1, 1, 1);
+            } else {
+                transform.localScale = new Vector3(-1, 1, 1);
+            } */
+            if (angle > 90) {
+                angle = 270 - angle;
+            }
+            if (angle > -30 && angle < 30) {
+                animator.SetInteger("Dir", 0);
+            } else if ((angle > 30 && angle < 60) || (angle > -60 && angle < -30)) {
+                animator.SetInteger("Dir", 1);
+            } else {
+                animator.SetInteger("Dir", 2);
+            }
         }
 
         // Move the diver
         //rb.MovePosition(rb.position +fromVector3(swimSpeed * controlsDir.magnitude * transform.right * Time.deltaTime));
         rb.AddForce(swimSpeed * controlsDir.magnitude * transform.right);
+        animator.SetFloat("Speed", controlsDir.magnitude);
     }
 
     private Vector2 fromVector3(Vector3 v) {

@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: f93545d781826834887784581f78b597
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8232212527874976628
+    second: diver-diagonal_0
+  - first:
+      213: 7984126793786307421
+    second: diver-diagonal_1
+  - first:
+      213: 3859109659805803772
+    second: diver-diagonal_2
+  - first:
+      213: -8805658349790373503
+    second: diver-diagonal_3
+  - first:
+      213: -5818312485925712265
+    second: diver-diagonal_4
+  - first:
+      213: 2570883327556248005
+    second: diver-diagonal_5
+  - first:
+      213: 3258159314240838243
+    second: diver-diagonal_6
+  - first:
+      213: 3639554374636329242
+    second: diver-diagonal_7
+  - first:
+      213: 3639551133504907495
+    second: diver-diagonal_8
+  - first:
+      213: 5972389738550850752
+    second: diver-diagonal_9
+  - first:
+      213: 6637878354127605931
+    second: diver-diagonal_10
+  - first:
+      213: 4076035061467837279
+    second: diver-diagonal_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: diver-diagonal_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 426
+        width: 344
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b228f8da1be3270800000000000000
+      internalID: 8232212527874976628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diver-diagonal_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 426
+        width: 344
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53bf4964015dce60800000000000000
+      internalID: 7984126793786307421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diver-diagonal_2
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 426
+        width: 344
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4e0060acf4e8530800000000000000
+      internalID: 3859109659805803772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diver-diagonal_3
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 426
+        width: 344
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189da4f92640cc580800000000000000
+      internalID: -8805658349790373503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diver-diagonal_4
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 426
+        width: 344
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e8d2cee93314fa0800000000000000
+      internalID: -5818312485925712265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diver-diagonal_5
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 426
+        width: 344
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1e6f9e3cc9da320800000000000000
+      internalID: 2570883327556248005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diver-diagonal_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 344
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a94f242ae473d20800000000000000
+      internalID: 3258159314240838243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diver-diagonal_7
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1
+        width: 344
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19dae8ab6b428230800000000000000
+      internalID: 3639554374636329242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diver-diagonal_8
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1
+        width: 344
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e82e660978428230800000000000000
+      internalID: 3639551133504907495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diver-diagonal_9
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1
+        width: 344
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4f28af2d032e250800000000000000
+      internalID: 5972389738550850752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diver-diagonal_10
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1
+        width: 344
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0d700b13b7e1c50800000000000000
+      internalID: 6637878354127605931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diver-diagonal_11
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1
+        width: 344
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53f3daea4cf09830800000000000000
+      internalID: 4076035061467837279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: da798873c3566474fbad19967bdf58b0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      diver-diagonal_0: 8232212527874976628
+      diver-diagonal_1: 7984126793786307421
+      diver-diagonal_10: 6637878354127605931
+      diver-diagonal_11: 4076035061467837279
+      diver-diagonal_2: 3859109659805803772
+      diver-diagonal_3: -8805658349790373503
+      diver-diagonal_4: -5818312485925712265
+      diver-diagonal_5: 2570883327556248005
+      diver-diagonal_6: 3258159314240838243
+      diver-diagonal_7: 3639554374636329242
+      diver-diagonal_8: 3639551133504907495
+      diver-diagonal_9: 5972389738550850752
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
