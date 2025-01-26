@@ -71,7 +71,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 10.8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -151,8 +151,8 @@ MonoBehaviour:
   followDampeningX: 1
   followDampeningY: 1
   multiTargetDampening: 3
-  minZoom: 10
-  maxZoom: 20
+  minZoom: 10.8
+  maxZoom: 10.8
   ceilingStopLimit: 1000
   floorStopLimit: -1000
   lookAheadAmount: 1
