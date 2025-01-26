@@ -386,10 +386,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameplayMusicTrigger
       objectReference: {fileID: 0}
-    - target: {fileID: 1565375468210193682, guid: 5c98f09ed8ece7b41b18b8ef387b3459, type: 3}
-      propertyPath: data.WwiseObjectReference
-      value: 
-      objectReference: {fileID: 11400000, guid: fade57395d4510d4b8fecdf9d27c33db, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -986,7 +982,7 @@ PrefabInstance:
     - target: {fileID: 3323696992207382942, guid: 10c8ed8fdd22aaf458eedda1168bd311, type: 3}
       propertyPath: switchToSet.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: 3aa3d7a0c97b147a3a99b0771945ffbf, type: 2}
+      objectReference: {fileID: 11400000, guid: 9787fd25e37b074438742ed75cf64253, type: 2}
     - target: {fileID: 6264018495426286136, guid: 10c8ed8fdd22aaf458eedda1168bd311, type: 3}
       propertyPath: m_Enabled
       value: 1
