@@ -46,7 +46,7 @@ public class DiverController : MonoBehaviour
             var angle = Mathf.LerpAngle(transform.eulerAngles.z, controlsAngle, Time.deltaTime * turnSpeed); 
             rb.MoveRotation(angle);
 
-            if (Time.time - lastSwimEventTime > swimEventInterval) {
+            if (Time.time - lastSwimEventTime > swimEventInterval && swimEventInterval > 0f) {
                 swimEvent.Post(gameObject);
                 lastSwimEventTime = Time.time;
             }
@@ -85,5 +85,9 @@ public class DiverController : MonoBehaviour
 
     public void GetShocked(float duration) {
         shockedUntil = Time.time + duration;
+    }
+
+    public void PlaySwimEvent() {
+        swimEvent.Post(gameObject);
     }
 }
