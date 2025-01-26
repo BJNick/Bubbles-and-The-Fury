@@ -14,8 +14,14 @@ public class GlobalDialogScript : MonoBehaviour
         
     }
 
+    public AK.Wwise.Event dialogEvent;
+
     public void Stop() {
         var panel = GameObject.Find("GlobalDialogPanel");
         panel.GetComponent<Animator>().SetBool("Dialog Shown", false);
+    }
+
+    public void PlayAudio() {
+        dialogEvent.Post(gameObject);
     }
 }

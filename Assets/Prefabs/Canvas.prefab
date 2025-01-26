@@ -67,6 +67,10 @@ MonoBehaviour:
   oxygenDropRate: 1
   barWidth: 50
   isDying: 0
+  deathEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 38de992a91182b843bfb4f44fce381d3, type: 2}
 --- !u!95 &1038493706148244600
 Animator:
   serializedVersion: 7
@@ -568,6 +572,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f472c1d9769e96a4db537ec3176440d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!95 &8209137095495605972
 Animator:
   serializedVersion: 7

@@ -15,10 +15,23 @@ public class DialogScriptableObjectScript : ScriptableObject
 
     public Sprite image;
 
+    public AK.Wwise.Event treasureEvent;
+
+    public bool isTreasure = false;
+
+    private GameObject panel;
+
     public void Play() {
-        var panel = GameObject.Find("GlobalDialogPanel");
+        panel = GameObject.Find("GlobalDialogPanel");
         panel.GetComponent<Animator>().SetBool("Dialog Shown", true);
         panel.GetComponentInChildren<TextMeshProUGUI>().text = text;
+        if (isTreasure && treasureEvent != null) {
+            treasureEvent.Post(panel);
+            if (image != null) {
+                panel.GetComponent<GlobalDialogScript>().dialogEvent = audio;
+                panel.GetComponent<GlobalDialogScript>().Invoke("PlayAudio", 1f);
+            }
+        } else
         if (audio != null) {
             audio.Post(panel);
         }
@@ -27,6 +40,10 @@ public class DialogScriptableObjectScript : ScriptableObject
         }
         // Trigger stop when duration is over
         panel.GetComponent<GlobalDialogScript>().Invoke("Stop", duration);
+    }
+
+    public void StartLater() {
+        audio.Post(panel);
     }
 
     public void Stop() {

@@ -105,6 +105,10 @@ MonoBehaviour:
   damageAmount: 0
   stunAmount: 1
   hitEffect: {fileID: 1337987221944455212}
+  hitEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 433f6a24fd097ff43acefe1232af4e1e, type: 2}
 --- !u!58 &736724523181943269
 CircleCollider2D:
   m_ObjectHideFlags: 0

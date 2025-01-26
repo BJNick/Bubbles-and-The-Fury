@@ -9,6 +9,8 @@ public class EnemyCollider : MonoBehaviour
 
     public ParticleSystem hitEffect;
 
+    public AK.Wwise.Event hitEvent;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,29 +23,29 @@ public class EnemyCollider : MonoBehaviour
         
     }
 
+    public void Damage(GameObject obj) {
+        Debug.Log("Player collided with enemy");
+        OxygenOverlay.instance.RemoveOxygen(damageAmount);
+        if (stunAmount > 0.0f) {
+            obj.GetComponent<DiverController>().GetShocked(stunAmount);
+        }
+        if (hitEffect != null) {
+            hitEffect.Play();
+        }
+        if (hitEvent != null) {
+            hitEvent.Post(obj);
+        }
+    }
+
     private void OnCollisionEnter2D(Collision2D other) {
         if (other.gameObject.CompareTag("Player")) {
-            Debug.Log("Player collided with enemy");
-            OxygenOverlay.instance.RemoveOxygen(damageAmount);
-            if (stunAmount > 0.0f) {
-                other.gameObject.GetComponent<DiverController>().GetShocked(stunAmount);
-            }
-            if (hitEffect != null) {
-                hitEffect.Play();
-            }
+            Damage(other.gameObject);
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.CompareTag("Player")) {
-            Debug.Log("Player collided with enemy");
-            OxygenOverlay.instance.RemoveOxygen(damageAmount);
-            if (stunAmount > 0.0f) {
-                other.gameObject.GetComponent<DiverController>().GetShocked(stunAmount);
-            }
-            if (hitEffect != null) {
-                hitEffect.Play();
-            }
+            Damage(other.gameObject);
         }
     }
 }

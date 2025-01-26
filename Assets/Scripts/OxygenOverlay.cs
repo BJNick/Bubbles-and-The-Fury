@@ -16,6 +16,8 @@ public class OxygenOverlay : MonoBehaviour
 
     public bool isDying = false;
 
+    public AK.Wwise.Event deathEvent;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -81,6 +83,7 @@ public class OxygenOverlay : MonoBehaviour
             return;
         }
         Debug.Log("Dying done");
+        deathEvent.Post(gameObject);
         FullOxygen();
     }
 }
