@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1565375468210193682}
   - component: {fileID: 302392176333038584}
   - component: {fileID: 5977369840144482922}
+  - component: {fileID: 2294385872115831554}
   m_Layer: 0
   m_Name: GameplayMusicTrigger
   m_TagString: Untagged
@@ -139,3 +140,27 @@ MonoBehaviour:
   groupIdInternal: 0
   valueGuidInternal: 
   groupGuidInternal: 
+--- !u!114 &2294385872115831554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453632192147850918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdeeb63bb9d83d544b1f911a28e18604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  testEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  testSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7d29a5d5d338b724486c29442292cfca, type: 2}
+  triggerEvent: 0
+  testObject: {fileID: 1453632192147850918}

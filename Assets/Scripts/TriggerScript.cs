@@ -5,6 +5,8 @@ public class TriggerScript : MonoBehaviour
     
     public DialogScriptableObjectScript dialog;
 
+    public AK.Wwise.Switch switchToSet;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,6 +24,10 @@ public class TriggerScript : MonoBehaviour
         if (other.gameObject.CompareTag("Player")) {
             if (dialog != null) {
                 dialog.Play();
+            }
+            if (switchToSet != null) {
+                switchToSet.SetValue(WwiseTest.instance.gameObject);
+                Debug.Log("Set switch");
             }
             Destroy(gameObject);
         }

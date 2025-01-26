@@ -47,6 +47,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog: {fileID: 11400000, guid: 1e402c3efc38b8a43af964d060a36dcb, type: 2}
+  switchToSet:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 689bed302443d7f409411f9db67175d7, type: 2}
 --- !u!212 &7422579168938237440
 SpriteRenderer:
   m_ObjectHideFlags: 0
