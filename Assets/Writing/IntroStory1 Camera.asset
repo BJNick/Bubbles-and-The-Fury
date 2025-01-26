@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcdcd3351ade6264aae153020450f7dc, type: 3}
+  m_Name: IntroStory1 Camera
+  m_EditorClassIdentifier: 
+  text: "Hey, can you hear me? Your camera is looking good\u2014I can see everything.
+    Alright buddy, this is it. Time to make treasure hunting history. Er, 'salvage,'
+    history."
+  audio:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 03f141b6980097e4894fcdd184396cda, type: 2}
+  duration: 10
+  image: {fileID: 21300000, guid: 2806b92377dba7041a41badad23906a2, type: 3}
+  treasureEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 04214f4b953a5174983d35be23f095e7, type: 2}
+  isTreasure: 0
