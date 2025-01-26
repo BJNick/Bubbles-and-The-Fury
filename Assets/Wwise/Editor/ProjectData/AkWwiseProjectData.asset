@@ -359,7 +359,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 821f11a561081549b359c60d75920656
     GuidInternal: 
-    m_lastTime: -8584637535483480852
+    m_lastTime: -8584637527283183813
     List:
     - name: mus_climax
       guid: 3cc4c011eeb80141955cae6c31bc9d11
@@ -553,8 +553,8 @@ MonoBehaviour:
         guid: 7174b742ef0bbb4691875ee0b8495ea5
       Path: Events/Default Work Unit/SFX/sfx_death
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 4.9816666
+      minDuration: 4.7896667
     - name: sfx_playerswim
       guid: dca5166454c1b64f97b86139d5c2e4c4
       id: 3380990982
@@ -593,8 +593,8 @@ MonoBehaviour:
         guid: ccb5a4ce84f10f448bd157ac6f3079d9
       Path: Events/Default Work Unit/SFX/sfx_treasure
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 4.6053333
+      minDuration: 4.6053333
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:

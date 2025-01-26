@@ -272,6 +272,128 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Death Container" ID="{BB267F5C-F87C-45C7-A760-250F92857810}" ShortID="98461483">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{442EB86E-E24B-47E1-81EF-D875CCCAF7D2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B5BF60A-F22A-4C17-B3E6-E04036E3186D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="death1" ID="{47079F67-4972-4BF6-B660-E7F4A765BA7A}" ShortID="1067294538">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{442EB86E-E24B-47E1-81EF-D875CCCAF7D2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B5BF60A-F22A-4C17-B3E6-E04036E3186D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="death1" ID="{2EBE6600-A12C-4B6F-9D4A-5F69D89B0E8A}">
+									<Language>SFX</Language>
+									<AudioFile>death1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="447684868"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="death1" ID="{2EBE6600-A12C-4B6F-9D4A-5F69D89B0E8A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="death2" ID="{63406D9C-9500-43CF-9C92-612DBEB55D85}" ShortID="214874586">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{442EB86E-E24B-47E1-81EF-D875CCCAF7D2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B5BF60A-F22A-4C17-B3E6-E04036E3186D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="death2" ID="{8415202B-0C5C-46B3-B50A-25A43DAEA93E}">
+									<Language>SFX</Language>
+									<AudioFile>death2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="803625038"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="death2" ID="{8415202B-0C5C-46B3-B50A-25A43DAEA93E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="death3" ID="{F2827806-5943-405C-878D-569A3BCBB0E4}" ShortID="724748954">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{442EB86E-E24B-47E1-81EF-D875CCCAF7D2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B5BF60A-F22A-4C17-B3E6-E04036E3186D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="death3" ID="{62EB64A6-5913-40DE-97F1-8666162DBB05}">
+									<Language>SFX</Language>
+									<AudioFile>death3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="713805700"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="death3" ID="{62EB64A6-5913-40DE-97F1-8666162DBB05}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="death4" ID="{7C2F6E7F-40A3-4CF0-89AA-325D2A48BD93}" ShortID="707482919">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{442EB86E-E24B-47E1-81EF-D875CCCAF7D2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B5BF60A-F22A-4C17-B3E6-E04036E3186D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="death4" ID="{1D0BD529-D77B-4804-90ED-A7B893ED6C7B}">
+									<Language>SFX</Language>
+									<AudioFile>death4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="141846178"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="death4" ID="{1D0BD529-D77B-4804-90ED-A7B893ED6C7B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="Treasure Collect" ID="{7885889C-D654-49B9-B45A-EAB8E8E46879}" ShortID="87232998">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{442EB86E-E24B-47E1-81EF-D875CCCAF7D2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B5BF60A-F22A-4C17-B3E6-E04036E3186D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="treasurecollect" ID="{FA60DAC8-7D1F-4210-B753-4B0DCA5BBC89}">
+							<Language>SFX</Language>
+							<AudioFile>treasurecollect.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="52780276"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="treasurecollect" ID="{FA60DAC8-7D1F-4210-B753-4B0DCA5BBC89}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
