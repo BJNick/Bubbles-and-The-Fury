@@ -18,7 +18,7 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: a87ea8dff1b7d04458958bb60465b319, type: 2}
   duration: 10
-  image: {fileID: 21300000, guid: 2806b92377dba7041a41badad23906a2, type: 3}
+  image: {fileID: 7913778823603357859, guid: b049a464fda27ed41a7e047f5fb3a086, type: 3}
   treasureEvent:
     idInternal: 0
     valueGuidInternal: 
