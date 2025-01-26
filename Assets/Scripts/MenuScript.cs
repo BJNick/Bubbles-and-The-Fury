@@ -1,11 +1,11 @@
 using UnityEditor;
-using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuScript : MonoBehaviour
 {
-    public SceneAsset sceneAsset;
-    public SceneAsset menu;
+    public int mainSceneIndex = 1;
+    public int menuSceneIndex = 0;
 
     public bool enableEscapeMenu = false;
     public GameObject escapeMenu;
@@ -31,10 +31,11 @@ public class MenuScript : MonoBehaviour
     }
 
     public void StartGame() {
-        if (sceneAsset != null) {
-            Debug.Log("Loading scene: " + sceneAsset.name);
-            UnityEditor.SceneManagement.EditorSceneManager.LoadScene(sceneAsset.name);
-        }
+        
+            Time.timeScale = 1.0f;
+         // Load the main scene
+        SceneManager.LoadScene(mainSceneIndex);
+        
     }
 
     public void Quit() {
@@ -50,10 +51,9 @@ public class MenuScript : MonoBehaviour
     }
 
     public void MainMenu() {
-        if (menu != null) {
-            Debug.Log("Loading scene: " + menu.name);
-            UnityEditor.SceneManagement.EditorSceneManager.LoadScene(menu.name);
-        }
+            Time.timeScale = 1.0f;
+        SceneManager.LoadScene(menuSceneIndex);
+        
     }
 
     public void Unpause() {
