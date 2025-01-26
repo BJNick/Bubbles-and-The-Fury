@@ -64,7 +64,7 @@ MonoBehaviour:
   oxygenLevel: 10
   maxOxygenLevel: 10
   maxBarSize: 1080
-  oxygenDropRate: 1
+  oxygenDropRate: 5
   barWidth: 50
   isDying: 0
   deathEvent:
