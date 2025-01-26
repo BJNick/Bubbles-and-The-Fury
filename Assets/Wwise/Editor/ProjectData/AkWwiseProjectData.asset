@@ -359,7 +359,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 821f11a561081549b359c60d75920656
     GuidInternal: 
-    m_lastTime: -8584637505585695144
+    m_lastTime: -8584637488195404496
     List:
     - name: Dialogue
       guid: f786fd2979348f4e8715cf1960c7883d
@@ -374,7 +374,7 @@ MonoBehaviour:
       - ElementName: Dialogue
         ObjectType: 4
         guid: f786fd2979348f4e8715cf1960c7883d
-      Path: Events/Default Work Unit/Dialogue
+      Path: Events\Default Work Unit\Dialogue
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -628,7 +628,7 @@ MonoBehaviour:
       - ElementName: Treasure1
         ObjectType: 3
         guid: c6840f132ae27240bdf8f102e2a8b92a
-      Path: Events/Default Work Unit/Dialogue/Treasure1
+      Path: Events\Default Work Unit\Dialogue\Treasure1
       maxAttenuation: 0
       maxDuration: 1.52275
       minDuration: 1.52275
