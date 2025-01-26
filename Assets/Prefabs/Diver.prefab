@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bc3bd32493b2b04f88fc06cc402bcc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  swimSpeed: 7
+  swimSpeed: 35
   turnSpeed: 15
   swimEvent:
     idInternal: 0

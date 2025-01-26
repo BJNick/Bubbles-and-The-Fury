@@ -26,7 +26,7 @@ public class DiverController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
 
         var h = Input.GetAxis("Horizontal");
@@ -43,7 +43,7 @@ public class DiverController : MonoBehaviour
         // Smoothly adjust direction to match controls using Mathf.LerpAngle
         var controlsAngle = Mathf.Atan2(controlsDir.y, controlsDir.x) * Mathf.Rad2Deg;
         if (controlsDir.magnitude > 0.1f) {
-            var angle = Mathf.LerpAngle(transform.eulerAngles.z, controlsAngle, Time.deltaTime * turnSpeed); 
+            var angle = Mathf.LerpAngle(transform.eulerAngles.z, controlsAngle, Time.fixedDeltaTime * turnSpeed); 
             rb.MoveRotation(angle);
 
             if (Time.time - lastSwimEventTime > swimEventInterval && swimEventInterval > 0f) {
