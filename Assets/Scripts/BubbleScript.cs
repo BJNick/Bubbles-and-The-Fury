@@ -4,6 +4,8 @@ public class BubbleScript : MonoBehaviour
 {
     public float oxygenAmount = 10.0f;
 
+    public AK.Wwise.Event bubblePopEvent;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,6 +21,7 @@ public class BubbleScript : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.CompareTag("Player") && OxygenOverlay.instance != null) {
             OxygenOverlay.instance.AddOxygen(oxygenAmount);
+            bubblePopEvent.Post(gameObject);
             Destroy(gameObject);
         }
     }

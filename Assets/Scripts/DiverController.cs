@@ -8,6 +8,12 @@ public class DiverController : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    public AK.Wwise.Event swimEvent;
+
+    public float swimEventInterval = 1.0f;
+
+    private float lastSwimEventTime = 0.0f;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -28,6 +34,11 @@ public class DiverController : MonoBehaviour
         if (controlsDir.magnitude > 0.1f) {
             var angle = Mathf.LerpAngle(transform.eulerAngles.z, controlsAngle, Time.deltaTime * turnSpeed); 
             rb.MoveRotation(angle);
+
+            if (Time.time - lastSwimEventTime > swimEventInterval) {
+                swimEvent.Post(gameObject);
+                lastSwimEventTime = Time.time;
+            }
         }
 
         // Move the diver

@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 5673828042461778864}
   - component: {fileID: 5021648857918845404}
   - component: {fileID: 8035500546594755455}
+  - component: {fileID: 8967035106313452284}
   m_Layer: 0
   m_Name: Diver
   m_TagString: Player
@@ -200,3 +201,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &8967035106313452284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8968003962018083815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eaed5587eb11445798b906cc9e3fca3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
