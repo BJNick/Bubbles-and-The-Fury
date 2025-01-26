@@ -1,206 +1,206 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Web" BasePlatform="Web" SchemaVersion="16" SoundBankVersion="154">
 	<SoundBanks>
-		<SoundBank Id="2113579301" Type="User" GUID="{388691ED-56EC-4966-9B29-BBB7031BD638}" Language="SFX" Hash="{23F350F3-FB46-5136-10D4-7924A4EDBCDA}">
+		<SoundBank Id="2113579301" Type="User" GUID="{388691ED-56EC-4966-9B29-BBB7031BD638}" Language="SFX" Hash="{3CD17BFA-B075-4ED3-D71B-A9ABA9D0109D}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Bubble_Soundbank</ObjectPath>
 			<ShortName>Bubble_Soundbank</ShortName>
 			<Path>Bubble_Soundbank.bnk</Path>
 			<Media>
 				<File Id="23619031" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>bubble5.wav</ShortName>
-					<CachePath>62/{62ACB619-A01B-B1A3-893F-FD39AA1D40E0}.wem</CachePath>
+					<CachePath>D6/{D61867B0-AC99-9B04-6E5C-7153037CD1B5}.wem</CachePath>
 				</File>
 				<File Id="28799991" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>mus_climax.wav</ShortName>
-					<CachePath>AE/{AEBC820F-B5D3-7C6C-A52D-F8F3A3C2EE87}.wem</CachePath>
+					<CachePath>C4/{C4BCE18A-64FF-3675-D1E8-7CD5B5DB04B4}.wem</CachePath>
 				</File>
 				<File Id="38019460" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DIA_TreasureBone.wav</ShortName>
-					<CachePath>B5/{B572FED8-BF43-5BCE-4EFB-DD0F5F8EB144}.wem</CachePath>
+					<CachePath>4D/{4D72F76A-123B-FAC6-A567-2D34DB400ECF}.wem</CachePath>
 				</File>
 				<File Id="52780276" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>treasurecollect.wav</ShortName>
-					<CachePath>FB/{FBAB5D5A-8C05-4E21-1463-4EFC4CEF5186}.wem</CachePath>
+					<CachePath>7C/{7C15E39B-7DFF-5924-9CEF-3BBAA88CE8DB}.wem</CachePath>
 				</File>
 				<File Id="84053918" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DIA_EscapeStory3.wav</ShortName>
-					<CachePath>F6/{F667E574-4E16-B26F-11C7-A521A6521583}.wem</CachePath>
+					<CachePath>A5/{A5386D2B-2013-D946-C888-EA8722782874}.wem</CachePath>
 				</File>
 				<File Id="113809804" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DIA_TensionStory4.wav</ShortName>
-					<CachePath>B3/{B35EAC33-DDB3-9004-F135-62983E78FB20}.wem</CachePath>
+					<CachePath>E4/{E46E5399-45B7-5C80-F6D5-A1D97F644A05}.wem</CachePath>
 				</File>
 				<File Id="117564831" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>bubble1.wav</ShortName>
-					<CachePath>92/{92E8AAB7-C30A-A1C4-5F84-E7890C82C314}.wem</CachePath>
+					<CachePath>0A/{0ADDE576-4F99-454B-225E-3A2C357F3B61}.wem</CachePath>
 				</File>
 				<File Id="137290248" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DIA_IntroStory1.wav</ShortName>
-					<CachePath>0D/{0DD0B1CF-8485-7538-02EF-AC14D11D84CF}.wem</CachePath>
+					<CachePath>1A/{1A5CF7A2-9DA6-B93D-B126-B19480EACC9E}.wem</CachePath>
 				</File>
 				<File Id="141846178" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>death4.wav</ShortName>
-					<CachePath>A6/{A6DDCF60-6F03-5898-A418-F72EA52F0AA2}.wem</CachePath>
+					<CachePath>10/{1045FB7B-46B4-31A7-24C6-4D9425BE0D60}.wem</CachePath>
 				</File>
 				<File Id="188100363" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>mus_escape2.wav</ShortName>
-					<CachePath>B7/{B7D14F46-0F18-71BC-42AA-57B3CB43C5D1}.wem</CachePath>
+					<CachePath>D5/{D5BD1F01-57FF-155D-06D5-17FF4A529766}.wem</CachePath>
 				</File>
 				<File Id="189918433" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DIA_TreasureGemstone.wav</ShortName>
-					<CachePath>BE/{BE8676E2-FA9B-DCA5-2C4D-A6C958A488B2}.wem</CachePath>
+					<CachePath>8A/{8A1A3B40-6FC6-F231-BC8F-79660D988918}.wem</CachePath>
 				</File>
 				<File Id="209579184" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>hit1.wav</ShortName>
-					<CachePath>21/{21D9980D-E324-DF90-9080-99AFF02940C8}.wem</CachePath>
+					<CachePath>23/{23ED44F8-21F5-03AE-EC2D-A4D1C5D3A175}.wem</CachePath>
 				</File>
 				<File Id="228370953" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>swim3.wav</ShortName>
-					<CachePath>47/{4748A4AE-D4A8-BFF1-91AC-944FFA9E42B5}.wem</CachePath>
+					<CachePath>75/{758C2EB6-D5DE-F544-31AD-3783EC000458}.wem</CachePath>
 				</File>
 				<File Id="267533370" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DIA_TensionStory3.wav</ShortName>
-					<CachePath>2D/{2D05BEA2-861B-7E9A-49D1-93ABF7A0522C}.wem</CachePath>
+					<CachePath>9D/{9D4200DF-22E6-D640-98ED-52CF85989C02}.wem</CachePath>
 				</File>
 				<File Id="284181332" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DIA_Victory.wav</ShortName>
-					<CachePath>33/{3302B1C0-9DA7-2F66-A2D6-F4F72808362B}.wem</CachePath>
+					<CachePath>C7/{C7660567-8CCE-2987-B604-8989C884F579}.wem</CachePath>
 				</File>
 				<File Id="333374655" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>hit3.wav</ShortName>
-					<CachePath>EF/{EF5E5818-C933-ECED-7BA4-DA8FD3D79E6E}.wem</CachePath>
+					<CachePath>77/{7776BC52-7E2C-20C0-9823-0CDDFBD6E2AB}.wem</CachePath>
 				</File>
 				<File Id="361976837" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>mus_escape1.wav</ShortName>
-					<CachePath>8B/{8BE8BCFB-D7CE-D172-7258-87B733977030}.wem</CachePath>
+					<CachePath>3C/{3C107818-E350-7D49-B3B6-6C351CBA23D7}.wem</CachePath>
 				</File>
 				<File Id="428611991" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>swim5.wav</ShortName>
-					<CachePath>22/{22F46C68-80C9-ECA9-3F19-178B0F9CCD29}.wem</CachePath>
+					<CachePath>B9/{B98E8437-FF70-AA8B-C1E8-7F741521788C}.wem</CachePath>
 				</File>
 				<File Id="438753714" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DIA_IntroStory2.wav</ShortName>
-					<CachePath>FF/{FF3186E7-0AA3-7D03-9DD9-D144B209C101}.wem</CachePath>
+					<CachePath>DE/{DEF2CA1C-3605-B803-87B0-02005BF3F9D5}.wem</CachePath>
 				</File>
 				<File Id="447684868" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>death1.wav</ShortName>
-					<CachePath>85/{85A3DF91-329E-B4D7-3860-5F757321E5B8}.wem</CachePath>
+					<CachePath>5A/{5A199C20-ADF1-A746-1887-AF914A91D7D2}.wem</CachePath>
 				</File>
 				<File Id="479424745" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>hit4.wav</ShortName>
-					<CachePath>64/{6445D6E1-FB50-BD62-9187-139DD075D45B}.wem</CachePath>
+					<CachePath>C2/{C2D24064-5832-8B93-704C-0DDFE50C05C3}.wem</CachePath>
 				</File>
 				<File Id="497263798" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>bubble4.wav</ShortName>
-					<CachePath>B9/{B90EFDFA-47C0-58C9-9C8C-4B92A6A7AD81}.wem</CachePath>
+					<CachePath>A1/{A12CC008-044F-12AD-6B94-9571B5858E2D}.wem</CachePath>
 				</File>
 				<File Id="499008946" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>bubble6.wav</ShortName>
-					<CachePath>83/{83AACCDD-2198-3459-2B34-4662A9A56B54}.wem</CachePath>
+					<CachePath>8D/{8D0C37A0-73AD-8683-D5FF-1465E461FDE1}.wem</CachePath>
 				</File>
 				<File Id="503446267" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>swim2.wav</ShortName>
-					<CachePath>6C/{6C86BD6D-00BC-3A54-D2D5-21CA1221666F}.wem</CachePath>
+					<CachePath>92/{92D11973-C2F5-6211-B332-8F3B2CF25567}.wem</CachePath>
 				</File>
 				<File Id="510167254" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DIA_TreasureDoubloon.wav</ShortName>
-					<CachePath>BF/{BF112155-3E05-CC19-992E-CDF2CC048AB9}.wem</CachePath>
+					<CachePath>64/{64CAE59C-F7E7-4B58-C471-87A789D7E079}.wem</CachePath>
 				</File>
 				<File Id="510961015" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>mus_intro.wav</ShortName>
-					<CachePath>83/{83F6D6F1-9D6C-B416-BEBD-59FEFEEC97D8}.wem</CachePath>
+					<CachePath>FB/{FB57F4A1-F70D-D988-FE88-14ECA4C23B87}.wem</CachePath>
 				</File>
 				<File Id="523269430" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>swim1.wav</ShortName>
-					<CachePath>3D/{3D886BFC-C51C-ACBB-7DB0-4E944B0883D4}.wem</CachePath>
+					<CachePath>E4/{E4FBA994-2E2D-BD19-E458-8BA4B03057AA}.wem</CachePath>
 				</File>
 				<File Id="551334125" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>mus_menu2.wav</ShortName>
-					<CachePath>3E/{3E0E222A-8B0F-6D55-FF77-C4D8A184BA38}.wem</CachePath>
+					<CachePath>F0/{F0F48E86-EC6A-F9C2-157D-30B57B170DD4}.wem</CachePath>
 				</File>
 				<File Id="553233666" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DIA_TensionStory2.wav</ShortName>
-					<CachePath>1A/{1AB7A0A8-4115-2B8B-E6AC-FE8A32814723}.wem</CachePath>
+					<CachePath>25/{25471660-F8E1-58BA-B6A8-58965CDA2745}.wem</CachePath>
 				</File>
 				<File Id="559567009" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DIA_SharkWarning.wav</ShortName>
-					<CachePath>1E/{1EE81B41-C9C3-323B-68EE-61D26BB4767C}.wem</CachePath>
+					<CachePath>AD/{ADBD53EA-BF50-E4D2-10C3-C88D86AB4B02}.wem</CachePath>
 				</File>
 				<File Id="569997377" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DIA_TreasureHat.wav</ShortName>
-					<CachePath>00/{0016EDDD-558F-A1B4-0B28-3E2706200BEA}.wem</CachePath>
+					<CachePath>31/{3125D0F0-A49E-5468-B844-81640E8CE79F}.wem</CachePath>
 				</File>
 				<File Id="601516594" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DIA_TreasureCutlass.wav</ShortName>
-					<CachePath>FF/{FF05E742-7CAC-C0B0-4D18-B1C5CF100ADF}.wem</CachePath>
+					<CachePath>72/{7281081B-5CBF-EEA0-5BA1-4D5FE5DC3A6D}.wem</CachePath>
 				</File>
 				<File Id="606636696" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DIA_TreasureFlintlock.wav</ShortName>
-					<CachePath>1D/{1D9C7635-D367-9EB1-7199-A7D62CED9071}.wem</CachePath>
+					<CachePath>3E/{3E89BFEC-D701-A4A6-6CD8-4FF2C17E8320}.wem</CachePath>
 				</File>
 				<File Id="693662072" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>bubble2.wav</ShortName>
-					<CachePath>58/{58E4C907-246B-92A5-22D7-39953C1E93ED}.wem</CachePath>
+					<CachePath>B8/{B816F8F5-1656-51A9-108B-7FDBE2C31942}.wem</CachePath>
 				</File>
 				<File Id="703808786" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DIA_EscapeStory1.wav</ShortName>
-					<CachePath>CB/{CBB7D1B7-4651-57F5-B249-CE2B26035E2E}.wem</CachePath>
+					<CachePath>C5/{C5D50572-C590-C45C-42CB-AB86AB1056C5}.wem</CachePath>
 				</File>
 				<File Id="713805700" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>death3.wav</ShortName>
-					<CachePath>39/{39FDB36F-3151-5AC9-4A2F-3AEEB6D969B4}.wem</CachePath>
+					<CachePath>D2/{D21A70EF-C407-9D5C-3647-5B8D13D67DA6}.wem</CachePath>
 				</File>
 				<File Id="769289019" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>VOICE of God - Game Phrase - Are You Ready, DRY.wav</ShortName>
-					<CachePath>80/{809AC2DC-811F-059B-E95B-C5240EDB70A3}.wem</CachePath>
+					<CachePath>AE/{AEA6A931-7E33-21BE-0B75-31E67129F771}.wem</CachePath>
 				</File>
 				<File Id="793076629" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>swim4.wav</ShortName>
-					<CachePath>8B/{8B59AA7D-5744-8FA1-33BB-C6E20F8D90BE}.wem</CachePath>
+					<CachePath>0E/{0E342110-682B-0F55-81E6-563C33375091}.wem</CachePath>
 				</File>
 				<File Id="803625038" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>death2.wav</ShortName>
-					<CachePath>37/{37D50EDF-8793-C473-AF75-454E0B28E68B}.wem</CachePath>
+					<CachePath>A9/{A9851D16-0A12-FC82-AE2E-8C19D2AD7138}.wem</CachePath>
 				</File>
 				<File Id="812156402" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DIA_EscapeStory2.wav</ShortName>
-					<CachePath>D5/{D5E13DC7-5458-CB36-D8F1-41526354D9AC}.wem</CachePath>
+					<CachePath>DD/{DD0BC371-1A83-568C-244F-41666B03E1AD}.wem</CachePath>
 				</File>
 				<File Id="816680975" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DIA_IntroStory4.wav</ShortName>
-					<CachePath>B7/{B76795B6-8750-4930-2D76-5E763EA9328F}.wem</CachePath>
+					<CachePath>94/{94F47A21-67B9-F6DB-2763-88B69EB3AE2E}.wem</CachePath>
 				</File>
 				<File Id="844575640" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>bubble3.wav</ShortName>
-					<CachePath>63/{6317E8E0-0EFA-D1A1-1F7E-64737DDE8E85}.wem</CachePath>
+					<CachePath>5A/{5A2FF951-9096-8718-E091-7DDA6D591DB8}.wem</CachePath>
 				</File>
 				<File Id="847452943" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>hit2.wav</ShortName>
-					<CachePath>89/{89A57E9E-0A85-5193-C4DF-4FBF51ED90C1}.wem</CachePath>
+					<CachePath>62/{62858DD4-7763-D85B-FA2E-6BFEF015D706}.wem</CachePath>
 				</File>
 				<File Id="901797702" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DIA_TreasureShipwreck.wav</ShortName>
-					<CachePath>A1/{A1338E39-2E16-DE1D-D287-5F753690E241}.wem</CachePath>
+					<CachePath>97/{97FBE354-2D3F-E616-7633-D8FB4D39942D}.wem</CachePath>
 				</File>
 				<File Id="905374160" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DIA_TensionStory1.wav</ShortName>
-					<CachePath>94/{9439638F-317E-C15F-8C61-CFE8B0BC6B15}.wem</CachePath>
+					<CachePath>C9/{C921CB06-4641-D905-A00F-64FCC8B47E4A}.wem</CachePath>
 				</File>
 				<File Id="963635366" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>mus_tension.wav</ShortName>
-					<CachePath>73/{73DA2C9F-0BC1-54BB-CF7E-DEE7EF5B7805}.wem</CachePath>
+					<CachePath>8E/{8EC39935-5625-DDD7-5065-C76012358374}.wem</CachePath>
 				</File>
 				<File Id="985948138" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DIA_JellyWarning.wav</ShortName>
-					<CachePath>1C/{1C84E84F-B755-015D-606E-75745A8C230B}.wem</CachePath>
+					<CachePath>65/{656F2ED2-3846-4212-9D82-704F69D6F84C}.wem</CachePath>
 				</File>
 				<File Id="1033213824" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DIA_IntroStory3.wav</ShortName>
-					<CachePath>A8/{A8CD6F43-D631-17F8-40BB-88AC875BB13C}.wem</CachePath>
+					<CachePath>2D/{2D6DB0AF-7DE7-33D3-E5A2-DFF7EBAC751D}.wem</CachePath>
 				</File>
 				<File Id="1046193709" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DIA_ClimaxStory1.wav</ShortName>
-					<CachePath>8C/{8CEEBF10-37E4-78E6-4C27-B2AEF98F5808}.wem</CachePath>
+					<CachePath>C4/{C488C759-1A38-B696-E819-5F64F557F173}.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -549,5 +549,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B5600C07-B677-9FC4-E049-558C29DA8A46}</FileHash>
+	<FileHash>{508ED5F4-998D-76AC-2D20-068132E1F16C}</FileHash>
 </SoundBanksInfo>

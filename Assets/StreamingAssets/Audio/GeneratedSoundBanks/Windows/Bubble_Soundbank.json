@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{388691ED-56EC-4966-9B29-BBB7031BD638}",
     "Language": "SFX",
-    "Hash": "{23F350F3-FB46-5136-10D4-7924A4EDBCDA}",
+    "Hash": "{D3A2C3D0-5EAC-D38B-AE4D-CB995A7D636A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Bubble_Soundbank",
     "ShortName": "Bubble_Soundbank",
     "Path": "Bubble_Soundbank.bnk",
@@ -1195,6 +1195,6 @@
     ]
    }
   ],
-  "FileHash": "{949B8DEF-38C7-F2FC-72FB-4B71BA117E26}"
+  "FileHash": "{F6A18FC7-FF0D-41FC-D2CA-0B763399906D}"
  }
 }

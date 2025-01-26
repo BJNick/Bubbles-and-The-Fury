@@ -375,8 +375,7 @@
 															<MusicFade Name="Destination Fade-in" ID="{4BEED346-EE0D-4E34-B8EC-8938C2FFC066}">
 																<PropertyList>
 																	<Property Name="FadeCurve" Type="int16" Value="6"/>
-																	<Property Name="FadeOffset" Type="Real64" Value="6"/>
-																	<Property Name="FadeTime" Type="Real64" Value="2"/>
+																	<Property Name="FadeOffset" Type="Real64" Value="2"/>
 																</PropertyList>
 															</MusicFade>
 														</DestinationFadeIn>

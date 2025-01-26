@@ -189,7 +189,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="2113579301" Type="User" GUID="{388691ED-56EC-4966-9B29-BBB7031BD638}" Language="SFX" Hash="{23F350F3-FB46-5136-10D4-7924A4EDBCDA}">
+		<SoundBank Id="2113579301" Type="User" GUID="{388691ED-56EC-4966-9B29-BBB7031BD638}" Language="SFX" Hash="{D3A2C3D0-5EAC-D38B-AE4D-CB995A7D636A}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Bubble_Soundbank</ObjectPath>
 			<ShortName>Bubble_Soundbank</ShortName>
 			<Path>Bubble_Soundbank.bnk</Path>
@@ -737,5 +737,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8927DA6E-346B-1973-B900-98F3E5DD3B34}</FileHash>
+	<FileHash>{0AAC74DC-3AE5-CC48-63BB-C7EE594DD8B5}</FileHash>
 </SoundBanksInfo>
