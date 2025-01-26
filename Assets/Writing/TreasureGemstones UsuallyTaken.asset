@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcdcd3351ade6264aae153020450f7dc, type: 3}
   m_Name: TreasureGemstones UsuallyTaken
   m_EditorClassIdentifier: 
-  text: "Classic flintlock pistol\u2014priceless artifact. Good find!"
+  text: "Gemstones! Diamonds, emeralds\u2014usually luxury items taken from passengers
+    and pedestrians."
   audio:
     idInternal: 0
     valueGuidInternal: 

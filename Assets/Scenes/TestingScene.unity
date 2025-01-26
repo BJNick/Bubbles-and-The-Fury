@@ -2359,6 +2359,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameplayMusicTrigger
       objectReference: {fileID: 0}
+    - target: {fileID: 2294385872115831554, guid: 5c98f09ed8ece7b41b18b8ef387b3459, type: 3}
+      propertyPath: testEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 503934ba8e6b2d34c824590885050520, type: 2}
+    - target: {fileID: 2294385872115831554, guid: 5c98f09ed8ece7b41b18b8ef387b3459, type: 3}
+      propertyPath: testSwitch.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2372,6 +2380,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2037241778574308330, guid: 9fb86640e9934f447a8a687d87d3fa65, type: 3}
+      propertyPath: oxygenDropRate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3996012162233426187, guid: 9fb86640e9934f447a8a687d87d3fa65, type: 3}
       propertyPath: m_Pivot.x
       value: 0
