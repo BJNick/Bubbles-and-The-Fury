@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      electric-particle_0: -4543722120760453100
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
