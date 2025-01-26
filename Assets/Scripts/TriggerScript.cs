@@ -7,6 +7,10 @@ public class TriggerScript : MonoBehaviour
 
     public AK.Wwise.Switch switchToSet;
 
+    public float lightIntensity = -1;
+
+    public Color lightColor = Color.white;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -28,6 +32,10 @@ public class TriggerScript : MonoBehaviour
             if (switchToSet != null) {
                 switchToSet.SetValue(WwiseTest.instance.gameObject);
                 Debug.Log("Set switch");
+            }
+            if (lightIntensity >= 0) {
+                GlobalLights.instance.SetIntensity(lightIntensity);
+                GlobalLights.instance.SetColor(lightColor);
             }
             Destroy(gameObject);
         }
