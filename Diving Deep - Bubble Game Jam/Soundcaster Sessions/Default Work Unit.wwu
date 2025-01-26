@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{081CB367-F8C9-493A-813E-9F6BB8943A32}" SchemaVersion="123">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{081CB367-F8C9-493A-813E-9F6BB8943A32}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{081CB367-F8C9-493A-813E-9F6BB8943A32}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Mix Testing" ID="{15C90B15-597A-41BB-A4F2-A0A6380ECD0B}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="DIA_JellyWarning" ID="{832874D7-0FA5-4DF4-9B6F-03CB7C137144}" WorkUnitID="{A5111F82-0861-4915-B359-C60D75920656}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="mus_gameplay" ID="{5EC9358E-5CFD-4031-B6BA-50C6D6ECF815}" WorkUnitID="{A5111F82-0861-4915-B359-C60D75920656}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_treasure" ID="{CEA4B5CC-F184-440F-8BD1-57AC6F3079D9}" WorkUnitID="{A5111F82-0861-4915-B359-C60D75920656}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="DIA_TreasureDoubloon" ID="{98BDA879-FB43-459C-98C5-702D638E5454}" WorkUnitID="{A5111F82-0861-4915-B359-C60D75920656}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_death" ID="{42B77471-0BEF-46BB-9187-5EE0B8495EA5}" WorkUnitID="{A5111F82-0861-4915-B359-C60D75920656}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="DIA_IntroStory3" ID="{3DAF5DA2-8911-450D-AEEA-4C86E4850ED6}" WorkUnitID="{A5111F82-0861-4915-B359-C60D75920656}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_playerinjury" ID="{FF638F23-9A9C-4802-A9DC-8F170417D6C2}" WorkUnitID="{A5111F82-0861-4915-B359-C60D75920656}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_bubble" ID="{5DC7A277-1CC1-4C19-8192-4B4781A90452}" WorkUnitID="{A5111F82-0861-4915-B359-C60D75920656}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_playerswim" ID="{6416A5DC-C154-4FB6-97B8-6139D5C2E4C4}" WorkUnitID="{A5111F82-0861-4915-B359-C60D75920656}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Escape" ID="{6026294E-613C-41A8-AFFC-CD5995C20F25}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

@@ -145,6 +145,260 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="DiaStory" ID="{FD251EC2-E154-4884-9629-0E1C45EDDCDE}" ShortID="404373151">
+							<ChildrenList>
+								<Event Name="DIA_ClimaxStory1" ID="{677161F4-BED3-4E82-9B46-4BB1B48636A0}">
+									<ChildrenList>
+										<Action Name="" ID="{D80DD773-315E-4CBC-9BB3-46008FDF161F}" ShortID="421588656">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIA_ClimaxStory1" ID="{7850A360-C0C7-4E2F-8979-1334FB90ECCD}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DIA_EscapeStory1" ID="{52319B6A-80A9-4AAF-8DF6-680A9B381C23}">
+									<ChildrenList>
+										<Action Name="" ID="{E31FAB11-B7FD-4A24-8218-455071CC446E}" ShortID="10623866">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIA_EscapeStory1" ID="{8289CA6C-B8FC-484A-8706-FB8513F8E0CF}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DIA_EscapeStory2" ID="{E158227A-BAEF-4EA7-9A75-4981D648E5BB}">
+									<ChildrenList>
+										<Action Name="" ID="{7AB14D0D-5690-4AE2-8383-43E5A3F5F500}" ShortID="40208233">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIA_EscapeStory2" ID="{7B01E636-4E7B-4ED4-AFEA-A10080B3ABAF}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DIA_EscapeStory3" ID="{DC851789-49EF-410C-93FA-68BE0029BA41}">
+									<ChildrenList>
+										<Action Name="" ID="{D455455A-A0E5-4319-A27D-0CF1548D224F}" ShortID="889816330">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIA_EscapeStory3" ID="{F0565685-738F-40CD-9B96-15F071E631D0}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DIA_IntroStory1" ID="{60F17DC2-C972-48E7-AE64-94D2CB9EEF2B}">
+									<ChildrenList>
+										<Action Name="" ID="{B53EF4D3-6603-40D4-A9A6-728CEF4624D9}" ShortID="425578912">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIA_IntroStory1" ID="{B729F06B-BAF0-4CEA-A40F-5F3CBD0A7639}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DIA_IntroStory2" ID="{4C53C907-B14F-4A96-83E6-9075AEEC7DCA}">
+									<ChildrenList>
+										<Action Name="" ID="{B4B353B4-F9FE-4AF1-A284-7A45870E0D5C}" ShortID="878014687">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIA_IntroStory2" ID="{02BCABC2-9456-4983-99A2-51C83E3AC3CB}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DIA_IntroStory3" ID="{3DAF5DA2-8911-450D-AEEA-4C86E4850ED6}">
+									<ChildrenList>
+										<Action Name="" ID="{5E89382A-264B-4EBE-B058-8DF75F94A787}" ShortID="1039138941">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIA_IntroStory3" ID="{5B92D06A-4B80-4BED-8C9B-08EB8BE8AE68}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DIA_IntroStory4" ID="{66E9AB20-FD40-495E-9594-E3FFFB5C1B8F}">
+									<ChildrenList>
+										<Action Name="" ID="{5C4934CB-A52E-4CBF-9789-61B707985BFD}" ShortID="286308081">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIA_IntroStory4" ID="{7186EDAA-583A-4B32-8778-E5A74E9ABA6C}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DIA_TensionStory1" ID="{C2918111-8C4F-461A-8772-005267602DD9}">
+									<ChildrenList>
+										<Action Name="" ID="{F153A711-8D3A-4B17-885B-BFB8C94A7008}" ShortID="671839948">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIA_TensionStory1" ID="{F9F2F9F2-0EE3-4004-A431-B5C1D29AA141}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DIA_TensionStory2" ID="{48BCB02B-6E35-4561-9315-A373CC15252A}">
+									<ChildrenList>
+										<Action Name="" ID="{9BD66529-7D9E-4D0D-B13D-42FF4552E90B}" ShortID="269505763">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIA_TensionStory2" ID="{A26B9B3F-BA34-4B1B-9D3D-1E5CCBA2A633}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DIA_TensionStory3" ID="{2954197E-7576-42C0-9E83-6790889251E7}">
+									<ChildrenList>
+										<Action Name="" ID="{FAD950F1-9306-49D8-A6AD-07EBBFE89798}" ShortID="1024220943">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIA_TensionStory3" ID="{957581D0-0BBC-415A-9B37-3A290D46E77C}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DIA_TensionStory4" ID="{9614F933-C0D1-4FB3-A07E-FC2991A9775E}">
+									<ChildrenList>
+										<Action Name="" ID="{FC4F0CAA-A2CE-4692-9C60-D2AABB29633E}" ShortID="80375328">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIA_TensionStory4" ID="{DBFDFDA3-363D-4B72-BB05-9536CECBD4A4}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="DiaTreasure" ID="{D6AF2E3A-E26F-4AFD-AEB9-72BBABF966F8}" ShortID="78154174">
+							<ChildrenList>
+								<Event Name="DIA_TreasureBone" ID="{CF2A4A98-2A0C-4C02-86E5-D1C342401F3D}">
+									<ChildrenList>
+										<Action Name="" ID="{520114B8-63AF-42F3-8934-C141C8438288}" ShortID="339985080">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIA_TreasureBone" ID="{D05F76CC-E51E-46C2-909F-B497E0EAA9C3}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DIA_TreasureCutlass" ID="{80305032-1E3D-4E87-82F0-192D439401A2}">
+									<ChildrenList>
+										<Action Name="" ID="{5DE55EF3-839E-47EE-9AF9-1284E8211910}" ShortID="462466127">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIA_TreasureCutlass" ID="{F6201748-C2E8-4390-B3B6-F2D98EFA69BE}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DIA_TreasureDoubloon" ID="{98BDA879-FB43-459C-98C5-702D638E5454}">
+									<ChildrenList>
+										<Action Name="" ID="{FFAB1654-89C6-4394-87A7-9EBBDA9AEA17}" ShortID="515355364">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIA_TreasureDoubloon" ID="{3A50C38B-F999-47F8-A9D8-CFFD00C64861}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DIA_TreasureFlintlock" ID="{FDCC5DB5-DB74-4E72-9E18-0897A9ABF12B}">
+									<ChildrenList>
+										<Action Name="" ID="{21D0E761-3668-4CCC-B525-B02CE815F090}" ShortID="604940445">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIA_TreasureFlintlock" ID="{85C312A2-1778-4B84-A252-189D258C2EAE}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DIA_TreasureGemstone" ID="{3F57016E-6A03-4943-9FC5-7F380FDD4E4D}">
+									<ChildrenList>
+										<Action Name="" ID="{61209DA8-BC12-45F5-A9F4-09D094D0D3F4}" ShortID="853118001">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIA_TreasureGemstone" ID="{6D7E3654-4C71-47DB-B182-F51F0B444CC7}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DIA_TreasureHat" ID="{AEC9611F-CC0C-4BA6-B3F0-ADA127EB1DC8}">
+									<ChildrenList>
+										<Action Name="" ID="{3D64A916-5281-4E9C-9161-CF9042F0A41F}" ShortID="764027538">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIA_TreasureHat" ID="{72472E63-A7D2-4A3C-A57E-8106F62F69F4}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DIA_TreasureShipwreck" ID="{8757C746-A685-489B-84F0-6D5A55D060F7}">
+									<ChildrenList>
+										<Action Name="" ID="{9DA87CCC-CAFB-40A5-8943-EFFC8F424117}" ShortID="738594680">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIA_TreasureShipwreck" ID="{AFCEF066-B7D9-4F83-A5EF-F96C9E206C5A}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DIA_Victory" ID="{E666F5D7-5DF0-4571-AAA6-D95DE6FEB9A1}">
+									<ChildrenList>
+										<Action Name="" ID="{2CDE36C4-9583-4C3E-83A9-68E47828C16A}" ShortID="617418249">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIA_Victory" ID="{8132D180-79CC-4AFA-B33C-A204A7E95A82}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="DiaWarning" ID="{3FC6537B-C541-4B48-866A-3F473BDBD7CE}" ShortID="374945624">
+							<ChildrenList>
+								<Event Name="DIA_JellyWarning" ID="{832874D7-0FA5-4DF4-9B6F-03CB7C137144}">
+									<ChildrenList>
+										<Action Name="" ID="{7010AE27-95F4-4148-ADD2-4944C4F8FA18}" ShortID="61124481">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIA_JellyWarning" ID="{2097CF7D-A9CF-40B3-95BB-9418DF98BCCD}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DIA_SharkWarning" ID="{907EDD99-409B-4683-9200-48E0B8D7A3AB}">
+									<ChildrenList>
+										<Action Name="" ID="{D48D7ADF-E580-4DE2-A2D2-683E2F07E942}" ShortID="709096790">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIA_SharkWarning" ID="{6C3BFD29-9AA0-43DD-8DBE-8CF402ADCF0D}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

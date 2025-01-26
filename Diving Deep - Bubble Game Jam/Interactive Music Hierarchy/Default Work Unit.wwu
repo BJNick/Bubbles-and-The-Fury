@@ -9,7 +9,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{442EB86E-E24B-47E1-81EF-D875CCCAF7D2}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B5BF60A-F22A-4C17-B3E6-E04036E3186D}"/>
+							<ObjectRef Name="Music Bus" ID="{0E2943B7-DDFB-49DB-B75C-2CAD1729985F}" WorkUnitID="{2B5BF60A-F22A-4C17-B3E6-E04036E3186D}"/>
 						</Reference>
 						<Reference Name="TransitionRoot">
 							<Custom>
@@ -19,32 +19,11 @@
 									</PropertyList>
 									<ChildrenList>
 										<MusicTransition Name="Transition" ID="{EADBC320-9FE5-446F-B309-07CA3C90E4A4}">
-											<TransitionInfo/>
-										</MusicTransition>
-										<MusicTransition Name="Transition" ID="{76674AF5-2149-4864-97F3-FCC9E40DE286}">
 											<PropertyList>
-												<Property Name="DestinationContextType" Type="int16" Value="2"/>
-												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
 												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
 											</PropertyList>
-											<ReferenceList>
-												<Reference Name="DestinationContextObject">
-													<ObjectRef Name="Gameplay Music" ID="{8B44FAEB-8DA4-48BD-B649-029FE55869D1}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
-												</Reference>
-											</ReferenceList>
-											<TransitionInfo>
-												<SourceFadeOut>
-													<MusicFade Name="Source Fade-out" ID="{9F0FB25A-8B40-48F0-9EB5-D364322B71EA}">
-														<PropertyList>
-															<Property Name="FadeCurve" Type="int16" Value="6"/>
-															<Property Name="FadeOffset" Type="Real64" Value="2"/>
-															<Property Name="FadeTime" Type="Real64" Value="2"/>
-															<Property Name="FadeType" Type="int16" Value="1"/>
-														</PropertyList>
-													</MusicFade>
-												</SourceFadeOut>
-											</TransitionInfo>
+											<TransitionInfo/>
 										</MusicTransition>
 									</ChildrenList>
 									<TransitionInfo/>
@@ -63,7 +42,7 @@
 								<Property Name="Tempo" Type="Real64" Value="130"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-18</Value>
+										<Value>-14</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -86,6 +65,36 @@
 														<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
 														<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
 													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+												<MusicTransition Name="Transition" ID="{A15B7C7A-599B-42C5-868C-F15C91BB0781}">
+													<PropertyList>
+														<Property Name="DestinationContextType" Type="int16" Value="2"/>
+														<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+														<Property Name="SourceContextType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="DestinationContextObject">
+															<ObjectRef Name="Menu_Music" ID="{C553E1E4-E794-4C4C-A011-0CA67C4E3713}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+														</Reference>
+													</ReferenceList>
+													<TransitionInfo/>
+												</MusicTransition>
+												<MusicTransition Name="Transition" ID="{D6D81506-87C5-45C3-9AB7-BE6866114391}">
+													<PropertyList>
+														<Property Name="DestinationContextType" Type="int16" Value="2"/>
+														<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+														<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+														<Property Name="SourceContextType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="DestinationContextObject">
+															<ObjectRef Name="Menu_Music" ID="{C553E1E4-E794-4C4C-A011-0CA67C4E3713}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+														</Reference>
+														<Reference Name="SourceContextObject">
+															<ObjectRef Name="Menu_Music" ID="{C553E1E4-E794-4C4C-A011-0CA67C4E3713}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+														</Reference>
+													</ReferenceList>
 													<TransitionInfo/>
 												</MusicTransition>
 												<MusicTransition Name="Transition" ID="{AF247F97-19F5-4B49-9F03-806EFF1ECE8B}">
@@ -116,38 +125,26 @@
 														</SourceFadeOut>
 													</TransitionInfo>
 												</MusicTransition>
-												<MusicTransition Name="Transition" ID="{D988794A-F4DF-47EA-856D-2D98AA0616EE}">
+												<MusicTransition Name="Transition" ID="{C51B88F6-3263-40DE-82A4-DE0100683F53}">
 													<PropertyList>
 														<Property Name="DestinationContextType" Type="int16" Value="2"/>
-														<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-														<Property Name="ExitSourceAt" Type="int16" Value="5"/>
-														<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+														<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
 														<Property Name="SourceContextType" Type="int16" Value="2"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="DestinationContextObject">
-															<ObjectRef Name="Menu_Music" ID="{C553E1E4-E794-4C4C-A011-0CA67C4E3713}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+															<ObjectRef Name="Intro Music Playlist" ID="{3C7D2775-7189-4BAA-A8C3-EC37A319C2B7}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
 														</Reference>
 														<Reference Name="SourceContextObject">
-															<ObjectRef Name="Escape Music Playlist" ID="{74DEEF09-D84C-4A14-9B45-428E3724D2DD}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+															<ObjectRef Name="Intro Music Playlist" ID="{3C7D2775-7189-4BAA-A8C3-EC37A319C2B7}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
 														</Reference>
 													</ReferenceList>
-													<TransitionInfo>
-														<SourceFadeOut>
-															<MusicFade Name="Source Fade-out" ID="{6D8FAF8C-F727-41FA-859B-A0E21B097AB0}">
-																<PropertyList>
-																	<Property Name="FadeCurve" Type="int16" Value="6"/>
-																	<Property Name="FadeOffset" Type="Real64" Value="2"/>
-																	<Property Name="FadeTime" Type="Real64" Value="2"/>
-																	<Property Name="FadeType" Type="int16" Value="1"/>
-																</PropertyList>
-															</MusicFade>
-														</SourceFadeOut>
-													</TransitionInfo>
+													<TransitionInfo/>
 												</MusicTransition>
 												<MusicTransition Name="Transition" ID="{3F4520BB-9069-4D8A-B6E6-B96A5BC6A530}">
 													<PropertyList>
 														<Property Name="DestinationContextType" Type="int16" Value="2"/>
+														<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 														<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 														<Property Name="ExitSourceAt" Type="int16" Value="5"/>
 														<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
@@ -166,13 +163,38 @@
 															<MusicFade Name="Source Fade-out" ID="{6005F418-56B8-47FB-A1E1-80AABAFBE756}">
 																<PropertyList>
 																	<Property Name="FadeCurve" Type="int16" Value="6"/>
-																	<Property Name="FadeOffset" Type="Real64" Value="2"/>
-																	<Property Name="FadeTime" Type="Real64" Value="2"/>
+																	<Property Name="FadeOffset" Type="Real64" Value="4"/>
+																	<Property Name="FadeTime" Type="Real64" Value="4"/>
 																	<Property Name="FadeType" Type="int16" Value="1"/>
 																</PropertyList>
 															</MusicFade>
 														</SourceFadeOut>
+														<DestinationFadeIn>
+															<MusicFade Name="Destination Fade-in" ID="{DAE1EC87-0406-42C8-983A-BB45829B16D3}">
+																<PropertyList>
+																	<Property Name="FadeCurve" Type="int16" Value="6"/>
+																	<Property Name="FadeOffset" Type="Real64" Value="-2"/>
+																	<Property Name="FadeTime" Type="Real64" Value="2"/>
+																</PropertyList>
+															</MusicFade>
+														</DestinationFadeIn>
 													</TransitionInfo>
+												</MusicTransition>
+												<MusicTransition Name="Transition" ID="{63C6B922-AEBB-4EEE-9415-4594C0B4CB2F}">
+													<PropertyList>
+														<Property Name="DestinationContextType" Type="int16" Value="2"/>
+														<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+														<Property Name="SourceContextType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="DestinationContextObject">
+															<ObjectRef Name="Tension Music Playlist" ID="{02F9F516-4900-4F7B-ACB1-69940EF8BB69}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+														</Reference>
+														<Reference Name="SourceContextObject">
+															<ObjectRef Name="Tension Music Playlist" ID="{02F9F516-4900-4F7B-ACB1-69940EF8BB69}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+														</Reference>
+													</ReferenceList>
+													<TransitionInfo/>
 												</MusicTransition>
 												<MusicTransition Name="Transition" ID="{8845DC46-C00B-47F3-AB9B-15A8724B086F}">
 													<PropertyList>
@@ -203,6 +225,22 @@
 														</SourceFadeOut>
 													</TransitionInfo>
 												</MusicTransition>
+												<MusicTransition Name="Transition" ID="{DD77F401-27C7-4B16-B001-AC3E9228F425}">
+													<PropertyList>
+														<Property Name="DestinationContextType" Type="int16" Value="2"/>
+														<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+														<Property Name="SourceContextType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="DestinationContextObject">
+															<ObjectRef Name="Climax Music Playlist" ID="{FBEA8E3F-84F4-4A89-9B36-29297CEDC1AF}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+														</Reference>
+														<Reference Name="SourceContextObject">
+															<ObjectRef Name="Climax Music Playlist" ID="{FBEA8E3F-84F4-4A89-9B36-29297CEDC1AF}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+														</Reference>
+													</ReferenceList>
+													<TransitionInfo/>
+												</MusicTransition>
 												<MusicTransition Name="Transition" ID="{B9877C95-4109-4A8C-85EB-3B606B5A078D}">
 													<PropertyList>
 														<Property Name="DestinationContextType" Type="int16" Value="2"/>
@@ -224,8 +262,111 @@
 															<MusicFade Name="Source Fade-out" ID="{46751A3C-C71A-484F-9352-84701CB427D0}">
 																<PropertyList>
 																	<Property Name="FadeCurve" Type="int16" Value="6"/>
-																	<Property Name="FadeOffset" Type="Real64" Value="1"/>
-																	<Property Name="FadeTime" Type="Real64" Value="1"/>
+																	<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+																	<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+																	<Property Name="FadeType" Type="int16" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</SourceFadeOut>
+													</TransitionInfo>
+												</MusicTransition>
+												<MusicTransition Name="Transition" ID="{3226C10B-9203-4D63-A8A3-3ACED700B49E}">
+													<PropertyList>
+														<Property Name="DestinationContextType" Type="int16" Value="2"/>
+														<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+														<Property Name="ExitSourceAt" Type="int16" Value="5"/>
+														<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+														<Property Name="SourceContextType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="DestinationContextObject">
+															<ObjectRef Name="Tension Music Playlist" ID="{02F9F516-4900-4F7B-ACB1-69940EF8BB69}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+														</Reference>
+														<Reference Name="SourceContextObject">
+															<ObjectRef Name="Climax Music Playlist" ID="{FBEA8E3F-84F4-4A89-9B36-29297CEDC1AF}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+														</Reference>
+													</ReferenceList>
+													<TransitionInfo>
+														<SourceFadeOut>
+															<MusicFade Name="Source Fade-out" ID="{2316386D-58FC-4BAA-8205-653EB3A26A49}">
+																<PropertyList>
+																	<Property Name="FadeCurve" Type="int16" Value="6"/>
+																	<Property Name="FadeOffset" Type="Real64" Value="4"/>
+																	<Property Name="FadeTime" Type="Real64" Value="4"/>
+																	<Property Name="FadeType" Type="int16" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</SourceFadeOut>
+													</TransitionInfo>
+												</MusicTransition>
+												<MusicTransition Name="Transition" ID="{6AF62CBB-0B98-4524-B588-2B57A6AC3919}">
+													<PropertyList>
+														<Property Name="DestinationContextType" Type="int16" Value="2"/>
+														<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+														<Property Name="ExitSourceAt" Type="int16" Value="5"/>
+														<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+														<Property Name="SourceContextType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="DestinationContextObject">
+															<ObjectRef Name="Escape Music Playlist" ID="{74DEEF09-D84C-4A14-9B45-428E3724D2DD}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+														</Reference>
+														<Reference Name="SourceContextObject">
+															<ObjectRef Name="Tension Music Playlist" ID="{02F9F516-4900-4F7B-ACB1-69940EF8BB69}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+														</Reference>
+													</ReferenceList>
+													<TransitionInfo>
+														<SourceFadeOut>
+															<MusicFade Name="Source Fade-out" ID="{5349BF02-9648-4401-BB11-6E3A650DED3D}">
+																<PropertyList>
+																	<Property Name="FadeCurve" Type="int16" Value="6"/>
+																	<Property Name="FadeOffset" Type="Real64" Value="2"/>
+																	<Property Name="FadeTime" Type="Real64" Value="2"/>
+																	<Property Name="FadeType" Type="int16" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</SourceFadeOut>
+													</TransitionInfo>
+												</MusicTransition>
+												<MusicTransition Name="Transition" ID="{3657F9A9-2E11-42C0-AAF7-EBA059C91135}">
+													<PropertyList>
+														<Property Name="DestinationContextType" Type="int16" Value="2"/>
+														<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+														<Property Name="SourceContextType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="DestinationContextObject">
+															<ObjectRef Name="Escape Music Playlist" ID="{74DEEF09-D84C-4A14-9B45-428E3724D2DD}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+														</Reference>
+														<Reference Name="SourceContextObject">
+															<ObjectRef Name="Escape Music Playlist" ID="{74DEEF09-D84C-4A14-9B45-428E3724D2DD}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+														</Reference>
+													</ReferenceList>
+													<TransitionInfo/>
+												</MusicTransition>
+												<MusicTransition Name="Transition" ID="{D988794A-F4DF-47EA-856D-2D98AA0616EE}">
+													<PropertyList>
+														<Property Name="DestinationContextType" Type="int16" Value="2"/>
+														<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+														<Property Name="ExitSourceAt" Type="int16" Value="5"/>
+														<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+														<Property Name="SourceContextType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="DestinationContextObject">
+															<ObjectRef Name="Menu_Music" ID="{C553E1E4-E794-4C4C-A011-0CA67C4E3713}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+														</Reference>
+														<Reference Name="SourceContextObject">
+															<ObjectRef Name="Escape Music Playlist" ID="{74DEEF09-D84C-4A14-9B45-428E3724D2DD}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+														</Reference>
+													</ReferenceList>
+													<TransitionInfo>
+														<SourceFadeOut>
+															<MusicFade Name="Source Fade-out" ID="{6D8FAF8C-F727-41FA-859B-A0E21B097AB0}">
+																<PropertyList>
+																	<Property Name="FadeCurve" Type="int16" Value="6"/>
+																	<Property Name="FadeOffset" Type="Real64" Value="2"/>
+																	<Property Name="FadeTime" Type="Real64" Value="2"/>
 																	<Property Name="FadeType" Type="int16" Value="1"/>
 																</PropertyList>
 															</MusicFade>
@@ -243,6 +384,11 @@
 									<PropertyList>
 										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 										<Property Name="Tempo" Type="Real64" Value="130"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -280,6 +426,10 @@
 													</PropertyList>
 													<ChildrenList>
 														<MusicTransition Name="Transition" ID="{A7391AA9-9846-40B0-9084-C568650A1FF1}">
+															<PropertyList>
+																<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+																<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+															</PropertyList>
 															<TransitionInfo/>
 														</MusicTransition>
 													</ChildrenList>
@@ -470,6 +620,11 @@
 									<PropertyList>
 										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 										<Property Name="Tempo" Type="Real64" Value="130"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -507,6 +662,10 @@
 													</PropertyList>
 													<ChildrenList>
 														<MusicTransition Name="Transition" ID="{94AD681F-117A-46E1-9FEE-4775E9DF26BF}">
+															<PropertyList>
+																<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+																<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+															</PropertyList>
 															<TransitionInfo/>
 														</MusicTransition>
 													</ChildrenList>
@@ -754,6 +913,10 @@
 													</PropertyList>
 													<ChildrenList>
 														<MusicTransition Name="Transition" ID="{D06C4575-40A9-4FB8-9930-BAD92E619D4E}">
+															<PropertyList>
+																<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+																<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+															</PropertyList>
 															<TransitionInfo/>
 														</MusicTransition>
 													</ChildrenList>
@@ -981,6 +1144,10 @@
 													</PropertyList>
 													<ChildrenList>
 														<MusicTransition Name="Transition" ID="{B3C87CC4-AF8A-4ACE-82E0-2C6B2F2FA4BE}">
+															<PropertyList>
+																<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+																<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+															</PropertyList>
 															<TransitionInfo/>
 														</MusicTransition>
 													</ChildrenList>
@@ -1153,6 +1320,13 @@
 									</ChildrenList>
 								</MusicPlaylistContainer>
 								<MusicPlaylistContainer Name="Menu_Music" ID="{C553E1E4-E794-4C4C-A011-0CA67C4E3713}" ShortID="986472551">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{442EB86E-E24B-47E1-81EF-D875CCCAF7D2}"/>
@@ -1196,6 +1370,10 @@
 													</PropertyList>
 													<ChildrenList>
 														<MusicTransition Name="Transition" ID="{CF4AAF4A-4204-4EFE-A49D-500704F09DBB}">
+															<PropertyList>
+																<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+																<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+															</PropertyList>
 															<TransitionInfo>
 																<SourceFadeOut>
 																	<MusicFade Name="Source Fade-out" ID="{3C1F328D-884A-497B-B676-A52906467233}">
@@ -1386,51 +1564,11 @@
 									<Reference>
 										<ObjectRef Name="Gameplay_Area" ID="{971F7864-2713-4530-9BC8-71B155DC7247}" WorkUnitID="{A420DB1D-DEB5-4B50-A50F-ED46532642B0}"/>
 									</Reference>
-									<Reference>
-										<ObjectRef Name="Gameplay_Area" ID="{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}" WorkUnitID="{9DEB644C-C59F-4E1D-9FB7-859A44898F59}"/>
-									</Reference>
 								</ObjectList>
 								<ObjectList Name="Entries">
 									<Reference>
 										<Local>
-											<MultiSwitchEntry Name="" ID="{AACA9CD1-475C-4B61-8CEF-118E34020229}">
-												<ObjectLists>
-													<ObjectList Name="EntryPath">
-														<Reference>
-															<ObjectRef Name="Gameplay_Area" ID="{971F7864-2713-4530-9BC8-71B155DC7247}" WorkUnitID="{A420DB1D-DEB5-4B50-A50F-ED46532642B0}"/>
-														</Reference>
-														<Reference>
-															<ObjectRef Name="Gameplay_Area" ID="{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}" WorkUnitID="{9DEB644C-C59F-4E1D-9FB7-859A44898F59}"/>
-														</Reference>
-													</ObjectList>
-												</ObjectLists>
-											</MultiSwitchEntry>
-										</Local>
-									</Reference>
-									<Reference>
-										<Local>
-											<MultiSwitchEntry Name="" ID="{BA11871D-71AB-4399-8604-A73A98AC317F}">
-												<ReferenceList>
-													<Reference Name="AudioNode">
-														<ObjectRef Name="Climax Music Playlist" ID="{FBEA8E3F-84F4-4A89-9B36-29297CEDC1AF}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
-													</Reference>
-												</ReferenceList>
-												<ObjectLists>
-													<ObjectList Name="EntryPath">
-														<Reference>
-															<ObjectRef Name="Climax" ID="{8E558F03-60E4-43AB-8C82-4671904D59F5}" WorkUnitID="{A420DB1D-DEB5-4B50-A50F-ED46532642B0}"/>
-														</Reference>
-														<Reference>
-															<ObjectRef Name="Gameplay_Area" ID="{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}" WorkUnitID="{9DEB644C-C59F-4E1D-9FB7-859A44898F59}"/>
-														</Reference>
-													</ObjectList>
-												</ObjectLists>
-											</MultiSwitchEntry>
-										</Local>
-									</Reference>
-									<Reference>
-										<Local>
-											<MultiSwitchEntry Name="" ID="{CD9B2442-BF06-4BC5-A0B5-708A97B4C888}">
+											<MultiSwitchEntry Name="" ID="{2B3681DE-EB51-4464-ADFD-FB5E21938E3D}">
 												<ReferenceList>
 													<Reference Name="AudioNode">
 														<ObjectRef Name="Escape Music Playlist" ID="{74DEEF09-D84C-4A14-9B45-428E3724D2DD}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
@@ -1441,9 +1579,6 @@
 														<Reference>
 															<ObjectRef Name="Escape" ID="{6026294E-613C-41A8-AFFC-CD5995C20F25}" WorkUnitID="{A420DB1D-DEB5-4B50-A50F-ED46532642B0}"/>
 														</Reference>
-														<Reference>
-															<ObjectRef Name="Gameplay_Area" ID="{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}" WorkUnitID="{9DEB644C-C59F-4E1D-9FB7-859A44898F59}"/>
-														</Reference>
 													</ObjectList>
 												</ObjectLists>
 											</MultiSwitchEntry>
@@ -1451,7 +1586,7 @@
 									</Reference>
 									<Reference>
 										<Local>
-											<MultiSwitchEntry Name="" ID="{1F26294F-8803-47A9-BE36-222F86CFBF47}">
+											<MultiSwitchEntry Name="" ID="{0DD63BCA-A6EB-4F0F-A381-3DCAF507895D}">
 												<ReferenceList>
 													<Reference Name="AudioNode">
 														<ObjectRef Name="Intro Music Playlist" ID="{3C7D2775-7189-4BAA-A8C3-EC37A319C2B7}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
@@ -1462,8 +1597,23 @@
 														<Reference>
 															<ObjectRef Name="Intro" ID="{2E9BEE7A-EAFE-40F9-97D5-C0966BC7105C}" WorkUnitID="{A420DB1D-DEB5-4B50-A50F-ED46532642B0}"/>
 														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MultiSwitchEntry>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MultiSwitchEntry Name="" ID="{23EF0249-CF17-411B-891D-E543174D8908}">
+												<ReferenceList>
+													<Reference Name="AudioNode">
+														<ObjectRef Name="Menu_Music" ID="{C553E1E4-E794-4C4C-A011-0CA67C4E3713}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+													</Reference>
+												</ReferenceList>
+												<ObjectLists>
+													<ObjectList Name="EntryPath">
 														<Reference>
-															<ObjectRef Name="Gameplay_Area" ID="{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}" WorkUnitID="{9DEB644C-C59F-4E1D-9FB7-859A44898F59}"/>
+															<ObjectRef Name="Menu" ID="{4D930E51-06FC-468A-83B8-66235B5EBD88}" WorkUnitID="{A420DB1D-DEB5-4B50-A50F-ED46532642B0}"/>
 														</Reference>
 													</ObjectList>
 												</ObjectLists>
@@ -1472,7 +1622,7 @@
 									</Reference>
 									<Reference>
 										<Local>
-											<MultiSwitchEntry Name="" ID="{D5A940D3-A38B-4E8C-8D96-2E3FBAADD9F2}">
+											<MultiSwitchEntry Name="" ID="{99203D0A-C6EC-434C-AD84-68E45E7931AF}">
 												<ReferenceList>
 													<Reference Name="AudioNode">
 														<ObjectRef Name="Tension Music Playlist" ID="{02F9F516-4900-4F7B-ACB1-69940EF8BB69}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
@@ -1483,8 +1633,23 @@
 														<Reference>
 															<ObjectRef Name="Tension" ID="{31079DFC-682A-484E-AFA4-C8DA88D36379}" WorkUnitID="{A420DB1D-DEB5-4B50-A50F-ED46532642B0}"/>
 														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MultiSwitchEntry>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MultiSwitchEntry Name="" ID="{845CFD49-1B97-4E3A-85D1-3CB881C6813A}">
+												<ReferenceList>
+													<Reference Name="AudioNode">
+														<ObjectRef Name="Climax Music Playlist" ID="{FBEA8E3F-84F4-4A89-9B36-29297CEDC1AF}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+													</Reference>
+												</ReferenceList>
+												<ObjectLists>
+													<ObjectList Name="EntryPath">
 														<Reference>
-															<ObjectRef Name="Gameplay_Area" ID="{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}" WorkUnitID="{9DEB644C-C59F-4E1D-9FB7-859A44898F59}"/>
+															<ObjectRef Name="Climax" ID="{8E558F03-60E4-43AB-8C82-4671904D59F5}" WorkUnitID="{A420DB1D-DEB5-4B50-A50F-ED46532642B0}"/>
 														</Reference>
 													</ObjectList>
 												</ObjectLists>
@@ -1493,31 +1658,6 @@
 									</Reference>
 								</ObjectList>
 							</ObjectLists>
-						</MusicSwitchContainer>
-						<MusicSwitchContainer Name="Menu Switch Container" ID="{ED9A1F2A-3479-4909-A860-5C332A99D420}" ShortID="674976468">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{442EB86E-E24B-47E1-81EF-D875CCCAF7D2}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B5BF60A-F22A-4C17-B3E6-E04036E3186D}"/>
-								</Reference>
-								<Reference Name="TransitionRoot">
-									<Custom>
-										<MusicTransition Name="Root" ID="{1137FBA3-9B90-488F-B3A8-10003ED1618E}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<ChildrenList>
-												<MusicTransition Name="Transition" ID="{9D8874A4-9BE3-421D-A1CE-18C0E028AED6}">
-													<TransitionInfo/>
-												</MusicTransition>
-											</ChildrenList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</Custom>
-								</Reference>
-							</ReferenceList>
 						</MusicSwitchContainer>
 					</ChildrenList>
 				</MusicSwitchContainer>

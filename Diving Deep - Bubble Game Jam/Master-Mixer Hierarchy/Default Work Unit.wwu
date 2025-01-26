@@ -9,6 +9,27 @@
 							<ObjectRef Name="System" ID="{C2B19931-F274-4C21-9948-148308544E5D}" WorkUnitID="{BA492206-929D-40A5-B6C3-6047E4AF445C}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Dialogue Bus" ID="{4C44DE03-3401-4ED1-82A4-4EC309F04C46}">
+							<PropertyList>
+								<Property Name="MaxDuckVolume" Type="Real64" Value="-18"/>
+								<Property Name="RecoveryTime" Type="Real64" Value="0"/>
+							</PropertyList>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Music Bus" ID="{0E2943B7-DDFB-49DB-B75C-2CAD1729985F}"/>
+									<DuckingParam>
+										<Volume>-4</Volume>
+										<FadeInTime>1.5</FadeInTime>
+										<FadeOutTime>0.300000011920929</FadeOutTime>
+										<FadeCurve>FadeExp1</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<Bus Name="Music Bus" ID="{0E2943B7-DDFB-49DB-B75C-2CAD1729985F}"/>
+						<Bus Name="SFX Bus" ID="{504AC3FE-908D-4743-8B63-B78D676E6CE9}"/>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

@@ -1,15 +1,37 @@
 Event	ID	Name			Wwise Object Path	Notes
 	176119683	sfx_playerinjury			\Default Work Unit\SFX\sfx_playerinjury	
+	511787789	DIA_TreasureShipwreck			\Default Work Unit\Dialogue\DiaTreasure\DIA_TreasureShipwreck	
+	624438454	DIA_TreasureHat			\Default Work Unit\Dialogue\DiaTreasure\DIA_TreasureHat	
 	777164721	sfx_death			\Default Work Unit\SFX\sfx_death	
+	779849494	DIA_Victory			\Default Work Unit\Dialogue\DiaTreasure\DIA_Victory	
 	895625293	mus_gameplay			\Default Work Unit\Music\mus_gameplay	
+	1029159304	DIA_JellyWarning			\Default Work Unit\Dialogue\DiaWarning\DIA_JellyWarning	
 	1172924437	mus_tension			\Default Work Unit\Music\mus_tension	
 	1219230789	mus_intro			\Default Work Unit\Music\mus_intro	
 	1220128597	mus_climax			\Default Work Unit\Music\mus_climax	
+	1517707933	DIA_TreasureFlintlock			\Default Work Unit\Dialogue\DiaTreasure\DIA_TreasureFlintlock	
+	1661916387	DIA_TreasureGemstone			\Default Work Unit\Dialogue\DiaTreasure\DIA_TreasureGemstone	
+	2181865273	DIA_SharkWarning			\Default Work Unit\Dialogue\DiaWarning\DIA_SharkWarning	
 	2215620476	mus_escape			\Default Work Unit\Music\mus_escape	
 	2487155894	sfx_treasure			\Default Work Unit\SFX\sfx_treasure	
+	2922889336	DIA_IntroStory3			\Default Work Unit\Dialogue\DiaStory\DIA_IntroStory3	
+	2922889337	DIA_IntroStory2			\Default Work Unit\Dialogue\DiaStory\DIA_IntroStory2	
+	2922889338	DIA_IntroStory1			\Default Work Unit\Dialogue\DiaStory\DIA_IntroStory1	
+	2922889343	DIA_IntroStory4			\Default Work Unit\Dialogue\DiaStory\DIA_IntroStory4	
 	2983997255	sfx_bubble			\Default Work Unit\SFX\sfx_bubble	
+	2993629078	DIA_TreasureCutlass			\Default Work Unit\Dialogue\DiaTreasure\DIA_TreasureCutlass	
+	3033011476	DIA_ClimaxStory1			\Default Work Unit\Dialogue\DiaStory\DIA_ClimaxStory1	
 	3149643052	mus_menu			\Default Work Unit\Music\mus_menu	
+	3260869773	DIA_EscapeStory1			\Default Work Unit\Dialogue\DiaStory\DIA_EscapeStory1	
+	3260869774	DIA_EscapeStory2			\Default Work Unit\Dialogue\DiaStory\DIA_EscapeStory2	
+	3260869775	DIA_EscapeStory3			\Default Work Unit\Dialogue\DiaStory\DIA_EscapeStory3	
 	3380990982	sfx_playerswim			\Default Work Unit\SFX\sfx_playerswim	
+	3417468248	DIA_TensionStory3			\Default Work Unit\Dialogue\DiaStory\DIA_TensionStory3	
+	3417468249	DIA_TensionStory2			\Default Work Unit\Dialogue\DiaStory\DIA_TensionStory2	
+	3417468250	DIA_TensionStory1			\Default Work Unit\Dialogue\DiaStory\DIA_TensionStory1	
+	3417468255	DIA_TensionStory4			\Default Work Unit\Dialogue\DiaStory\DIA_TensionStory4	
+	3494670805	DIA_TreasureDoubloon			\Default Work Unit\Dialogue\DiaTreasure\DIA_TreasureDoubloon	
+	3581270229	DIA_TreasureBone			\Default Work Unit\Dialogue\DiaTreasure\DIA_TreasureBone	
 	3670868403	Treasure1			\Default Work Unit\Dialogue\Treasure1	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -19,6 +41,7 @@ Switch	ID	Name	Switch Group			Notes
 	1125500713	Intro	Gameplay_Area			
 	1377027961	Climax	Gameplay_Area			
 	1571361561	Tension	Gameplay_Area			
+	2607556080	Menu	Gameplay_Area			
 	3169107872	Escape	Gameplay_Area			
 
 State Group	ID	Name			Wwise Object Path	Notes
@@ -31,31 +54,56 @@ State	ID	Name	State Group			Notes
 	1571361561	Tension	Gameplay_Area			
 	3169107872	Escape	Gameplay_Area			
 
+Effect plug-ins	ID	Name	Type				Notes
+	701863527	Inside_My_Head	Wwise RoomVerb			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	23619031	bubble5	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\62\{62ACB619-A01B-B1A3-893F-FD39AA1D40E0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bubble Container\bubble5		45752
 	28799991	mus_climax	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\AE\{AEBC820F-B5D3-7C6C-A52D-F8F3A3C2EE87}.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music Switch Container\Gameplay Music\Climax Music Playlist\Climax Music\mus_climax		3899236
+	38019460	DIA_TreasureBone	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\B5\{B572FED8-BF43-5BCE-4EFB-DD0F5F8EB144}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue Mixer\DiaTreasure\DIA_TreasureBone		338400
 	52780276	Treasure Collect	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\FB\{FBAB5D5A-8C05-4E21-1463-4EFC4CEF5186}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Treasure Collect		442208
+	84053918	DIA_EscapeStory3	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\F6\{F667E574-4E16-B26F-11C7-A521A6521583}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue Mixer\DiaStory\DIA_EscapeStory3		820192
+	113809804	DIA_TensionStory4	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\B3\{B35EAC33-DDB3-9004-F135-62983E78FB20}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue Mixer\DiaStory\DIA_TensionStory4		445152
 	117564831	bubble1	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\92\{92E8AAB7-C30A-A1C4-5F84-E7890C82C314}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bubble Container\bubble1		47796
+	137290248	DIA_IntroStory1	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\0D\{0DD0B1CF-8485-7538-02EF-AC14D11D84CF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue Mixer\DiaStory\DIA_IntroStory1		1186272
 	141846178	death4	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\A6\{A6DDCF60-6F03-5898-A418-F72EA52F0AA2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Death Container\death4		478336
+	189918433	DIA_TreasureGemstone	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\BE\{BE8676E2-FA9B-DCA5-2C4D-A6C958A488B2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue Mixer\DiaTreasure\DIA_TreasureGemstone		611040
 	209579184	hit1	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\21\{21D9980D-E324-DF90-9080-99AFF02940C8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerInjury Container\hit1		143328
 	228370953	swim3	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\47\{4748A4AE-D4A8-BFF1-91AC-944FFA9E42B5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swim Container\swim3		95200
+	267533370	DIA_TensionStory3	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\2D\{2D05BEA2-861B-7E9A-49D1-93ABF7A0522C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue Mixer\DiaStory\DIA_TensionStory3		523232
+	284181332	DIA_Victory	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\33\{3302B1C0-9DA7-2F66-A2D6-F4F72808362B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue Mixer\DiaTreasure\DIA_Victory		324832
 	333374655	hit3	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\EF\{EF5E5818-C933-ECED-7BA4-DA8FD3D79E6E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerInjury Container\hit3		111200
 	361976837	mus_escape1	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\8B\{8BE8BCFB-D7CE-D172-7258-87B733977030}.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music Switch Container\Gameplay Music\Escape Music Playlist\Escape Music\mus_escape1		3510096
 	428611991	swim5	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\22\{22F46C68-80C9-ECA9-3F19-178B0F9CCD29}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swim Container\swim5		85600
+	438753714	DIA_IntroStory2	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\FF\{FF3186E7-0AA3-7D03-9DD9-D144B209C101}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue Mixer\DiaStory\DIA_IntroStory2		969440
 	447684868	death1	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\85\{85A3DF91-329E-B4D7-3860-5F757321E5B8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Death Container\death1		459904
 	479424745	hit4	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\64\{6445D6E1-FB50-BD62-9187-139DD075D45B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerInjury Container\hit4		125280
 	497263798	bubble4	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\B9\{B90EFDFA-47C0-58C9-9C8C-4B92A6A7AD81}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bubble Container\bubble4		51380
 	499008946	bubble6	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\83\{83AACCDD-2198-3459-2B34-4662A9A56B54}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bubble Container\bubble6		51384
 	503446267	swim2	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\6C\{6C86BD6D-00BC-3A54-D2D5-21CA1221666F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swim Container\swim2		87072
+	510167254	DIA_TreasureDoubloon	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\BF\{BF112155-3E05-CC19-992E-CDF2CC048AB9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue Mixer\DiaTreasure\DIA_TreasureDoubloon		826080
 	510961015	mus_intro	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\83\{83F6D6F1-9D6C-B416-BEBD-59FEFEEC97D8}.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music Switch Container\Gameplay Music\Intro Music Playlist\Intro Music\mus_intro		5560712
 	523269430	swim1	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\3D\{3D886BFC-C51C-ACBB-7DB0-4E944B0883D4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swim Container\swim1		71776
 	551334125	mus_menu2	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\3E\{3E0E222A-8B0F-6D55-FF77-C4D8A184BA38}.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music Switch Container\Gameplay Music\Menu_Music\mus_menu2\mus_menu2		2063772
+	553233666	DIA_TensionStory2	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\1A\{1AB7A0A8-4115-2B8B-E6AC-FE8A32814723}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue Mixer\DiaStory\DIA_TensionStory2		508384
+	559567009	DIA_SharkWarning	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\1E\{1EE81B41-C9C3-323B-68EE-61D26BB4767C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue Mixer\DiaWarning\DIA_SharkWarning		341600
+	569997377	DIA_TreasureHat	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\00\{0016EDDD-558F-A1B4-0B28-3E2706200BEA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue Mixer\DiaTreasure\DIA_TreasureHat		447200
+	601516594	DIA_TreasureCutlass	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\FF\{FF05E742-7CAC-C0B0-4D18-B1C5CF100ADF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue Mixer\DiaTreasure\DIA_TreasureCutlass		368864
+	606636696	DIA_TreasureFlintlock	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\1D\{1D9C7635-D367-9EB1-7199-A7D62CED9071}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue Mixer\DiaTreasure\DIA_TreasureFlintlock		401376
 	693662072	bubble2	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\58\{58E4C907-246B-92A5-22D7-39953C1E93ED}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bubble Container\bubble2		50868
+	703808786	DIA_EscapeStory1	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\CB\{CBB7D1B7-4651-57F5-B249-CE2B26035E2E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue Mixer\DiaStory\DIA_EscapeStory1		445152
 	713805700	death3	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\39\{39FDB36F-3151-5AC9-4A2F-3AEEB6D969B4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Death Container\death3		468096
 	769289019	Treasure1	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\80\{809AC2DC-811F-059B-E95B-C5240EDB70A3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Treasure1		146280
 	793076629	swim4	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\8B\{8B59AA7D-5744-8FA1-33BB-C6E20F8D90BE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swim Container\swim4		90464
 	803625038	death2	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\37\{37D50EDF-8793-C473-AF75-454E0B28E68B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Death Container\death2		477312
+	812156402	DIA_EscapeStory2	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\D5\{D5E13DC7-5458-CB36-D8F1-41526354D9AC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue Mixer\DiaStory\DIA_EscapeStory2		603360
+	816680975	DIA_IntroStory4	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\B7\{B76795B6-8750-4930-2D76-5E763EA9328F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue Mixer\DiaStory\DIA_IntroStory4		733664
 	844575640	bubble3	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\63\{6317E8E0-0EFA-D1A1-1F7E-64737DDE8E85}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bubble Container\bubble3		49844
 	847452943	hit2	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\89\{89A57E9E-0A85-5193-C4DF-4FBF51ED90C1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerInjury Container\hit2		144736
+	901797702	DIA_TreasureShipwreck	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\A1\{A1338E39-2E16-DE1D-D287-5F753690E241}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue Mixer\DiaTreasure\DIA_TreasureShipwreck		316896
+	905374160	DIA_TensionStory1	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\94\{9439638F-317E-C15F-8C61-CFE8B0BC6B15}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue Mixer\DiaStory\DIA_TensionStory1		691424
 	963635366	mus_tension	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\73\{73DA2C9F-0BC1-54BB-CF7E-DEE7EF5B7805}.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music Switch Container\Gameplay Music\Tension Music Playlist\Tension Music\mus_tension		4165020
+	985948138	DIA_JellyWarning	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\1C\{1C84E84F-B755-015D-606E-75745A8C230B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue Mixer\DiaWarning\DIA_JellyWarning		267488
+	1033213824	DIA_IntroStory3	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\A8\{A8CD6F43-D631-17F8-40BB-88AC875BB13C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue Mixer\DiaStory\DIA_IntroStory3		903904
+	1046193709	DIA_ClimaxStory1	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\8C\{8CEEBF10-37E4-78E6-4C27-B2AEF98F5808}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Dialogue Mixer\DiaStory\DIA_ClimaxStory1		490976
 

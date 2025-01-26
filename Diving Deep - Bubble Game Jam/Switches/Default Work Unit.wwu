@@ -9,6 +9,7 @@
 						<Switch Name="Tension" ID="{31079DFC-682A-484E-AFA4-C8DA88D36379}"/>
 						<Switch Name="Climax" ID="{8E558F03-60E4-43AB-8C82-4671904D59F5}"/>
 						<Switch Name="Escape" ID="{6026294E-613C-41A8-AFFC-CD5995C20F25}"/>
+						<Switch Name="Menu" ID="{4D930E51-06FC-468A-83B8-66235B5EBD88}"/>
 					</ChildrenList>
 					<SwitchOnRTPC>
 						<GameParameterRef Name="New_Game_Parameter" ID="{5ACEBBDD-4D4F-43CB-AE8E-7C38E10E7630}"/>
