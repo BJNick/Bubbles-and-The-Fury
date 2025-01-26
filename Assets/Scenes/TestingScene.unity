@@ -2437,10 +2437,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2037241778574308330, guid: 9fb86640e9934f447a8a687d87d3fa65, type: 3}
-      propertyPath: oxygenDropRate
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3996012162233426187, guid: 9fb86640e9934f447a8a687d87d3fa65, type: 3}
       propertyPath: m_Pivot.x
       value: 0
