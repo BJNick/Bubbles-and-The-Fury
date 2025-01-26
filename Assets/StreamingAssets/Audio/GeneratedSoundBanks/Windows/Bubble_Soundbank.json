@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{388691ED-56EC-4966-9B29-BBB7031BD638}",
     "Language": "SFX",
-    "Hash": "{DA83BC6E-B2A2-B057-7B0E-42FFDEE8A6F0}",
+    "Hash": "{8B456238-B025-09A0-D978-12F39BEA97F7}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Bubble_Soundbank",
     "ShortName": "Bubble_Soundbank",
     "Path": "Bubble_Soundbank.bnk",
@@ -56,12 +56,28 @@
       "CachePath": "A6/{A6DDCF60-6F03-5898-A418-F72EA52F0AA2}.wem"
      },
      {
+      "Id": "209579184",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "hit1.wav",
+      "CachePath": "21/{21D9980D-E324-DF90-9080-99AFF02940C8}.wem"
+     },
+     {
       "Id": "228370953",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "swim3.wav",
       "CachePath": "47/{4748A4AE-D4A8-BFF1-91AC-944FFA9E42B5}.wem"
+     },
+     {
+      "Id": "333374655",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "hit3.wav",
+      "CachePath": "EF/{EF5E5818-C933-ECED-7BA4-DA8FD3D79E6E}.wem"
      },
      {
       "Id": "361976837",
@@ -86,6 +102,14 @@
       "Location": "Memory",
       "ShortName": "death1.wav",
       "CachePath": "85/{85A3DF91-329E-B4D7-3860-5F757321E5B8}.wem"
+     },
+     {
+      "Id": "479424745",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "hit4.wav",
+      "CachePath": "64/{6445D6E1-FB50-BD62-9187-139DD075D45B}.wem"
      },
      {
       "Id": "497263798",
@@ -126,6 +150,14 @@
       "Location": "Memory",
       "ShortName": "swim1.wav",
       "CachePath": "3D/{3D886BFC-C51C-ACBB-7DB0-4E944B0883D4}.wem"
+     },
+     {
+      "Id": "551334125",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "mus_menu2.wav",
+      "CachePath": "3E/{3E0E222A-8B0F-6D55-FF77-C4D8A184BA38}.wem"
      },
      {
       "Id": "693662072",
@@ -174,6 +206,14 @@
       "Location": "Memory",
       "ShortName": "bubble3.wav",
       "CachePath": "63/{6317E8E0-0EFA-D1A1-1F7E-64737DDE8E85}.wem"
+     },
+     {
+      "Id": "847452943",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "hit2.wav",
+      "CachePath": "89/{89A57E9E-0A85-5193-C4DF-4FBF51ED90C1}.wem"
      },
      {
       "Id": "963635366",
@@ -327,7 +367,12 @@
       "Name": "mus_menu",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\mus_menu",
       "GUID": "{4D49BEAF-D239-4002-BBC6-D5E11E45EA3F}",
-      "DurationType": "Infinite"
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "551334125"
+       }
+      ]
      },
      {
       "Id": "1172924437",
@@ -390,6 +435,29 @@
        },
        {
         "Id": "803625038"
+       }
+      ]
+     },
+     {
+      "Id": "176119683",
+      "Name": "sfx_playerinjury",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\sfx_playerinjury",
+      "GUID": "{FF638F23-9A9C-4802-A9DC-8F170417D6C2}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1573334",
+      "DurationMax": "1.5066667",
+      "MediaRefs": [
+       {
+        "Id": "209579184"
+       },
+       {
+        "Id": "333374655"
+       },
+       {
+        "Id": "479424745"
+       },
+       {
+        "Id": "847452943"
        }
       ]
      },
@@ -524,6 +592,6 @@
     ]
    }
   ],
-  "FileHash": "{0DEC9BA0-25C9-9FB3-543B-63D45257A2C5}"
+  "FileHash": "{1CD46AF1-F9A1-4B44-BD66-9857545B2D98}"
  }
 }

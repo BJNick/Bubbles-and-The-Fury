@@ -21,7 +21,7 @@
 								<Action Name="" ID="{09B51887-FFDF-4EC6-B96E-08DFA0F10E63}" ShortID="541116602">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Menu Music" ID="{8AF07CDA-E21E-43EE-B441-02B617F09C63}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
+											<ObjectRef Name="Menu_Music" ID="{C553E1E4-E794-4C4C-A011-0CA67C4E3713}" WorkUnitID="{3F21D39B-5CD4-4CCE-B1EC-70F1F308DFA7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -114,6 +114,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Bubble Container" ID="{70A433CB-74B0-42C2-9519-4367B31077FD}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_playerinjury" ID="{FF638F23-9A9C-4802-A9DC-8F170417D6C2}">
+							<ChildrenList>
+								<Action Name="" ID="{AF3426C1-979C-497B-A80A-49C7FF25E136}" ShortID="750221848">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerInjury Container" ID="{AF7A16E2-CEF3-47DF-8B67-1E4E96FE6C96}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
