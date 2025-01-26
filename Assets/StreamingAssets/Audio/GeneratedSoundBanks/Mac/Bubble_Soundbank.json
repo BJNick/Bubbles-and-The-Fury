@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{388691ED-56EC-4966-9B29-BBB7031BD638}",
     "Language": "SFX",
-    "Hash": "{B16EC982-BE08-7E74-1851-D042FA6B76F6}",
+    "Hash": "{18F0960C-34B2-2578-C3A1-13D090C5F67B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Bubble_Soundbank",
     "ShortName": "Bubble_Soundbank",
     "Path": "Bubble_Soundbank.bnk",
@@ -86,6 +86,14 @@
       "Location": "Memory",
       "ShortName": "death4.wav",
       "CachePath": "A6/{A6DDCF60-6F03-5898-A418-F72EA52F0AA2}.wem"
+     },
+     {
+      "Id": "188100363",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "mus_escape2.wav",
+      "CachePath": "B7/{B7D14F46-0F18-71BC-42AA-57B3CB43C5D1}.wem"
      },
      {
       "Id": "189918433",
@@ -895,6 +903,9 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
+        "Id": "188100363"
+       },
+       {
         "Id": "361976837"
        }
       ]
@@ -914,6 +925,9 @@
          "GUID": "{6026294E-613C-41A8-AFFC-CD5995C20F25}"
         },
         "MediaRefs": [
+         {
+          "Id": "188100363"
+         },
          {
           "Id": "361976837"
          }
@@ -1181,6 +1195,6 @@
     ]
    }
   ],
-  "FileHash": "{C02CCA43-0423-C342-1885-4852A35C175F}"
+  "FileHash": "{DA93B846-E3DE-F37A-0654-88942F166D91}"
  }
 }
