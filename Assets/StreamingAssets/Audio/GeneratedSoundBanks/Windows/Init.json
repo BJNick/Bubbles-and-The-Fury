@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{8211EA32-DCE5-28B8-77AA-FC48DB76F216}",
+    "Hash": "{1BBE7B65-48DF-7999-71EF-C998F1569966}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -86,6 +86,12 @@
       "GUID": "{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"
      },
      {
+      "Id": "3671138082",
+      "Name": "New_Game_Parameter",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\New_Game_Parameter",
+      "GUID": "{5ACEBBDD-4D4F-43CB-AE8E-7C38E10E7630}"
+     },
+     {
       "Id": "3715662592",
       "Name": "SS_Air_Storm",
       "ObjectPath": "\\Game Parameters\\Factory Soundseed Air Game Syncs\\SS_Air_Storm",
@@ -102,6 +108,46 @@
       "Name": "SS_Air_Turbulence",
       "ObjectPath": "\\Game Parameters\\Factory Soundseed Air Game Syncs\\SS_Air_Turbulence",
       "GUID": "{EDA87B19-73AA-40A0-9F19-2073606DB710}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2638858007",
+      "Name": "Gameplay_Area",
+      "ObjectPath": "\\States\\Default Work Unit\\Gameplay_Area",
+      "GUID": "{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Gameplay_Area\\None",
+        "GUID": "{72EBE420-1E8E-4D0A-A797-EDAA30EB33F9}"
+       },
+       {
+        "Id": "1125500713",
+        "Name": "Intro",
+        "ObjectPath": "\\States\\Default Work Unit\\Gameplay_Area\\Intro",
+        "GUID": "{2DB1122A-AFA5-4224-BCBE-A9B8B32A5D07}"
+       },
+       {
+        "Id": "1377027961",
+        "Name": "Climax",
+        "ObjectPath": "\\States\\Default Work Unit\\Gameplay_Area\\Climax",
+        "GUID": "{C90B0E46-963F-4184-9A11-C8515EA8CE8D}"
+       },
+       {
+        "Id": "1571361561",
+        "Name": "Tension",
+        "ObjectPath": "\\States\\Default Work Unit\\Gameplay_Area\\Tension",
+        "GUID": "{FA577FCD-34A5-4614-8DF4-9F28E0028D1B}"
+       },
+       {
+        "Id": "3169107872",
+        "Name": "Escape",
+        "ObjectPath": "\\States\\Default Work Unit\\Gameplay_Area\\Escape",
+        "GUID": "{05418E28-5620-4A65-831F-76D5F89D84C0}"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -617,6 +663,6 @@
     ]
    }
   ],
-  "FileHash": "{7022D21D-F179-6162-106D-CDDABC761CD9}"
+  "FileHash": "{7BC36167-F79B-F95D-E884-57748484191B}"
  }
 }

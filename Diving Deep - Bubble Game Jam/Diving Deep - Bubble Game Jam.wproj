@@ -4,6 +4,7 @@
 		<Project Name="Diving Deep - Bubble Game Jam" ID="{BD316AF0-EA5A-4104-AE65-13A50FB655DA}">
 			<Platforms>
 				<Platform Name="Mac" ReferencePlatform="Mac" ID="{D529C379-3F40-4F75-8C39-D6C167216544}" />
+				<Platform Name="Web" ReferencePlatform="Web" ID="{FD1EE96B-D269-4156-B5C7-6AA69D0042D5}" />
 				<Platform Name="Windows" ReferencePlatform="Windows" ID="{00BA73AE-900C-4A9E-BBE5-BC7440377A6E}" />
 			</Platforms>
 			<LanguageList>
@@ -15,46 +16,67 @@
 			<PropertyList>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
+						<Value Platform="Web"></Value>
 						<Value Platform="Windows"></Value>
 						<Value Platform="Mac"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
+						<Value Platform="Web">GeneratedSoundBanks\Web</Value>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac</Value>
+					</ValueList>
+				</Property>
+				<Property Name="GlobalVoiceInstancesLimit" Type="int16">
+					<ValueList>
+						<Value Platform="Web">256</Value>
+						<Value Platform="Windows">256</Value>
+						<Value Platform="Mac">256</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True" />
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True" /><Property Name="SoundBankHeaderFilePath" Type="string" Value="..\Assets\StreamingAssets\Audio\GeneratedSoundBanks" />
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
+						<Value Platform="Web">..\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Web\</Value>
 						<Value Platform="Windows">..\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</Value>
 						<Value Platform="Mac">..\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
 					<ValueList>
+						<Value Platform="Web"></Value>
 						<Value Platform="Windows"></Value>
 						<Value Platform="Mac"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
 					<ValueList>
+						<Value Platform="Web"></Value>
 						<Value Platform="Windows"></Value>
 						<Value Platform="Mac"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdDescription" Type="string">
 					<ValueList>
+						<Value Platform="Web"></Value>
 						<Value Platform="Windows"></Value>
 						<Value Platform="Mac"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdLines" Type="string">
 					<ValueList>
+						<Value Platform="Web"></Value>
 						<Value Platform="Windows"></Value>
 						<Value Platform="Mac"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="VolumeThreshold" Type="Real64">
+					<ValueList>
+						<Value Platform="Web">-80</Value>
+						<Value Platform="Windows">-80</Value>
+						<Value Platform="Mac">-80</Value>
 					</ValueList>
 				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2024.1.1|Build=8691|VersionName=v2024.1.1|Config=Release" />

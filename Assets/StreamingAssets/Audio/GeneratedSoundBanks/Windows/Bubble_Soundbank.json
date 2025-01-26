@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{388691ED-56EC-4966-9B29-BBB7031BD638}",
     "Language": "SFX",
-    "Hash": "{46F3AE31-4215-57E5-1976-D7E2B3A7383A}",
+    "Hash": "{F108609B-1486-ED5E-16DF-33E11F0FA9D8}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Bubble_Soundbank",
     "ShortName": "Bubble_Soundbank",
     "Path": "Bubble_Soundbank.bnk",
@@ -87,9 +87,19 @@
          "Id": "1377027961",
          "GUID": "{8E558F03-60E4-43AB-8C82-4671904D59F5}"
         },
-        "MediaRefs": [
+        "Children": [
          {
-          "Id": "28799991"
+          "SwitchValue": {
+           "GroupType": "State",
+           "GroupId": "2638858007",
+           "Id": "0",
+           "GUID": "{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "28799991"
+           }
+          ]
          }
         ]
        },
@@ -100,9 +110,19 @@
          "Id": "3169107872",
          "GUID": "{6026294E-613C-41A8-AFFC-CD5995C20F25}"
         },
-        "MediaRefs": [
+        "Children": [
          {
-          "Id": "361976837"
+          "SwitchValue": {
+           "GroupType": "State",
+           "GroupId": "2638858007",
+           "Id": "0",
+           "GUID": "{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "361976837"
+           }
+          ]
          }
         ]
        },
@@ -113,9 +133,19 @@
          "Id": "1125500713",
          "GUID": "{2E9BEE7A-EAFE-40F9-97D5-C0966BC7105C}"
         },
-        "MediaRefs": [
+        "Children": [
          {
-          "Id": "510961015"
+          "SwitchValue": {
+           "GroupType": "State",
+           "GroupId": "2638858007",
+           "Id": "0",
+           "GUID": "{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "510961015"
+           }
+          ]
          }
         ]
        },
@@ -126,9 +156,19 @@
          "Id": "1571361561",
          "GUID": "{31079DFC-682A-484E-AFA4-C8DA88D36379}"
         },
-        "MediaRefs": [
+        "Children": [
          {
-          "Id": "963635366"
+          "SwitchValue": {
+           "GroupType": "State",
+           "GroupId": "2638858007",
+           "Id": "0",
+           "GUID": "{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "963635366"
+           }
+          ]
          }
         ]
        }
@@ -151,10 +191,7 @@
       "Name": "mus_menu",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\mus_menu",
       "GUID": "{4D49BEAF-D239-4002-BBC6-D5E11E45EA3F}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationType": "Infinite"
      },
      {
       "Id": "1172924437",
@@ -165,6 +202,56 @@
       "MediaRefs": [
        {
         "Id": "963635366"
+       }
+      ]
+     },
+     {
+      "Id": "3380990982",
+      "Name": "sfx_playerswim",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\sfx_playerswim",
+      "GUID": "{6416A5DC-C154-4FB6-97B8-6139D5C2E4C4}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2638858007",
+      "Name": "Gameplay_Area",
+      "ObjectPath": "\\States\\Default Work Unit\\Gameplay_Area",
+      "GUID": "{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Gameplay_Area\\None",
+        "GUID": "{72EBE420-1E8E-4D0A-A797-EDAA30EB33F9}"
+       },
+       {
+        "Id": "1125500713",
+        "Name": "Intro",
+        "ObjectPath": "\\States\\Default Work Unit\\Gameplay_Area\\Intro",
+        "GUID": "{2DB1122A-AFA5-4224-BCBE-A9B8B32A5D07}"
+       },
+       {
+        "Id": "1377027961",
+        "Name": "Climax",
+        "ObjectPath": "\\States\\Default Work Unit\\Gameplay_Area\\Climax",
+        "GUID": "{C90B0E46-963F-4184-9A11-C8515EA8CE8D}"
+       },
+       {
+        "Id": "1571361561",
+        "Name": "Tension",
+        "ObjectPath": "\\States\\Default Work Unit\\Gameplay_Area\\Tension",
+        "GUID": "{FA577FCD-34A5-4614-8DF4-9F28E0028D1B}"
+       },
+       {
+        "Id": "3169107872",
+        "Name": "Escape",
+        "ObjectPath": "\\States\\Default Work Unit\\Gameplay_Area\\Escape",
+        "GUID": "{05418E28-5620-4A65-831F-76D5F89D84C0}"
        }
       ]
      }
@@ -205,6 +292,6 @@
     ]
    }
   ],
-  "FileHash": "{5B08C4C8-EBF0-2ACD-1DB6-B7CDF073D1AB}"
+  "FileHash": "{C33DD5E5-7F7A-EB5C-0CF8-C06D2B315940}"
  }
 }

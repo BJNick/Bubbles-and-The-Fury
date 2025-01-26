@@ -5,11 +5,22 @@ Event	ID	Name			Wwise Object Path	Notes
 	1220128597	mus_climax			\Default Work Unit\Music\mus_climax	
 	2215620476	mus_escape			\Default Work Unit\Music\mus_escape	
 	3149643052	mus_menu			\Default Work Unit\Music\mus_menu	
+	3380990982	sfx_playerswim			\Default Work Unit\SFX\sfx_playerswim	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	2638858007	Gameplay_Area			\Default Work Unit\Gameplay_Area	
 
 Switch	ID	Name	Switch Group			Notes
+	1125500713	Intro	Gameplay_Area			
+	1377027961	Climax	Gameplay_Area			
+	1571361561	Tension	Gameplay_Area			
+	3169107872	Escape	Gameplay_Area			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2638858007	Gameplay_Area			\Default Work Unit\Gameplay_Area	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Gameplay_Area			
 	1125500713	Intro	Gameplay_Area			
 	1377027961	Climax	Gameplay_Area			
 	1571361561	Tension	Gameplay_Area			

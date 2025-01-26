@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8832596D-24DE-44F3-899C-D140C095EA4A}" SchemaVersion="123">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{8832596D-24DE-44F3-899C-D140C095EA4A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8832596D-24DE-44F3-899C-D140C095EA4A}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Player" ID="{F6484851-7F1B-4512-A503-9FECA113B129}" ShortID="616586666">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{442EB86E-E24B-47E1-81EF-D875CCCAF7D2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B5BF60A-F22A-4C17-B3E6-E04036E3186D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Swim Container" ID="{309FCB70-8EE9-4761-ADEE-94E2D451AB46}" ShortID="40580675">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{442EB86E-E24B-47E1-81EF-D875CCCAF7D2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B5BF60A-F22A-4C17-B3E6-E04036E3186D}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

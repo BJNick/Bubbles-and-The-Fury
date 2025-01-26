@@ -4,15 +4,32 @@
 		<WorkUnit Name="Default Work Unit" ID="{A420DB1D-DEB5-4B50-A50F-ED46532642B0}" PersistMode="Standalone">
 			<ChildrenList>
 				<SwitchGroup Name="Gameplay_Area" ID="{971F7864-2713-4530-9BC8-71B155DC7247}">
-					<PropertyList>
-						<Property Name="UseGameParameter" Type="bool" Value="True"/>
-					</PropertyList>
 					<ChildrenList>
 						<Switch Name="Intro" ID="{2E9BEE7A-EAFE-40F9-97D5-C0966BC7105C}"/>
 						<Switch Name="Tension" ID="{31079DFC-682A-484E-AFA4-C8DA88D36379}"/>
 						<Switch Name="Climax" ID="{8E558F03-60E4-43AB-8C82-4671904D59F5}"/>
 						<Switch Name="Escape" ID="{6026294E-613C-41A8-AFFC-CD5995C20F25}"/>
 					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="New_Game_Parameter" ID="{5ACEBBDD-4D4F-43CB-AE8E-7C38E10E7630}"/>
+						<Curve Name="" ID="{D942AB9B-4AE0-4FBD-BE95-DF0A85779F76}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>0</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
 				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>

@@ -52,6 +52,9 @@
 											</PropertyList>
 											<ChildrenList>
 												<MusicTransition Name="Transition" ID="{C49DED1E-A2C4-4045-8650-5AFC9D435AAC}">
+													<PropertyList>
+														<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+													</PropertyList>
 													<TransitionInfo/>
 												</MusicTransition>
 												<MusicTransition Name="Transition" ID="{3F4520BB-9069-4D8A-B6E6-B96A5BC6A530}">
@@ -349,6 +352,31 @@
 											</ObjectLists>
 										</MusicSegment>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="5">
+												<StateGroupRef Name="Gameplay_Area" ID="{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Climax" ID="{C90B0E46-963F-4184-9A11-C8515EA8CE8D}"/>
+												<CustomState Name="" ID="{1C35D4C8-719C-41EF-A3D4-96EC3BC0DA80}" ShortID="3632383"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Intro" ID="{2DB1122A-AFA5-4224-BCBE-A9B8B32A5D07}"/>
+												<CustomState Name="" ID="{0E0E3DA9-FB83-401C-B0A7-532A5BB1D41C}" ShortID="93282815"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Tension" ID="{FA577FCD-34A5-4614-8DF4-9F28E0028D1B}"/>
+												<CustomState Name="" ID="{4B58A808-5A38-41C2-A910-38B456462143}" ShortID="134360408"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Escape" ID="{05418E28-5620-4A65-831F-76D5F89D84C0}"/>
+												<CustomState Name="" ID="{1E51AC41-B654-433B-912D-3E59FAB4D102}" ShortID="680061727"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 								</MusicPlaylistContainer>
 								<MusicPlaylistContainer Name="Tension Music Playlist" ID="{02F9F516-4900-4F7B-ACB1-69940EF8BB69}" ShortID="103550054">
 									<PropertyList>
@@ -1042,6 +1070,9 @@
 									<Reference>
 										<ObjectRef Name="Gameplay_Area" ID="{971F7864-2713-4530-9BC8-71B155DC7247}" WorkUnitID="{A420DB1D-DEB5-4B50-A50F-ED46532642B0}"/>
 									</Reference>
+									<Reference>
+										<ObjectRef Name="Gameplay_Area" ID="{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}" WorkUnitID="{9DEB644C-C59F-4E1D-9FB7-859A44898F59}"/>
+									</Reference>
 								</ObjectList>
 								<ObjectList Name="Entries">
 									<Reference>
@@ -1051,6 +1082,9 @@
 													<ObjectList Name="EntryPath">
 														<Reference>
 															<ObjectRef Name="Gameplay_Area" ID="{971F7864-2713-4530-9BC8-71B155DC7247}" WorkUnitID="{A420DB1D-DEB5-4B50-A50F-ED46532642B0}"/>
+														</Reference>
+														<Reference>
+															<ObjectRef Name="Gameplay_Area" ID="{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}" WorkUnitID="{9DEB644C-C59F-4E1D-9FB7-859A44898F59}"/>
 														</Reference>
 													</ObjectList>
 												</ObjectLists>
@@ -1070,6 +1104,9 @@
 														<Reference>
 															<ObjectRef Name="Climax" ID="{8E558F03-60E4-43AB-8C82-4671904D59F5}" WorkUnitID="{A420DB1D-DEB5-4B50-A50F-ED46532642B0}"/>
 														</Reference>
+														<Reference>
+															<ObjectRef Name="Gameplay_Area" ID="{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}" WorkUnitID="{9DEB644C-C59F-4E1D-9FB7-859A44898F59}"/>
+														</Reference>
 													</ObjectList>
 												</ObjectLists>
 											</MultiSwitchEntry>
@@ -1087,6 +1124,9 @@
 													<ObjectList Name="EntryPath">
 														<Reference>
 															<ObjectRef Name="Escape" ID="{6026294E-613C-41A8-AFFC-CD5995C20F25}" WorkUnitID="{A420DB1D-DEB5-4B50-A50F-ED46532642B0}"/>
+														</Reference>
+														<Reference>
+															<ObjectRef Name="Gameplay_Area" ID="{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}" WorkUnitID="{9DEB644C-C59F-4E1D-9FB7-859A44898F59}"/>
 														</Reference>
 													</ObjectList>
 												</ObjectLists>
@@ -1106,6 +1146,9 @@
 														<Reference>
 															<ObjectRef Name="Intro" ID="{2E9BEE7A-EAFE-40F9-97D5-C0966BC7105C}" WorkUnitID="{A420DB1D-DEB5-4B50-A50F-ED46532642B0}"/>
 														</Reference>
+														<Reference>
+															<ObjectRef Name="Gameplay_Area" ID="{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}" WorkUnitID="{9DEB644C-C59F-4E1D-9FB7-859A44898F59}"/>
+														</Reference>
 													</ObjectList>
 												</ObjectLists>
 											</MultiSwitchEntry>
@@ -1123,6 +1166,9 @@
 													<ObjectList Name="EntryPath">
 														<Reference>
 															<ObjectRef Name="Tension" ID="{31079DFC-682A-484E-AFA4-C8DA88D36379}" WorkUnitID="{A420DB1D-DEB5-4B50-A50F-ED46532642B0}"/>
+														</Reference>
+														<Reference>
+															<ObjectRef Name="Gameplay_Area" ID="{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}" WorkUnitID="{9DEB644C-C59F-4E1D-9FB7-859A44898F59}"/>
 														</Reference>
 													</ObjectList>
 												</ObjectLists>
