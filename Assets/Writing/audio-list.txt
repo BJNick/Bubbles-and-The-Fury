@@ -1,0 +1,32 @@
+ClimaxStory1 - We did it! discovery of..
+
+EscapeStory1 - hear me... what happened...
+
+EscapeStory2 - losing.. cant see dark..
+
+EscapeStory3 - what have I done....
+
+IntroStory1 - hey can you hear me... history salvage history
+
+IntroStory2 - airtank with a leak, millionaiers
+
+IntroStory3 - hurricane, silver wont be far
+
+IntroStory4 - how's the air down there
+
+TensionStory1 - keep a look out for fury
+
+TensionStory2 - wipe your lens, hard to see
+
+TensionStory3 - higher pressure, higher oxy
+
+TensionStory4 - forth best diver
+
+TreasureShipwreck - I can't believe it its the fury!
+
+Victory - You made it!
+
+Jellys - look out for jellys take breath away
+
+Shark - keep an eye for things that bite
+

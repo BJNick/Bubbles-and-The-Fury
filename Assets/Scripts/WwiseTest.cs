@@ -26,9 +26,20 @@ public class WwiseTest : MonoBehaviour
         /* if (triggerEvent && testEvent != null) {
             testEvent.Post(gameObject);
             triggerEvent = false;
-        } else */ if (triggerEvent && testSwitch != null) {
+        } else */ 
+        if (triggerEvent && testSwitch != null) {
             testSwitch.SetValue(testObject);
             Debug.Log("Set switch");
+            if (triggerEvent && testEvent != null) {
+                testEvent.Post(gameObject);
+                Debug.Log("Set event");
+                triggerEvent = false;
+            }
+            triggerEvent = false;
+        }
+        if (triggerEvent && testEvent != null) {
+            testEvent.Post(gameObject);
+            Debug.Log("Set event");
             triggerEvent = false;
         }
     }

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcdcd3351ade6264aae153020450f7dc, type: 3}
+  m_Name: Victory YouMadeIt
+  m_EditorClassIdentifier: 
+  text: You made it! Enjoy your first breath as a millionaire!
+  audio:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3d422c3733dc7564a8679b7b6ec0a095, type: 2}
+  duration: 10
+  image: {fileID: 21300000, guid: 2806b92377dba7041a41badad23906a2, type: 3}
+  treasureEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 04214f4b953a5174983d35be23f095e7, type: 2}
+  isTreasure: 0
