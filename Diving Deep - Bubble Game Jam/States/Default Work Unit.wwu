@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9DEB644C-C59F-4E1D-9FB7-859A44898F59}" SchemaVersion="123">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{9DEB644C-C59F-4E1D-9FB7-859A44898F59}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9DEB644C-C59F-4E1D-9FB7-859A44898F59}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Gameplay_Area" ID="{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{72EBE420-1E8E-4D0A-A797-EDAA30EB33F9}"/>
+						<State Name="Intro" ID="{2DB1122A-AFA5-4224-BCBE-A9B8B32A5D07}"/>
+						<State Name="Tension" ID="{FA577FCD-34A5-4614-8DF4-9F28E0028D1B}"/>
+						<State Name="Climax" ID="{C90B0E46-963F-4184-9A11-C8515EA8CE8D}"/>
+						<State Name="Escape" ID="{05418E28-5620-4A65-831F-76D5F89D84C0}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

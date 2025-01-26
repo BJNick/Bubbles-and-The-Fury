@@ -19,7 +19,29 @@ namespace AK
         static const AkUniqueID MUS_INTRO = 1219230789U;
         static const AkUniqueID MUS_MENU = 3149643052U;
         static const AkUniqueID MUS_TENSION = 1172924437U;
+        static const AkUniqueID SFX_BUBBLE = 2983997255U;
+        static const AkUniqueID SFX_DEATH = 777164721U;
+        static const AkUniqueID SFX_PLAYERSWIM = 3380990982U;
+        static const AkUniqueID SFX_TREASURE = 2487155894U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace GAMEPLAY_AREA
+        {
+            static const AkUniqueID GROUP = 2638858007U;
+
+            namespace STATE
+            {
+                static const AkUniqueID CLIMAX = 1377027961U;
+                static const AkUniqueID ESCAPE = 3169107872U;
+                static const AkUniqueID INTRO = 1125500713U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID TENSION = 1571361561U;
+            } // namespace STATE
+        } // namespace GAMEPLAY_AREA
+
+    } // namespace STATES
 
     namespace SWITCHES
     {
@@ -40,6 +62,7 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID NEW_GAME_PARAMETER = 3671138082U;
         static const AkUniqueID SS_AIR_FEAR = 1351367891U;
         static const AkUniqueID SS_AIR_FREEFALL = 3002758120U;
         static const AkUniqueID SS_AIR_FURY = 1029930033U;

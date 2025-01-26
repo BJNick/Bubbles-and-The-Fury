@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{388691ED-56EC-4966-9B29-BBB7031BD638}",
     "Language": "SFX",
-    "Hash": "{46F3AE31-4215-57E5-1976-D7E2B3A7383A}",
+    "Hash": "{02FFF983-8CE7-6AA8-E3A2-11AD80F6E6EB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Bubble_Soundbank",
     "ShortName": "Bubble_Soundbank",
     "Path": "Bubble_Soundbank.bnk",
     "Media": [
+     {
+      "Id": "23619031",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "bubble5.wav",
+      "CachePath": "62/{62ACB619-A01B-B1A3-893F-FD39AA1D40E0}.wem"
+     },
      {
       "Id": "28799991",
       "Language": "SFX",
@@ -22,6 +30,22 @@
       "Location": "Memory",
       "ShortName": "mus_climax.wav",
       "CachePath": "AE/{AEBC820F-B5D3-7C6C-A52D-F8F3A3C2EE87}.wem"
+     },
+     {
+      "Id": "117564831",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "bubble1.wav",
+      "CachePath": "92/{92E8AAB7-C30A-A1C4-5F84-E7890C82C314}.wem"
+     },
+     {
+      "Id": "228370953",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "swim3.wav",
+      "CachePath": "47/{4748A4AE-D4A8-BFF1-91AC-944FFA9E42B5}.wem"
      },
      {
       "Id": "361976837",
@@ -32,12 +56,76 @@
       "CachePath": "8B/{8BE8BCFB-D7CE-D172-7258-87B733977030}.wem"
      },
      {
+      "Id": "428611991",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "swim5.wav",
+      "CachePath": "22/{22F46C68-80C9-ECA9-3F19-178B0F9CCD29}.wem"
+     },
+     {
+      "Id": "497263798",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "bubble4.wav",
+      "CachePath": "B9/{B90EFDFA-47C0-58C9-9C8C-4B92A6A7AD81}.wem"
+     },
+     {
+      "Id": "499008946",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "bubble6.wav",
+      "CachePath": "83/{83AACCDD-2198-3459-2B34-4662A9A56B54}.wem"
+     },
+     {
+      "Id": "503446267",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "swim2.wav",
+      "CachePath": "6C/{6C86BD6D-00BC-3A54-D2D5-21CA1221666F}.wem"
+     },
+     {
       "Id": "510961015",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "mus_intro.wav",
       "CachePath": "83/{83F6D6F1-9D6C-B416-BEBD-59FEFEEC97D8}.wem"
+     },
+     {
+      "Id": "523269430",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "swim1.wav",
+      "CachePath": "3D/{3D886BFC-C51C-ACBB-7DB0-4E944B0883D4}.wem"
+     },
+     {
+      "Id": "693662072",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "bubble2.wav",
+      "CachePath": "58/{58E4C907-246B-92A5-22D7-39953C1E93ED}.wem"
+     },
+     {
+      "Id": "793076629",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "swim4.wav",
+      "CachePath": "8B/{8B59AA7D-5744-8FA1-33BB-C6E20F8D90BE}.wem"
+     },
+     {
+      "Id": "844575640",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "bubble3.wav",
+      "CachePath": "63/{6317E8E0-0EFA-D1A1-1F7E-64737DDE8E85}.wem"
      },
      {
       "Id": "963635366",
@@ -87,9 +175,19 @@
          "Id": "1377027961",
          "GUID": "{8E558F03-60E4-43AB-8C82-4671904D59F5}"
         },
-        "MediaRefs": [
+        "Children": [
          {
-          "Id": "28799991"
+          "SwitchValue": {
+           "GroupType": "State",
+           "GroupId": "2638858007",
+           "Id": "0",
+           "GUID": "{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "28799991"
+           }
+          ]
          }
         ]
        },
@@ -100,9 +198,19 @@
          "Id": "3169107872",
          "GUID": "{6026294E-613C-41A8-AFFC-CD5995C20F25}"
         },
-        "MediaRefs": [
+        "Children": [
          {
-          "Id": "361976837"
+          "SwitchValue": {
+           "GroupType": "State",
+           "GroupId": "2638858007",
+           "Id": "0",
+           "GUID": "{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "361976837"
+           }
+          ]
          }
         ]
        },
@@ -113,9 +221,19 @@
          "Id": "1125500713",
          "GUID": "{2E9BEE7A-EAFE-40F9-97D5-C0966BC7105C}"
         },
-        "MediaRefs": [
+        "Children": [
          {
-          "Id": "510961015"
+          "SwitchValue": {
+           "GroupType": "State",
+           "GroupId": "2638858007",
+           "Id": "0",
+           "GUID": "{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "510961015"
+           }
+          ]
          }
         ]
        },
@@ -126,9 +244,19 @@
          "Id": "1571361561",
          "GUID": "{31079DFC-682A-484E-AFA4-C8DA88D36379}"
         },
-        "MediaRefs": [
+        "Children": [
          {
-          "Id": "963635366"
+          "SwitchValue": {
+           "GroupType": "State",
+           "GroupId": "2638858007",
+           "Id": "0",
+           "GUID": "{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "963635366"
+           }
+          ]
          }
         ]
        }
@@ -151,10 +279,7 @@
       "Name": "mus_menu",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\mus_menu",
       "GUID": "{4D49BEAF-D239-4002-BBC6-D5E11E45EA3F}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationType": "Infinite"
      },
      {
       "Id": "1172924437",
@@ -165,6 +290,121 @@
       "MediaRefs": [
        {
         "Id": "963635366"
+       }
+      ]
+     },
+     {
+      "Id": "2983997255",
+      "Name": "sfx_bubble",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\sfx_bubble",
+      "GUID": "{5DC7A277-1CC1-4C19-8192-4B4781A90452}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.47558334",
+      "DurationMax": "0.53425",
+      "MediaRefs": [
+       {
+        "Id": "23619031"
+       },
+       {
+        "Id": "117564831"
+       },
+       {
+        "Id": "497263798"
+       },
+       {
+        "Id": "499008946"
+       },
+       {
+        "Id": "693662072"
+       },
+       {
+        "Id": "844575640"
+       }
+      ]
+     },
+     {
+      "Id": "777164721",
+      "Name": "sfx_death",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\sfx_death",
+      "GUID": "{42B77471-0BEF-46BB-9187-5EE0B8495EA5}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3380990982",
+      "Name": "sfx_playerswim",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\sfx_playerswim",
+      "GUID": "{6416A5DC-C154-4FB6-97B8-6139D5C2E4C4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.74666667",
+      "DurationMax": "0.9906667",
+      "MediaRefs": [
+       {
+        "Id": "228370953"
+       },
+       {
+        "Id": "428611991"
+       },
+       {
+        "Id": "503446267"
+       },
+       {
+        "Id": "523269430"
+       },
+       {
+        "Id": "793076629"
+       }
+      ]
+     },
+     {
+      "Id": "2487155894",
+      "Name": "sfx_treasure",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\sfx_treasure",
+      "GUID": "{CEA4B5CC-F184-440F-8BD1-57AC6F3079D9}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2638858007",
+      "Name": "Gameplay_Area",
+      "ObjectPath": "\\States\\Default Work Unit\\Gameplay_Area",
+      "GUID": "{DA7F3BAC-48B5-48CD-8FB3-2892ADE41BB1}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Gameplay_Area\\None",
+        "GUID": "{72EBE420-1E8E-4D0A-A797-EDAA30EB33F9}"
+       },
+       {
+        "Id": "1125500713",
+        "Name": "Intro",
+        "ObjectPath": "\\States\\Default Work Unit\\Gameplay_Area\\Intro",
+        "GUID": "{2DB1122A-AFA5-4224-BCBE-A9B8B32A5D07}"
+       },
+       {
+        "Id": "1377027961",
+        "Name": "Climax",
+        "ObjectPath": "\\States\\Default Work Unit\\Gameplay_Area\\Climax",
+        "GUID": "{C90B0E46-963F-4184-9A11-C8515EA8CE8D}"
+       },
+       {
+        "Id": "1571361561",
+        "Name": "Tension",
+        "ObjectPath": "\\States\\Default Work Unit\\Gameplay_Area\\Tension",
+        "GUID": "{FA577FCD-34A5-4614-8DF4-9F28E0028D1B}"
+       },
+       {
+        "Id": "3169107872",
+        "Name": "Escape",
+        "ObjectPath": "\\States\\Default Work Unit\\Gameplay_Area\\Escape",
+        "GUID": "{05418E28-5620-4A65-831F-76D5F89D84C0}"
        }
       ]
      }
@@ -205,6 +445,6 @@
     ]
    }
   ],
-  "FileHash": "{5B08C4C8-EBF0-2ACD-1DB6-B7CDF073D1AB}"
+  "FileHash": "{36008271-CC7E-8DCD-EBE1-6674A7BAB8A5}"
  }
 }
