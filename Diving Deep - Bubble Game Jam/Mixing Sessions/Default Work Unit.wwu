@@ -4,6 +4,14 @@
 		<WorkUnit Name="Default Work Unit" ID="{05ED658B-8C61-47B7-85BF-F0C4DBED651D}" PersistMode="Standalone">
 			<ChildrenList>
 				<MixingSession Name="New Mixing Session" ID="{7D788283-25C8-4618-8F89-5D460EB66367}"/>
+				<MixingSession Name="New Mixing Session_Rough Mix" ID="{CFEDD0A8-E507-4845-8CD3-D47D1B6AB6EA}">
+					<ObjectList>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B5BF60A-F22A-4C17-B3E6-E04036E3186D}"/>
+						<ObjectRef Name="Dialogue Bus" ID="{4C44DE03-3401-4ED1-82A4-4EC309F04C46}" WorkUnitID="{2B5BF60A-F22A-4C17-B3E6-E04036E3186D}"/>
+						<ObjectRef Name="Music Bus" ID="{0E2943B7-DDFB-49DB-B75C-2CAD1729985F}" WorkUnitID="{2B5BF60A-F22A-4C17-B3E6-E04036E3186D}"/>
+						<ObjectRef Name="SFX Bus" ID="{504AC3FE-908D-4743-8B63-B78D676E6CE9}" WorkUnitID="{2B5BF60A-F22A-4C17-B3E6-E04036E3186D}"/>
+					</ObjectList>
+				</MixingSession>
 			</ChildrenList>
 		</WorkUnit>
 	</MixingSessions>

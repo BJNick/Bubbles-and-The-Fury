@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{1BBE7B65-48DF-7999-71EF-C998F1569966}",
+    "Hash": "{8FB177B8-F2BC-3BAE-AA4E-76BDCDFE9BF8}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -35,6 +35,24 @@
      ]
     },
     "Busses": [
+     {
+      "Id": "1502772432",
+      "Name": "SFX Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX Bus",
+      "GUID": "{504AC3FE-908D-4743-8B63-B78D676E6CE9}"
+     },
+     {
+      "Id": "3127962312",
+      "Name": "Music Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Bus",
+      "GUID": "{0E2943B7-DDFB-49DB-B75C-2CAD1729985F}"
+     },
+     {
+      "Id": "3714968413",
+      "Name": "Dialogue Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Dialogue Bus",
+      "GUID": "{4C44DE03-3401-4ED1-82A4-4EC309F04C46}"
+     },
      {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
@@ -174,6 +192,12 @@
         "Name": "Tension",
         "ObjectPath": "\\Switches\\Default Work Unit\\Gameplay_Area\\Tension",
         "GUID": "{31079DFC-682A-484E-AFA4-C8DA88D36379}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Gameplay_Area\\Menu",
+        "GUID": "{4D930E51-06FC-468A-83B8-66235B5EBD88}"
        },
        {
         "Id": "3169107872",
@@ -663,6 +687,6 @@
     ]
    }
   ],
-  "FileHash": "{7BC36167-F79B-F95D-E884-57748484191B}"
+  "FileHash": "{803A3186-DF8F-E1FB-7DD5-BD80493D47AE}"
  }
 }

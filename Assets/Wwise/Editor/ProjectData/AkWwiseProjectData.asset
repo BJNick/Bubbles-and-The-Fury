@@ -303,8 +303,25 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 0af65b2b2af2174cb3e6e04036e3186d
     GuidInternal: 
-    m_lastTime: -8584637725333357902
+    m_lastTime: -8584637273354084610
     List:
+    - name: Dialogue Bus
+      guid: 03de444c0134d14e82a44ec309f04c46
+      id: 3714968413
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0af65b2b2af2174cb3e6e04036e3186d
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Dialogue Bus
+        ObjectType: 2
+        guid: 03de444c0134d14e82a44ec309f04c46
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Dialogue Bus
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -318,7 +335,41 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+    - name: Music Bus
+      guid: b743290efbdddb49b75c2cad1729985f
+      id: 3127962312
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0af65b2b2af2174cb3e6e04036e3186d
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music Bus
+        ObjectType: 2
+        guid: b743290efbdddb49b75c2cad1729985f
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Music Bus
+    - name: SFX Bus
+      guid: fec34a508d9043478b63b78d676e6ce9
+      id: 1502772432
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0af65b2b2af2174cb3e6e04036e3186d
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX Bus
+        ObjectType: 2
+        guid: fec34a508d9043478b63b78d676e6ce9
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SFX Bus
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -359,8 +410,514 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 821f11a561081549b359c60d75920656
     GuidInternal: 
-    m_lastTime: -8584637430688528660
+    m_lastTime: -8584637295418546714
     List:
+    - name: DIA_ClimaxStory1
+      guid: f4617167d3be824e9b464bb1b48636a0
+      id: 3033011476
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaStory
+        ObjectType: 4
+        guid: c21e25fd54e1844896290e1c45eddcde
+      - ElementName: DIA_ClimaxStory1
+        ObjectType: 3
+        guid: f4617167d3be824e9b464bb1b48636a0
+      Path: Events/Default Work Unit/Dialogue/DiaStory/DIA_ClimaxStory1
+      maxAttenuation: 0
+      maxDuration: 5.113333
+      minDuration: 5.113333
+    - name: DIA_EscapeStory1
+      guid: 6a9b3152a980af4a8df6680a9b381c23
+      id: 3260869773
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaStory
+        ObjectType: 4
+        guid: c21e25fd54e1844896290e1c45eddcde
+      - ElementName: DIA_EscapeStory1
+        ObjectType: 3
+        guid: 6a9b3152a980af4a8df6680a9b381c23
+      Path: Events/Default Work Unit/Dialogue/DiaStory/DIA_EscapeStory1
+      maxAttenuation: 0
+      maxDuration: 4.636
+      minDuration: 4.636
+    - name: DIA_EscapeStory2
+      guid: 7a2258e1efbaa74e9a754981d648e5bb
+      id: 3260869774
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaStory
+        ObjectType: 4
+        guid: c21e25fd54e1844896290e1c45eddcde
+      - ElementName: DIA_EscapeStory2
+        ObjectType: 3
+        guid: 7a2258e1efbaa74e9a754981d648e5bb
+      Path: Events/Default Work Unit/Dialogue/DiaStory/DIA_EscapeStory2
+      maxAttenuation: 0
+      maxDuration: 6.284
+      minDuration: 6.284
+    - name: DIA_EscapeStory3
+      guid: 891785dcef490c4193fa68be0029ba41
+      id: 3260869775
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaStory
+        ObjectType: 4
+        guid: c21e25fd54e1844896290e1c45eddcde
+      - ElementName: DIA_EscapeStory3
+        ObjectType: 3
+        guid: 891785dcef490c4193fa68be0029ba41
+      Path: Events/Default Work Unit/Dialogue/DiaStory/DIA_EscapeStory3
+      maxAttenuation: 0
+      maxDuration: 8.542666
+      minDuration: 8.542666
+    - name: DIA_IntroStory1
+      guid: c27df16072c9e748ae6494d2cb9eef2b
+      id: 2922889338
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaStory
+        ObjectType: 4
+        guid: c21e25fd54e1844896290e1c45eddcde
+      - ElementName: DIA_IntroStory1
+        ObjectType: 3
+        guid: c27df16072c9e748ae6494d2cb9eef2b
+      Path: Events/Default Work Unit/Dialogue/DiaStory/DIA_IntroStory1
+      maxAttenuation: 0
+      maxDuration: 12.356
+      minDuration: 12.356
+    - name: DIA_IntroStory2
+      guid: 07c9534c4fb1964a83e69075aeec7dca
+      id: 2922889337
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaStory
+        ObjectType: 4
+        guid: c21e25fd54e1844896290e1c45eddcde
+      - ElementName: DIA_IntroStory2
+        ObjectType: 3
+        guid: 07c9534c4fb1964a83e69075aeec7dca
+      Path: Events/Default Work Unit/Dialogue/DiaStory/DIA_IntroStory2
+      maxAttenuation: 0
+      maxDuration: 10.097333
+      minDuration: 10.097333
+    - name: DIA_IntroStory3
+      guid: a25daf3d11890d45aeea4c86e4850ed6
+      id: 2922889336
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaStory
+        ObjectType: 4
+        guid: c21e25fd54e1844896290e1c45eddcde
+      - ElementName: DIA_IntroStory3
+        ObjectType: 3
+        guid: a25daf3d11890d45aeea4c86e4850ed6
+      Path: Events/Default Work Unit/Dialogue/DiaStory/DIA_IntroStory3
+      maxAttenuation: 0
+      maxDuration: 9.414667
+      minDuration: 9.414667
+    - name: DIA_IntroStory4
+      guid: 20abe96640fd5e499594e3fffb5c1b8f
+      id: 2922889343
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaStory
+        ObjectType: 4
+        guid: c21e25fd54e1844896290e1c45eddcde
+      - ElementName: DIA_IntroStory4
+        ObjectType: 3
+        guid: 20abe96640fd5e499594e3fffb5c1b8f
+      Path: Events/Default Work Unit/Dialogue/DiaStory/DIA_IntroStory4
+      maxAttenuation: 0
+      maxDuration: 7.641333
+      minDuration: 7.641333
+    - name: DIA_JellyWarning
+      guid: d7742883a50ff44d9b6f03cb7c137144
+      id: 1029159304
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaWarning
+        ObjectType: 4
+        guid: 7b53c63f41c5484b866a3f473bdbd7ce
+      - ElementName: DIA_JellyWarning
+        ObjectType: 3
+        guid: d7742883a50ff44d9b6f03cb7c137144
+      Path: Events/Default Work Unit/Dialogue/DiaWarning/DIA_JellyWarning
+      maxAttenuation: 0
+      maxDuration: 2.7853334
+      minDuration: 2.7853334
+    - name: DIA_SharkWarning
+      guid: 99dd7e909b408346920048e0b8d7a3ab
+      id: 2181865273
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaWarning
+        ObjectType: 4
+        guid: 7b53c63f41c5484b866a3f473bdbd7ce
+      - ElementName: DIA_SharkWarning
+        ObjectType: 3
+        guid: 99dd7e909b408346920048e0b8d7a3ab
+      Path: Events/Default Work Unit/Dialogue/DiaWarning/DIA_SharkWarning
+      maxAttenuation: 0
+      maxDuration: 3.5573332
+      minDuration: 3.5573332
+    - name: DIA_TensionStory1
+      guid: 118191c24f8c1a468772005267602dd9
+      id: 3417468250
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaStory
+        ObjectType: 4
+        guid: c21e25fd54e1844896290e1c45eddcde
+      - ElementName: DIA_TensionStory1
+        ObjectType: 3
+        guid: 118191c24f8c1a468772005267602dd9
+      Path: Events/Default Work Unit/Dialogue/DiaStory/DIA_TensionStory1
+      maxAttenuation: 0
+      maxDuration: 7.2013335
+      minDuration: 7.2013335
+    - name: DIA_TensionStory2
+      guid: 2bb0bc48356e61459315a373cc15252a
+      id: 3417468249
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaStory
+        ObjectType: 4
+        guid: c21e25fd54e1844896290e1c45eddcde
+      - ElementName: DIA_TensionStory2
+        ObjectType: 3
+        guid: 2bb0bc48356e61459315a373cc15252a
+      Path: Events/Default Work Unit/Dialogue/DiaStory/DIA_TensionStory2
+      maxAttenuation: 0
+      maxDuration: 5.294667
+      minDuration: 5.294667
+    - name: DIA_TensionStory3
+      guid: 7e1954297675c0429e836790889251e7
+      id: 3417468248
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaStory
+        ObjectType: 4
+        guid: c21e25fd54e1844896290e1c45eddcde
+      - ElementName: DIA_TensionStory3
+        ObjectType: 3
+        guid: 7e1954297675c0429e836790889251e7
+      Path: Events/Default Work Unit/Dialogue/DiaStory/DIA_TensionStory3
+      maxAttenuation: 0
+      maxDuration: 5.449333
+      minDuration: 5.449333
+    - name: DIA_TensionStory4
+      guid: 33f91496d1c0b34fa07efc2991a9775e
+      id: 3417468255
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaStory
+        ObjectType: 4
+        guid: c21e25fd54e1844896290e1c45eddcde
+      - ElementName: DIA_TensionStory4
+        ObjectType: 3
+        guid: 33f91496d1c0b34fa07efc2991a9775e
+      Path: Events/Default Work Unit/Dialogue/DiaStory/DIA_TensionStory4
+      maxAttenuation: 0
+      maxDuration: 4.636
+      minDuration: 4.636
+    - name: DIA_TreasureBone
+      guid: 984a2acf0c2a024c86e5d1c342401f3d
+      id: 3581270229
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaTreasure
+        ObjectType: 4
+        guid: 3a2eafd66fe2fd4aaeb972bbabf966f8
+      - ElementName: DIA_TreasureBone
+        ObjectType: 3
+        guid: 984a2acf0c2a024c86e5d1c342401f3d
+      Path: Events/Default Work Unit/Dialogue/DiaTreasure/DIA_TreasureBone
+      maxAttenuation: 0
+      maxDuration: 3.524
+      minDuration: 3.524
+    - name: DIA_TreasureCutlass
+      guid: 325030803d1e874e82f0192d439401a2
+      id: 2993629078
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaTreasure
+        ObjectType: 4
+        guid: 3a2eafd66fe2fd4aaeb972bbabf966f8
+      - ElementName: DIA_TreasureCutlass
+        ObjectType: 3
+        guid: 325030803d1e874e82f0192d439401a2
+      Path: Events/Default Work Unit/Dialogue/DiaTreasure/DIA_TreasureCutlass
+      maxAttenuation: 0
+      maxDuration: 3.8413334
+      minDuration: 3.8413334
+    - name: DIA_TreasureDoubloon
+      guid: 79a8bd9843fb9c4598c5702d638e5454
+      id: 3494670805
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaTreasure
+        ObjectType: 4
+        guid: 3a2eafd66fe2fd4aaeb972bbabf966f8
+      - ElementName: DIA_TreasureDoubloon
+        ObjectType: 3
+        guid: 79a8bd9843fb9c4598c5702d638e5454
+      Path: Events/Default Work Unit/Dialogue/DiaTreasure/DIA_TreasureDoubloon
+      maxAttenuation: 0
+      maxDuration: 8.604
+      minDuration: 8.604
+    - name: DIA_TreasureFlintlock
+      guid: b55dccfd74db724e9e180897a9abf12b
+      id: 1517707933
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaTreasure
+        ObjectType: 4
+        guid: 3a2eafd66fe2fd4aaeb972bbabf966f8
+      - ElementName: DIA_TreasureFlintlock
+        ObjectType: 3
+        guid: b55dccfd74db724e9e180897a9abf12b
+      Path: Events/Default Work Unit/Dialogue/DiaTreasure/DIA_TreasureFlintlock
+      maxAttenuation: 0
+      maxDuration: 4.18
+      minDuration: 4.18
+    - name: DIA_TreasureGemstone
+      guid: 6e01573f036a43499fc57f380fdd4e4d
+      id: 1661916387
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaTreasure
+        ObjectType: 4
+        guid: 3a2eafd66fe2fd4aaeb972bbabf966f8
+      - ElementName: DIA_TreasureGemstone
+        ObjectType: 3
+        guid: 6e01573f036a43499fc57f380fdd4e4d
+      Path: Events/Default Work Unit/Dialogue/DiaTreasure/DIA_TreasureGemstone
+      maxAttenuation: 0
+      maxDuration: 6.364
+      minDuration: 6.364
+    - name: DIA_TreasureHat
+      guid: 1f61c9ae0ccca64bb3f0ada127eb1dc8
+      id: 624438454
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaTreasure
+        ObjectType: 4
+        guid: 3a2eafd66fe2fd4aaeb972bbabf966f8
+      - ElementName: DIA_TreasureHat
+        ObjectType: 3
+        guid: 1f61c9ae0ccca64bb3f0ada127eb1dc8
+      Path: Events/Default Work Unit/Dialogue/DiaTreasure/DIA_TreasureHat
+      maxAttenuation: 0
+      maxDuration: 4.6573334
+      minDuration: 4.6573334
+    - name: DIA_TreasureShipwreck
+      guid: 46c7578785a69b4884f06d5a55d060f7
+      id: 511787789
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaTreasure
+        ObjectType: 4
+        guid: 3a2eafd66fe2fd4aaeb972bbabf966f8
+      - ElementName: DIA_TreasureShipwreck
+        ObjectType: 3
+        guid: 46c7578785a69b4884f06d5a55d060f7
+      Path: Events/Default Work Unit/Dialogue/DiaTreasure/DIA_TreasureShipwreck
+      maxAttenuation: 0
+      maxDuration: 3.3
+      minDuration: 3.3
+    - name: DIA_Victory
+      guid: d7f566e6f05d7145aaa6d95de6feb9a1
+      id: 779849494
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaTreasure
+        ObjectType: 4
+        guid: 3a2eafd66fe2fd4aaeb972bbabf966f8
+      - ElementName: DIA_Victory
+        ObjectType: 3
+        guid: d7f566e6f05d7145aaa6d95de6feb9a1
+      Path: Events/Default Work Unit/Dialogue/DiaTreasure/DIA_Victory
+      maxAttenuation: 0
+      maxDuration: 3.3826666
+      minDuration: 3.3826666
     - name: Dialogue
       guid: f786fd2979348f4e8715cf1960c7883d
       id: 3930136735
@@ -375,6 +932,66 @@ MonoBehaviour:
         ObjectType: 4
         guid: f786fd2979348f4e8715cf1960c7883d
       Path: Events\Default Work Unit\Dialogue
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: DiaStory
+      guid: c21e25fd54e1844896290e1c45eddcde
+      id: 3955260544
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaStory
+        ObjectType: 4
+        guid: c21e25fd54e1844896290e1c45eddcde
+      Path: Events/Default Work Unit/Dialogue/DiaStory
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: DiaTreasure
+      guid: 3a2eafd66fe2fd4aaeb972bbabf966f8
+      id: 897955114
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaTreasure
+        ObjectType: 4
+        guid: 3a2eafd66fe2fd4aaeb972bbabf966f8
+      Path: Events/Default Work Unit/Dialogue/DiaTreasure
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: DiaWarning
+      guid: 7b53c63f41c5484b866a3f473bdbd7ce
+      id: 3288163535
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: DiaWarning
+        ObjectType: 4
+        guid: 7b53c63f41c5484b866a3f473bdbd7ce
+      Path: Events/Default Work Unit/Dialogue/DiaWarning
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -957,7 +1574,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 1ddb20a4b5de504ba50fed46532642b0
     GuidInternal: 
-    m_lastTime: -8584637433032936667
+    m_lastTime: -8584637337388599338
     List:
     - name: Gameplay_Area
       guid: 64781f97132730459bc871b155dc7247
@@ -1022,6 +1639,22 @@ MonoBehaviour:
         - ElementName: Intro
           ObjectType: 10
           guid: 7aee9b2efeeaf94097d5c0966bc7105c
+      - name: Menu
+        guid: 510e934dfc068a4683b866235b5ebd88
+        id: 2607556080
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1ddb20a4b5de504ba50fed46532642b0
+        - ElementName: Gameplay_Area
+          ObjectType: 11
+          guid: 64781f97132730459bc871b155dc7247
+        - ElementName: Menu
+          ObjectType: 10
+          guid: 510e934dfc068a4683b866235b5ebd88
       - name: Tension
         guid: fc9d07312a684e48afa4c8da88d36379
         id: 1571361561
