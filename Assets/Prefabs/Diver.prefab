@@ -142,7 +142,7 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 09c03e35ef8e83e4ba21ef8c27a21052, type: 2}
-  swimEventInterval: 1
+  swimEventInterval: 0
 --- !u!70 &5021648857918845404
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

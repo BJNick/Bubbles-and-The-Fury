@@ -70,7 +70,7 @@ MonoBehaviour:
   deathEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 38de992a91182b843bfb4f44fce381d3, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 433f6a24fd097ff43acefe1232af4e1e, type: 2}
 --- !u!95 &1038493706148244600
 Animator:
   serializedVersion: 7
