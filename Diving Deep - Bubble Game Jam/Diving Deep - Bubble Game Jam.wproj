@@ -28,6 +28,8 @@
 						<Value Platform="Mac">GeneratedSoundBanks\Mac</Value>
 					</ValueList>
 				</Property>
+				<Property Name="GenerateMainSoundBank" Type="bool" Value="True" />
+				<Property Name="GenerateSoundBankXML" Type="bool" Value="True" />
 				<Property Name="GlobalVoiceInstancesLimit" Type="int16">
 					<ValueList>
 						<Value Platform="Web">256</Value>
