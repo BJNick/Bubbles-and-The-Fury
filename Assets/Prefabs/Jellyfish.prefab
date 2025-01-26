@@ -151,6 +151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9085070814432443922}
   - component: {fileID: 3901032066502329883}
+  - component: {fileID: 2741754135424288880}
   m_Layer: 0
   m_Name: Jellyfish
   m_TagString: Untagged
@@ -184,7 +185,7 @@ Animator:
   m_GameObject: {fileID: 5910738791662010537}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 036985bd0c93fda4696330875c8286c0, type: 2}
+  m_Controller: {fileID: 9100000, guid: 28f897501c398364c9ff6462827556dd, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -196,6 +197,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2741754135424288880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5910738791662010537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 403fda1193ea3a84ebe9e31baf1c5de4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minSpeed: 0.8
+  maxSpeed: 1.2
 --- !u!1 &8451282148636967325
 GameObject:
   m_ObjectHideFlags: 0
