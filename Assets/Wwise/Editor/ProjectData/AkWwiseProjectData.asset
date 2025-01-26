@@ -359,8 +359,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 821f11a561081549b359c60d75920656
     GuidInternal: 
-    m_lastTime: -8584637530828386267
+    m_lastTime: -8584637505585695144
     List:
+    - name: Dialogue
+      guid: f786fd2979348f4e8715cf1960c7883d
+      id: 3930136735
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      Path: Events/Default Work Unit/Dialogue
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: mus_climax
       guid: 3cc4c011eeb80141955cae6c31bc9d11
       id: 1220128597
@@ -553,8 +570,8 @@ MonoBehaviour:
         guid: 7174b742ef0bbb4691875ee0b8495ea5
       Path: Events\Default Work Unit\SFX\sfx_death
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 4.9816666
+      minDuration: 4.7896667
     - name: sfx_playerswim
       guid: dca5166454c1b64f97b86139d5c2e4c4
       id: 3380990982
@@ -593,8 +610,28 @@ MonoBehaviour:
         guid: ccb5a4ce84f10f448bd157ac6f3079d9
       Path: Events\Default Work Unit\SFX\sfx_treasure
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 4.6053333
+      minDuration: 4.6053333
+    - name: Treasure1
+      guid: c6840f132ae27240bdf8f102e2a8b92a
+      id: 3670868403
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: f786fd2979348f4e8715cf1960c7883d
+      - ElementName: Treasure1
+        ObjectType: 3
+        guid: c6840f132ae27240bdf8f102e2a8b92a
+      Path: Events/Default Work Unit/Dialogue/Treasure1
+      maxAttenuation: 0
+      maxDuration: 1.52275
+      minDuration: 1.52275
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{388691ED-56EC-4966-9B29-BBB7031BD638}",
     "Language": "SFX",
-    "Hash": "{02FFF983-8CE7-6AA8-E3A2-11AD80F6E6EB}",
+    "Hash": "{DA83BC6E-B2A2-B057-7B0E-42FFDEE8A6F0}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Bubble_Soundbank",
     "ShortName": "Bubble_Soundbank",
     "Path": "Bubble_Soundbank.bnk",
@@ -32,12 +32,28 @@
       "CachePath": "AE/{AEBC820F-B5D3-7C6C-A52D-F8F3A3C2EE87}.wem"
      },
      {
+      "Id": "52780276",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "treasurecollect.wav",
+      "CachePath": "FB/{FBAB5D5A-8C05-4E21-1463-4EFC4CEF5186}.wem"
+     },
+     {
       "Id": "117564831",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "bubble1.wav",
       "CachePath": "92/{92E8AAB7-C30A-A1C4-5F84-E7890C82C314}.wem"
+     },
+     {
+      "Id": "141846178",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "death4.wav",
+      "CachePath": "A6/{A6DDCF60-6F03-5898-A418-F72EA52F0AA2}.wem"
      },
      {
       "Id": "228370953",
@@ -62,6 +78,14 @@
       "Location": "Memory",
       "ShortName": "swim5.wav",
       "CachePath": "22/{22F46C68-80C9-ECA9-3F19-178B0F9CCD29}.wem"
+     },
+     {
+      "Id": "447684868",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "death1.wav",
+      "CachePath": "85/{85A3DF91-329E-B4D7-3860-5F757321E5B8}.wem"
      },
      {
       "Id": "497263798",
@@ -112,12 +136,36 @@
       "CachePath": "58/{58E4C907-246B-92A5-22D7-39953C1E93ED}.wem"
      },
      {
+      "Id": "713805700",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "death3.wav",
+      "CachePath": "39/{39FDB36F-3151-5AC9-4A2F-3AEEB6D969B4}.wem"
+     },
+     {
+      "Id": "769289019",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VOICE of God - Game Phrase - Are You Ready, DRY.wav",
+      "CachePath": "80/{809AC2DC-811F-059B-E95B-C5240EDB70A3}.wem"
+     },
+     {
       "Id": "793076629",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "swim4.wav",
       "CachePath": "8B/{8B59AA7D-5744-8FA1-33BB-C6E20F8D90BE}.wem"
+     },
+     {
+      "Id": "803625038",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "death2.wav",
+      "CachePath": "37/{37D50EDF-8793-C473-AF75-454E0B28E68B}.wem"
      },
      {
       "Id": "844575640",
@@ -327,10 +375,23 @@
       "Name": "sfx_death",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\sfx_death",
       "GUID": "{42B77471-0BEF-46BB-9187-5EE0B8495EA5}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "4.7896667",
+      "DurationMax": "4.9816666",
+      "MediaRefs": [
+       {
+        "Id": "141846178"
+       },
+       {
+        "Id": "447684868"
+       },
+       {
+        "Id": "713805700"
+       },
+       {
+        "Id": "803625038"
+       }
+      ]
      },
      {
       "Id": "3380990982",
@@ -363,10 +424,28 @@
       "Name": "sfx_treasure",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\sfx_treasure",
       "GUID": "{CEA4B5CC-F184-440F-8BD1-57AC6F3079D9}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "4.6053333",
+      "DurationMax": "4.6053333",
+      "MediaRefs": [
+       {
+        "Id": "52780276"
+       }
+      ]
+     },
+     {
+      "Id": "3670868403",
+      "Name": "Treasure1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue\\Treasure1",
+      "GUID": "{130F84C6-E22A-4072-BDF8-F102E2A8B92A}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.52275",
+      "DurationMax": "1.52275",
+      "MediaRefs": [
+       {
+        "Id": "769289019"
+       }
+      ]
      }
     ],
     "StateGroups": [
@@ -445,6 +524,6 @@
     ]
    }
   ],
-  "FileHash": "{65A2D645-48D3-9808-083F-0303B5C6B5AE}"
+  "FileHash": "{1E21C5BF-3555-AF24-7128-0F8588C1E3C2}"
  }
 }

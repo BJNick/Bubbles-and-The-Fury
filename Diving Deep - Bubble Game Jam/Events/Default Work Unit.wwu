@@ -86,14 +86,49 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="sfx_treasure" ID="{CEA4B5CC-F184-440F-8BD1-57AC6F3079D9}"/>
-						<Event Name="sfx_death" ID="{42B77471-0BEF-46BB-9187-5EE0B8495EA5}"/>
+						<Event Name="sfx_treasure" ID="{CEA4B5CC-F184-440F-8BD1-57AC6F3079D9}">
+							<ChildrenList>
+								<Action Name="" ID="{BD4E1AB0-EDE3-48D1-ADE0-83406CD44FFB}" ShortID="379257201">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Treasure Collect" ID="{7885889C-D654-49B9-B45A-EAB8E8E46879}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_death" ID="{42B77471-0BEF-46BB-9187-5EE0B8495EA5}">
+							<ChildrenList>
+								<Action Name="" ID="{6B698C81-9D39-4EB6-B374-E61E8249DDB0}" ShortID="300497888">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Death Container" ID="{BB267F5C-F87C-45C7-A760-250F92857810}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="sfx_bubble" ID="{5DC7A277-1CC1-4C19-8192-4B4781A90452}">
 							<ChildrenList>
 								<Action Name="" ID="{DABC58B5-B827-490F-9DA8-0B41BE30453F}" ShortID="181739319">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Bubble Container" ID="{70A433CB-74B0-42C2-9519-4367B31077FD}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Dialogue" ID="{29FD86F7-3479-4E8F-8715-CF1960C7883D}" ShortID="777469921">
+					<ChildrenList>
+						<Event Name="Treasure1" ID="{130F84C6-E22A-4072-BDF8-F102E2A8B92A}">
+							<ChildrenList>
+								<Action Name="" ID="{37FD9245-7875-4669-AED4-D0151E1E55E8}" ShortID="999553077">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Treasure1" ID="{D512C453-AB2D-4E7D-B967-22A8EAD86859}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
