@@ -30,12 +30,7 @@ public class OxygenOverlay : MonoBehaviour
         oxygenLevel -= Time.deltaTime * oxygenDropRate;
         if (oxygenLevel < 0) {
             oxygenLevel = 0;
-            // Die
-            if (!isDying) {
-                GetComponent<Animator>().SetBool("Dying", true);
-                Invoke("DoneDying", 4f);
-            }
-            isDying = true;
+            StartDying();   
         }
         // Need to make height of oxygen bar proportional to oxygen level
         transform.Find("OxygenPanel").Find("Image").GetComponent<RectTransform>().sizeDelta = new Vector2(barWidth, maxBarSize * oxygenLevel / maxOxygenLevel);
@@ -60,8 +55,25 @@ public class OxygenOverlay : MonoBehaviour
         }
     }
 
+    public void RemoveOxygen(float amount) {
+        oxygenLevel -= amount;
+        if (oxygenLevel < 0) {
+            oxygenLevel = 0;
+            StartDying();   
+        }
+    }
+
     public void SetRate(float rate) {
         oxygenDropRate = rate;
+    }
+
+    public void StartDying() {
+        // Die
+        if (!isDying) {
+            GetComponent<Animator>().SetBool("Dying", true);
+            Invoke("DoneDying", 4f);
+        }
+        isDying = true;
     }
 
     public void DoneDying() {

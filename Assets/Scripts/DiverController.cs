@@ -16,6 +16,8 @@ public class DiverController : MonoBehaviour
 
     private Animator animator;
 
+    private float shockedUntil = 0.0f;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -26,13 +28,17 @@ public class DiverController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
         var h = Input.GetAxis("Horizontal");
         var v = Input.GetAxis("Vertical");
 
         var controlsDir = new Vector3(h, v, 0);
         // Normalize controlsDir so that diagonal movement isn't faster
         controlsDir.Normalize();
+        
+        if (shockedUntil > Time.time) {
+            controlsDir = Vector2.zero;
+        }
 
         // Smoothly adjust direction to match controls using Mathf.LerpAngle
         var controlsAngle = Mathf.Atan2(controlsDir.y, controlsDir.x) * Mathf.Rad2Deg;
@@ -75,5 +81,9 @@ public class DiverController : MonoBehaviour
 
     private Vector2 fromVector3(Vector3 v) {
         return new Vector2(v.x, v.y);
+    }
+
+    public void GetShocked(float duration) {
+        shockedUntil = Time.time + duration;
     }
 }
