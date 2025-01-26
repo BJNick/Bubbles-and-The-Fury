@@ -52,7 +52,7 @@ MonoBehaviour:
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 689bed302443d7f409411f9db67175d7, type: 2}
+    WwiseObjectReference: {fileID: 0}
 --- !u!212 &7422579168938237440
 SpriteRenderer:
   m_ObjectHideFlags: 0

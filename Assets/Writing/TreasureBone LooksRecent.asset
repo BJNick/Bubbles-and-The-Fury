@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcdcd3351ade6264aae153020450f7dc, type: 3}
   m_Name: TreasureBone LooksRecent
   m_EditorClassIdentifier: 
-  text: Yeesh. That bone looks recent...
+  text: Yeesh. That bone looks... recent...
   audio:
     idInternal: 0
     valueGuidInternal: 
