@@ -114,7 +114,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -160,7 +160,7 @@ TextureImporter:
         width: 171
         height: 257
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -182,7 +182,7 @@ TextureImporter:
         width: 471
         height: 239
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,7 +204,7 @@ TextureImporter:
         width: 105
         height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,7 +226,7 @@ TextureImporter:
         width: 65
         height: 111
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -244,11 +244,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 273
-        y: 258
-        width: 49
-        height: 30
+        y: 190
+        width: 103
+        height: 98
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -262,28 +262,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: actual-fish_5
-      rect:
-        serializedVersion: 2
-        x: 324
-        y: 247
-        width: 49
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 27ce988ec4c0eaf60800000000000000
-      internalID: 8047383108616055922
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: actual-fish_6
       rect:
         serializedVersion: 2
@@ -292,7 +270,7 @@ TextureImporter:
         width: 112
         height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,7 +292,7 @@ TextureImporter:
         width: 86
         height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -328,72 +306,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: actual-fish_8
-      rect:
-        serializedVersion: 2
-        x: 277
-        y: 226
-        width: 45
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 384490a6b83103aa0800000000000000
-      internalID: -6183420798879316861
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: actual-fish_9
-      rect:
-        serializedVersion: 2
-        x: 328
-        y: 211
-        width: 42
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f080f1b2d15f95e70800000000000000
-      internalID: 9104577627332478991
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: actual-fish_10
-      rect:
-        serializedVersion: 2
-        x: 277
-        y: 191
-        width: 52
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b98b2a64cb0c6af20800000000000000
-      internalID: 3433643680788035739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: actual-fish_11
       rect:
         serializedVersion: 2
@@ -402,7 +314,7 @@ TextureImporter:
         width: 161
         height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -424,7 +336,7 @@ TextureImporter:
         width: 155
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -446,7 +358,7 @@ TextureImporter:
         width: 168
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -463,7 +375,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e440262f6741e9345890c4a9ae08dae8
     internalID: 0
     vertices: []
     indices: 
@@ -472,7 +384,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      actual-fish_0: -3284845926770590254
+      actual-fish_1: -1589072602290736200
+      actual-fish_10: 3433643680788035739
+      actual-fish_11: 3263885388587870203
+      actual-fish_12: -5885687876851026657
+      actual-fish_13: -4024584056501515348
+      actual-fish_2: 3152529983296827603
+      actual-fish_3: 2908688234725125336
+      actual-fish_4: 8084549238041479518
+      actual-fish_5: 8047383108616055922
+      actual-fish_6: -1636058038525810255
+      actual-fish_7: -6570492236925119425
+      actual-fish_8: -6183420798879316861
+      actual-fish_9: 9104577627332478991
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
