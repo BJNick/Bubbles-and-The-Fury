@@ -359,7 +359,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 821f11a561081549b359c60d75920656
     GuidInternal: 
-    m_lastTime: -8584637439342278638
+    m_lastTime: -8584637430688528660
     List:
     - name: Dialogue
       guid: f786fd2979348f4e8715cf1960c7883d
@@ -588,7 +588,7 @@ MonoBehaviour:
       - ElementName: sfx_playerinjury
         ObjectType: 3
         guid: 238f63ff9c9a0248a9dc8f170417d6c2
-      Path: Events/Default Work Unit/SFX/sfx_playerinjury
+      Path: Events\Default Work Unit\SFX\sfx_playerinjury
       maxAttenuation: 0
       maxDuration: 1.5066667
       minDuration: 1.1573334
