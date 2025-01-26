@@ -31,6 +31,8 @@ public class DiverController : MonoBehaviour
         var v = Input.GetAxis("Vertical");
 
         var controlsDir = new Vector3(h, v, 0);
+        // Normalize controlsDir so that diagonal movement isn't faster
+        controlsDir.Normalize();
 
         // Smoothly adjust direction to match controls using Mathf.LerpAngle
         var controlsAngle = Mathf.Atan2(controlsDir.y, controlsDir.x) * Mathf.Rad2Deg;
