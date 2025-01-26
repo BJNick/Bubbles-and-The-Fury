@@ -84,6 +84,11 @@ public class OxygenOverlay : MonoBehaviour
         }
         Debug.Log("Dying done");
         deathEvent.Post(gameObject);
+        GameObject.Find("Diver").GetComponent<DiverController>().Respawn();
         FullOxygen();
+    }
+
+    public bool IsAlreadDying() {
+        return isDying;
     }
 }
