@@ -147,6 +147,11 @@
 								<Value>True</Value>
 							</ValueList>
 						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -292,6 +297,13 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Death Container" ID="{BB267F5C-F87C-45C7-A760-250F92857810}" ShortID="98461483">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{442EB86E-E24B-47E1-81EF-D875CCCAF7D2}"/>
@@ -392,6 +404,13 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<Sound Name="Treasure Collect" ID="{7885889C-D654-49B9-B45A-EAB8E8E46879}" ShortID="87232998">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{442EB86E-E24B-47E1-81EF-D875CCCAF7D2}"/>
@@ -439,6 +458,116 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<RandomSequenceContainer Name="PlayerInjury Container" ID="{AF7A16E2-CEF3-47DF-8B67-1E4E96FE6C96}" ShortID="222826968">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{442EB86E-E24B-47E1-81EF-D875CCCAF7D2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B5BF60A-F22A-4C17-B3E6-E04036E3186D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="hit1" ID="{C0FE8D66-EB43-4183-8383-DF7249BD1E64}" ShortID="340690511">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{442EB86E-E24B-47E1-81EF-D875CCCAF7D2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B5BF60A-F22A-4C17-B3E6-E04036E3186D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="hit1" ID="{E27AD9E6-F69F-4476-92D1-EBE3D1E84AED}">
+									<Language>SFX</Language>
+									<AudioFile>hit1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="209579184"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="hit1" ID="{E27AD9E6-F69F-4476-92D1-EBE3D1E84AED}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="hit2" ID="{098DEAF0-7E79-4A44-874B-738824217487}" ShortID="667303323">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{442EB86E-E24B-47E1-81EF-D875CCCAF7D2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B5BF60A-F22A-4C17-B3E6-E04036E3186D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="hit2" ID="{8D3F19D8-326B-4487-8DD2-CE0FA8F99FAC}">
+									<Language>SFX</Language>
+									<AudioFile>hit2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="847452943"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="hit2" ID="{8D3F19D8-326B-4487-8DD2-CE0FA8F99FAC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="hit3" ID="{D5759BEF-75C2-41AF-BA76-1518D3AC41AF}" ShortID="94581311">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{442EB86E-E24B-47E1-81EF-D875CCCAF7D2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B5BF60A-F22A-4C17-B3E6-E04036E3186D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="hit3" ID="{7206EDA4-02F5-4112-950E-1EE471DC1560}">
+									<Language>SFX</Language>
+									<AudioFile>hit3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="333374655"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="hit3" ID="{7206EDA4-02F5-4112-950E-1EE471DC1560}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="hit4" ID="{2E14C00F-EF43-49D1-896A-1B32811D6A66}" ShortID="973432069">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{442EB86E-E24B-47E1-81EF-D875CCCAF7D2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B5BF60A-F22A-4C17-B3E6-E04036E3186D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="hit4" ID="{7E998E8A-0EE3-48F9-96FA-8035FA60D958}">
+									<Language>SFX</Language>
+									<AudioFile>hit4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="479424745"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="hit4" ID="{7E998E8A-0EE3-48F9-96FA-8035FA60D958}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

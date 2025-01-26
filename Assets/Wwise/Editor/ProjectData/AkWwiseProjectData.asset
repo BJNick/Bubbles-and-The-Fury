@@ -359,7 +359,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 821f11a561081549b359c60d75920656
     GuidInternal: 
-    m_lastTime: -8584637505585695144
+    m_lastTime: -8584637439342278638
     List:
     - name: Dialogue
       guid: f786fd2979348f4e8715cf1960c7883d
@@ -572,6 +572,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 4.9816666
       minDuration: 4.7896667
+    - name: sfx_playerinjury
+      guid: 238f63ff9c9a0248a9dc8f170417d6c2
+      id: 176119683
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 821f11a561081549b359c60d75920656
+      - ElementName: SFX
+        ObjectType: 4
+        guid: c0a95c8a43f78340aa32425e2ca9792b
+      - ElementName: sfx_playerinjury
+        ObjectType: 3
+        guid: 238f63ff9c9a0248a9dc8f170417d6c2
+      Path: Events/Default Work Unit/SFX/sfx_playerinjury
+      maxAttenuation: 0
+      maxDuration: 1.5066667
+      minDuration: 1.1573334
     - name: sfx_playerswim
       guid: dca5166454c1b64f97b86139d5c2e4c4
       id: 3380990982
@@ -937,7 +957,7 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: 1ddb20a4b5de504ba50fed46532642b0
     GuidInternal: 
-    m_lastTime: -8584637593854933143
+    m_lastTime: -8584637433032936667
     List:
     - name: Gameplay_Area
       guid: 64781f97132730459bc871b155dc7247
