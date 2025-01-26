@@ -532,28 +532,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: treasures2_11
-      rect:
-        serializedVersion: 2
-        x: 1633
-        y: 416
-        width: 148
-        height: 335
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2d4c85044a0e7e880800000000000000
-      internalID: -8581643568872373038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: treasures2_12
       rect:
         serializedVersion: 2
@@ -624,9 +602,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 738
-        y: 483
+        y: 477
         width: 148
-        height: 213
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,9 +624,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 904
-        y: 484
+        y: 481
         width: 177
-        height: 238
+        height: 241
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,9 +646,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1081
-        y: 481
+        y: 479
         width: 181
-        height: 240
+        height: 246
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -690,9 +668,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1271
-        y: 480
+        y: 477
         width: 164
-        height: 209
+        height: 222
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -712,9 +690,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1453
-        y: 479
+        y: 478
         width: 170
-        height: 240
+        height: 245
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1000,7 +978,7 @@ TextureImporter:
         x: 1208
         y: 248
         width: 214
-        height: 170
+        height: 176
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1022,7 +1000,7 @@ TextureImporter:
         x: 1447
         y: 246
         width: 236
-        height: 170
+        height: 182
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1044,7 +1022,7 @@ TextureImporter:
         x: 1706
         y: 240
         width: 199
-        height: 169
+        height: 178
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
