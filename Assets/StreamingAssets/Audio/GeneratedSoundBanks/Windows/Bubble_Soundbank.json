@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{388691ED-56EC-4966-9B29-BBB7031BD638}",
     "Language": "SFX",
-    "Hash": "{A9531596-19BB-B3BE-8685-49C3476A8884}",
+    "Hash": "{DA83BC6E-B2A2-B057-7B0E-42FFDEE8A6F0}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Bubble_Soundbank",
     "ShortName": "Bubble_Soundbank",
     "Path": "Bubble_Soundbank.bnk",
@@ -142,6 +142,14 @@
       "Location": "Memory",
       "ShortName": "death3.wav",
       "CachePath": "39/{39FDB36F-3151-5AC9-4A2F-3AEEB6D969B4}.wem"
+     },
+     {
+      "Id": "769289019",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VOICE of God - Game Phrase - Are You Ready, DRY.wav",
+      "CachePath": "80/{809AC2DC-811F-059B-E95B-C5240EDB70A3}.wem"
      },
      {
       "Id": "793076629",
@@ -424,6 +432,20 @@
         "Id": "52780276"
        }
       ]
+     },
+     {
+      "Id": "3670868403",
+      "Name": "Treasure1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue\\Treasure1",
+      "GUID": "{130F84C6-E22A-4072-BDF8-F102E2A8B92A}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.52275",
+      "DurationMax": "1.52275",
+      "MediaRefs": [
+       {
+        "Id": "769289019"
+       }
+      ]
      }
     ],
     "StateGroups": [
@@ -502,6 +524,6 @@
     ]
    }
   ],
-  "FileHash": "{3BA18E97-1FA2-A91B-0AB4-1CF49E05C320}"
+  "FileHash": "{0DEC9BA0-25C9-9FB3-543B-63D45257A2C5}"
  }
 }

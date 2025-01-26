@@ -6,6 +6,12 @@
 				<RandomSequenceContainer Name="Swim Container" ID="{D928726D-E820-41AF-86E0-507B06D6AFEA}" ShortID="163747460">
 					<PropertyList>
 						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -129,6 +135,19 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Bubble Container" ID="{70A433CB-74B0-42C2-9519-4367B31077FD}" ShortID="496581942">
+					<PropertyList>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{442EB86E-E24B-47E1-81EF-D875CCCAF7D2}"/>
@@ -394,6 +413,32 @@
 						<ActiveSource Name="treasurecollect" ID="{FA60DAC8-7D1F-4210-B753-4B0DCA5BBC89}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Folder Name="Dialogue" ID="{9771BC9F-4966-4AF9-98EE-50A36478F803}" ShortID="256080002">
+					<ChildrenList>
+						<Sound Name="Treasure1" ID="{D512C453-AB2D-4E7D-B967-22A8EAD86859}" ShortID="90432269">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{442EB86E-E24B-47E1-81EF-D875CCCAF7D2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B5BF60A-F22A-4C17-B3E6-E04036E3186D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="VOICE of God - Game Phrase - Are You Ready, DRY" ID="{F6B3B24A-0E0B-43F1-82C0-B363DF336F54}">
+									<Language>SFX</Language>
+									<AudioFile>VOICE of God - Game Phrase - Are You Ready, DRY.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="769289019"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="VOICE of God - Game Phrase - Are You Ready, DRY" ID="{F6B3B24A-0E0B-43F1-82C0-B363DF336F54}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

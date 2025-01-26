@@ -121,6 +121,21 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Dialogue" ID="{29FD86F7-3479-4E8F-8715-CF1960C7883D}" ShortID="777469921">
+					<ChildrenList>
+						<Event Name="Treasure1" ID="{130F84C6-E22A-4072-BDF8-F102E2A8B92A}">
+							<ChildrenList>
+								<Action Name="" ID="{37FD9245-7875-4669-AED4-D0151E1E55E8}" ShortID="999553077">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Treasure1" ID="{D512C453-AB2D-4E7D-B967-22A8EAD86859}" WorkUnitID="{8832596D-24DE-44F3-899C-D140C095EA4A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

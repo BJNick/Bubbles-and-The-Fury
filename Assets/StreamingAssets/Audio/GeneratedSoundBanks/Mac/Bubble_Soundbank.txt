@@ -9,6 +9,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2983997255	sfx_bubble			\Default Work Unit\SFX\sfx_bubble	
 	3149643052	mus_menu			\Default Work Unit\Music\mus_menu	
 	3380990982	sfx_playerswim			\Default Work Unit\SFX\sfx_playerswim	
+	3670868403	Treasure1			\Default Work Unit\Dialogue\Treasure1	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	2638858007	Gameplay_Area			\Default Work Unit\Gameplay_Area	
@@ -46,6 +47,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	523269430	swim1	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\3D\{3D886BFC-C51C-ACBB-7DB0-4E944B0883D4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swim Container\swim1		71776
 	693662072	bubble2	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\58\{58E4C907-246B-92A5-22D7-39953C1E93ED}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bubble Container\bubble2		50868
 	713805700	death3	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\39\{39FDB36F-3151-5AC9-4A2F-3AEEB6D969B4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Death Container\death3		468096
+	769289019	Treasure1	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\80\{809AC2DC-811F-059B-E95B-C5240EDB70A3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Treasure1		146280
 	793076629	swim4	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\8B\{8B59AA7D-5744-8FA1-33BB-C6E20F8D90BE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swim Container\swim4		90464
 	803625038	death2	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\37\{37D50EDF-8793-C473-AF75-454E0B28E68B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Death Container\death2		477312
 	844575640	bubble3	Y:\Documents\GitHub\diving-deep\Diving Deep - Bubble Game Jam\.cache\63\{6317E8E0-0EFA-D1A1-1F7E-64737DDE8E85}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bubble Container\bubble3		49844

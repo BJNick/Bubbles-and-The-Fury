@@ -23,6 +23,7 @@ namespace AK
         static const AkUniqueID SFX_DEATH = 777164721U;
         static const AkUniqueID SFX_PLAYERSWIM = 3380990982U;
         static const AkUniqueID SFX_TREASURE = 2487155894U;
+        static const AkUniqueID TREASURE1 = 3670868403U;
     } // namespace EVENTS
 
     namespace STATES
