@@ -14,6 +14,8 @@ public class OxygenOverlay : MonoBehaviour
 
     public static OxygenOverlay instance;
 
+    public bool isDying = false;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -28,6 +30,12 @@ public class OxygenOverlay : MonoBehaviour
         oxygenLevel -= Time.deltaTime * oxygenDropRate;
         if (oxygenLevel < 0) {
             oxygenLevel = 0;
+            // Die
+            if (!isDying) {
+                GetComponent<Animator>().SetBool("Dying", true);
+                Invoke("DoneDying", 4f);
+            }
+            isDying = true;
         }
         // Need to make height of oxygen bar proportional to oxygen level
         transform.Find("OxygenPanel").Find("Image").GetComponent<RectTransform>().sizeDelta = new Vector2(barWidth, maxBarSize * oxygenLevel / maxOxygenLevel);
@@ -38,13 +46,29 @@ public class OxygenOverlay : MonoBehaviour
         if (oxygenLevel > maxOxygenLevel) {
             oxygenLevel = maxOxygenLevel;
         }
+        if (isDying) {
+            GetComponent<Animator>().SetBool("Dying", false);
+            isDying = false;
+        }
     }
 
     public void FullOxygen() {
         oxygenLevel = maxOxygenLevel;
+        if (isDying) {
+            GetComponent<Animator>().SetBool("Dying", false);
+            isDying = false;
+        }
     }
 
     public void SetRate(float rate) {
         oxygenDropRate = rate;
+    }
+
+    public void DoneDying() {
+        if (oxygenLevel > 0) {
+            return;
+        }
+        Debug.Log("Dying done");
+        FullOxygen();
     }
 }
