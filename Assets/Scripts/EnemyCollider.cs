@@ -25,15 +25,15 @@ public class EnemyCollider : MonoBehaviour
 
     public void Damage(GameObject obj) {
         Debug.Log("Player collided with enemy");
+        if (hitEvent != null &&  OxygenOverlay.instance.IsAlreadDying() == false) {
+            hitEvent.Post(obj);
+        }
         OxygenOverlay.instance.RemoveOxygen(damageAmount);
         if (stunAmount > 0.0f) {
             obj.GetComponent<DiverController>().GetShocked(stunAmount);
         }
         if (hitEffect != null) {
             hitEffect.Play();
-        }
-        if (hitEvent != null) {
-            hitEvent.Post(obj);
         }
     }
 

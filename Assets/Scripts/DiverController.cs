@@ -18,11 +18,14 @@ public class DiverController : MonoBehaviour
 
     private float shockedUntil = 0.0f;
 
+    public Vector3 lastSavedPosition;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        SetSpawnPoint();
     }
 
     // Update is called once per frame
@@ -89,5 +92,17 @@ public class DiverController : MonoBehaviour
 
     public void PlaySwimEvent() {
         swimEvent.Post(gameObject);
+    }
+
+    public void Respawn() {
+        transform.position = lastSavedPosition;
+        rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0;
+        shockedUntil = 0;
+        rb.rotation = 0;
+    }
+
+    public void SetSpawnPoint() {
+        lastSavedPosition = transform.position;
     }
 }
