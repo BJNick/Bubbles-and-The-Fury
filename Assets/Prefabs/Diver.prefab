@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6345372592342748565}
   - component: {fileID: 8004243958748994337}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 8035500546594755455}
   - component: {fileID: 8967035106313452284}
   - component: {fileID: 5157997858616138569}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Diver
   m_TagString: Player
   m_Icon: {fileID: 0}
