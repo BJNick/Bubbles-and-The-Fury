@@ -7,6 +7,8 @@ public class TriggerScript : MonoBehaviour
 
     public AK.Wwise.Switch switchToSet;
 
+    public AK.Wwise.Event eventToPlay;
+
     public float lightIntensity = -1;
 
     public Color lightColor = Color.white;
@@ -32,6 +34,9 @@ public class TriggerScript : MonoBehaviour
             if (switchToSet != null) {
                 switchToSet.SetValue(WwiseTest.instance.gameObject);
                 Debug.Log("Set switch");
+            }
+            if (eventToPlay != null) {
+                eventToPlay.Post(gameObject);
             }
             if (lightIntensity >= 0) {
                 GlobalLights.instance.SetIntensity(lightIntensity);

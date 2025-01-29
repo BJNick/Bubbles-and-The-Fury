@@ -18,6 +18,8 @@ public class OxygenOverlay : MonoBehaviour
 
     public AK.Wwise.Event deathEvent;
 
+    public float extraOxygenAtDeath = 5f;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -50,7 +52,7 @@ public class OxygenOverlay : MonoBehaviour
     }
 
     public void FullOxygen() {
-        oxygenLevel = maxOxygenLevel;
+        oxygenLevel = maxOxygenLevel + extraOxygenAtDeath;
         if (isDying) {
             GetComponent<Animator>().SetBool("Dying", false);
             isDying = false;
