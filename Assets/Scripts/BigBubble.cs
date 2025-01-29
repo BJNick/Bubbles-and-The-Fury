@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BigBubble : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class BigBubble : MonoBehaviour
     public DialogScriptableObjectScript dialog;
 
     public float eventDelay = 0.5f;
+
+    public float cutToMenuAfter = 15.0f;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -42,6 +45,7 @@ public class BigBubble : MonoBehaviour
         if (other.gameObject.CompareTag("Player")) {
             if (runningCutscene == false) {
                 Invoke("PlayDialog", eventDelay);
+                Invoke("CutToMenu", cutToMenuAfter);
             }
             runningCutscene = true;
         }
@@ -51,5 +55,9 @@ public class BigBubble : MonoBehaviour
         if (dialog != null) {
             dialog.Play();
         }
+    }
+
+    void CutToMenu() {
+        SceneManager.LoadScene(0);
     }
 }
