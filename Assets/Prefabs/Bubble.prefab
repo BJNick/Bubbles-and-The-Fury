@@ -88,7 +88,6 @@ MonoBehaviour:
   - {fileID: -4381016217823686547, guid: b049a464fda27ed41a7e047f5fb3a086, type: 3}
   - {fileID: 4200991878882159721, guid: b049a464fda27ed41a7e047f5fb3a086, type: 3}
   - {fileID: 4200991878882159721, guid: b049a464fda27ed41a7e047f5fb3a086, type: 3}
-  - {fileID: 4200991878882159721, guid: b049a464fda27ed41a7e047f5fb3a086, type: 3}
   bubblePopEvent:
     idInternal: 0
     valueGuidInternal: 

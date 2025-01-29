@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.SceneManagement;
 
 public class BigBubble : MonoBehaviour
@@ -17,6 +18,8 @@ public class BigBubble : MonoBehaviour
 
     public float cutToMenuAfter = 15.0f;
 
+    public float stopAt = -210.0f;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -30,12 +33,22 @@ public class BigBubble : MonoBehaviour
         if (runningCutscene) {
             // Rise the bubble
             currentSpeed += acceleration * Time.deltaTime;
-            transform.position = new Vector3(transform.position.x, transform.position.y + currentSpeed * Time.fixedDeltaTime, 0);
+            if (currentSpeed > riseSpeed) {
+                currentSpeed = riseSpeed;
+            }
+            if (transform.position.y < stopAt) {
+                transform.position = new Vector3(transform.position.x, transform.position.y + currentSpeed * Time.fixedDeltaTime, 0);
+            } else {
+                currentSpeed = 0;
+            }
 
             // Snap player to the bubble
             GameObject.Find("Diver").transform.position = new Vector3(transform.position.x, transform.position.y, 0);
 
             GameObject.Find("Diver").GetComponent<Collider2D>().enabled = false;
+
+            GameObject.Find("Diver").GetComponentInChildren<Light2D>().enabled = false;
+            GameObject.Find("Diver").GetComponentInChildren<Light2D>().enabled = false;
 
             OxygenOverlay.instance.FullOxygen();
         }
@@ -45,6 +58,7 @@ public class BigBubble : MonoBehaviour
         if (other.gameObject.CompareTag("Player")) {
             if (runningCutscene == false) {
                 Invoke("PlayDialog", eventDelay);
+                Invoke("CutToBlack", cutToMenuAfter - 4.0f);
                 Invoke("CutToMenu", cutToMenuAfter);
             }
             runningCutscene = true;
@@ -55,6 +69,10 @@ public class BigBubble : MonoBehaviour
         if (dialog != null) {
             dialog.Play();
         }
+    }
+
+    void CutToBlack() {
+        OxygenOverlay.instance.GetComponent<Animator>().SetBool("Dying", true);
     }
 
     void CutToMenu() {
