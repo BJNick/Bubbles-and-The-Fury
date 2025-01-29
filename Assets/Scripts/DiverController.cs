@@ -20,6 +20,8 @@ public class DiverController : MonoBehaviour
 
     public Vector3 lastSavedPosition;
 
+    public GameObject[] teleportPoints;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -80,6 +82,12 @@ public class DiverController : MonoBehaviour
         //rb.MovePosition(rb.position +fromVector3(swimSpeed * controlsDir.magnitude * transform.right * Time.deltaTime));
         rb.AddForce(swimSpeed * controlsDir.magnitude * transform.right);
         animator.SetFloat("Speed", controlsDir.magnitude);
+
+        for (int i = 0; i < teleportPoints.Length; i++) {
+            if (Input.GetKeyDown((i + 1).ToString()) && Input.GetKey(KeyCode.LeftShift) && teleportPoints[i] != null) {
+                transform.position = teleportPoints[i].transform.position;
+            }
+        }
     }
 
     private Vector2 fromVector3(Vector3 v) {

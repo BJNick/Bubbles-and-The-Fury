@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6665551701858289731, guid: e80bebecf4ddd384ead00a9597d43a59, type: 3}
       propertyPath: m_Name
-      value: Fish Variant
+      value: Shark
       objectReference: {fileID: 0}
     - target: {fileID: 8029487388919744034, guid: e80bebecf4ddd384ead00a9597d43a59, type: 3}
       propertyPath: m_Constraints
@@ -126,8 +126,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de7fe84f5d92d548b1ad6a07f11abc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageAmount: 10
-  stunAmount: 5
+  damageAmount: 30
+  stunAmount: 4
   hitEffect: {fileID: 0}
   hitEvent:
     idInternal: 0
