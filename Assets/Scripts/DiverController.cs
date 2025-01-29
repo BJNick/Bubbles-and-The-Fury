@@ -82,7 +82,9 @@ public class DiverController : MonoBehaviour
         //rb.MovePosition(rb.position +fromVector3(swimSpeed * controlsDir.magnitude * transform.right * Time.deltaTime));
         rb.AddForce(swimSpeed * controlsDir.magnitude * transform.right);
         animator.SetFloat("Speed", controlsDir.magnitude);
+    }
 
+    void Update() {
         for (int i = 0; i < teleportPoints.Length; i++) {
             if (Input.GetKeyDown((i + 1).ToString()) && Input.GetKey(KeyCode.LeftShift) && teleportPoints[i] != null) {
                 transform.position = teleportPoints[i].transform.position;
