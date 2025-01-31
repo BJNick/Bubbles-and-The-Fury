@@ -11,8 +11,8 @@
   <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
   <WwiseInstallationPathMac>/Applications/Audiokinetic/Wwise2024.1.1.8691/Wwise.app</WwiseInstallationPathMac>
-  <WwiseInstallationPathWindows />
-  <WwiseProjectPath>../Diving Deep - Bubble Game Jam/Diving Deep - Bubble Game Jam.wproj</WwiseProjectPath>
+  <WwiseInstallationPathWindows>D:\Programs\Wwise2024.1.1.8691</WwiseInstallationPathWindows>
+  <WwiseProjectPath>../../diving-deep/Diving Deep - Bubble Game Jam/Diving Deep - Bubble Game Jam.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>
   <WaapiPort>8080</WaapiPort>
   <WaapiIP>127.0.0.1</WaapiIP>
