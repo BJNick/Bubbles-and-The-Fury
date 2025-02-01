@@ -24,10 +24,10 @@ MonoBehaviour:
   - Web
   UserSettings:
     m_BasePath: Audio/GeneratedSoundBanks
-    m_StartupLanguage: English(US)
+    m_StartupLanguage: 
     m_EngineLogging: 1
     m_IsDecodedBankEnabled: 0
-    m_IsAutoBankEnabled: 1
+    m_IsAutoBankEnabled: 0
     m_DefaultListenerScalingFactor: 1
     m_MaximumNumberOfPositioningPaths: 255
     m_CommandQueueSize: 262144
